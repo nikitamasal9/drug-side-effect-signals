@@ -109,5 +109,4 @@ src/export.py                 Tableau/Power BI CSVs + dashboard data
 src/figures.py                README charts
 outputs/bi_exports/           every table and view as CSV, ready for Tableau / Power BI
 outputs/key_numbers.json      headline numbers quoted above
-dashboard/                    data + page behind the hosted interactive dashboard (runs inside Claude's dashboard viewer)
 ```
