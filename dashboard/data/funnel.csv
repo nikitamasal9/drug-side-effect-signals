@@ -1,6 +1,0 @@
-step,stage,n
-1,SIDER compounds with side effects,1430
-2,Mapped to a DrugBank drug,1108
-3,Unique DrugBank drugs (after rolling up stereoisomers),1074
-4,Drugs with a WHO ATC class (used for class analysis),949
-5,Drugs with labelled indications,945
