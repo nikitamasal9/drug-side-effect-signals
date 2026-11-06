@@ -1,0 +1,41 @@
+side_effect_name,is_serious,n_drugs,pct_of_drugs
+Nausea,false,927,0.8631
+Headache,false,871,0.811
+Dermatitis,false,862,0.8026
+Rash,false,862,0.8026
+Vomiting,false,847,0.7886
+Dizziness,false,813,0.757
+Diarrhoea,false,767,0.7142
+Pruritus,false,744,0.6927
+Asthenia,false,731,0.6806
+Hypersensitivity,false,707,0.6583
+Abdominal pain,false,653,0.608
+Urticaria,false,639,0.595
+Body temperature increased,false,633,0.5894
+Gastrointestinal pain,false,624,0.581
+Feeling abnormal,false,612,0.5698
+Pain,false,596,0.5549
+Gastrointestinal disorder,false,593,0.5521
+Fatigue,false,583,0.5428
+Constipation,false,578,0.5382
+Decreased appetite,false,573,0.5335
+Dyspepsia,false,571,0.5317
+Dyspnoea,false,561,0.5223
+Somnolence,false,559,0.5205
+Insomnia,false,552,0.514
+Paraesthesia,false,549,0.5112
+Musculoskeletal discomfort,false,549,0.5112
+Hypotension,false,523,0.487
+Skin disorder,false,514,0.4786
+Thrombocytopenia,true,506,0.4711
+Nervous system disorder,false,504,0.4693
+Hyperhidrosis,false,494,0.46
+Tachycardia,false,489,0.4553
+Shock,false,487,0.4534
+Anaphylactic shock,true,484,0.4507
+Confusional state,false,473,0.4404
+Dry mouth,false,470,0.4376
+Infection,false,470,0.4376
+Oedema,false,467,0.4348
+Discomfort,false,467,0.4348
+Arthralgia,false,465,0.433

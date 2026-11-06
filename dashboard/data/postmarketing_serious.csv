@@ -1,0 +1,54 @@
+side_effect_name,n_drugs_postmarketing_only,n_drugs_total,share_postmarketing_only
+Rhabdomyolysis,65,117,0.556
+Stevens-Johnson syndrome,144,281,0.512
+Toxic epidermal necrolysis,113,228,0.496
+Torsade de pointes,41,83,0.494
+Serotonin syndrome,17,35,0.486
+Angioedema,195,419,0.465
+Interstitial lung disease,41,89,0.461
+Hepatic necrosis,31,68,0.456
+Anaphylactic shock,211,484,0.436
+Lactic acidosis,10,23,0.435
+Hepatic failure,77,179,0.43
+Tendon rupture,9,22,0.409
+Hepatitis fulminant,8,20,0.4
+Intestinal perforation,13,33,0.394
+Pancreatitis,97,252,0.385
+Status epilepticus,8,22,0.364
+Neuroleptic malignant syndrome,21,58,0.362
+Pancreatitis acute,18,51,0.353
+Aplastic anaemia,46,143,0.322
+Deep vein thrombosis,24,76,0.316
+Renal failure acute,55,174,0.316
+Suicidal ideation,24,78,0.308
+Electrocardiogram QT prolonged,23,76,0.303
+Tardive dyskinesia,12,40,0.3
+Pulmonary fibrosis,15,50,0.3
+Convulsion,128,435,0.294
+Haemolytic anaemia,50,176,0.284
+Agranulocytosis,84,298,0.282
+Thrombocytopenia,140,506,0.277
+Suicide attempt,17,63,0.27
+Pulmonary embolism,37,138,0.268
+Renal failure,72,275,0.262
+Neutropenia,69,264,0.261
+Pancytopenia,65,256,0.254
+Completed suicide,16,64,0.25
+Cerebrovascular accident,45,181,0.249
+Myocardial infarction,65,269,0.242
+Gastrointestinal perforation,6,25,0.24
+Ventricular tachycardia,30,129,0.233
+Respiratory arrest,10,44,0.227
+Hypoglycaemia,41,189,0.217
+Ventricular fibrillation,19,92,0.207
+Coma,29,142,0.204
+Cardiac failure,37,186,0.199
+Gastrointestinal haemorrhage,37,189,0.196
+Sepsis,28,154,0.182
+Sudden death,10,57,0.175
+Cardiac arrest,33,197,0.168
+Respiratory failure,21,128,0.164
+Respiratory depression,14,88,0.159
+Cardiac failure congestive,22,171,0.129
+Septic shock,4,31,0.129
+Febrile neutropenia,3,71,0.042

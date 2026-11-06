@@ -1,0 +1,4018 @@
+drugbank_id,condition_name
+DB02530,Infection
+DB00650,Anaemia
+DB00650,Colorectal cancer metastatic
+DB02379,Hypoglycaemia
+DB02379,Pneumonia
+DB02379,Dehydration
+DB02379,Neuropathy peripheral
+DB06770,Lice infestation
+DB00411,Hypokalaemia
+DB00936,Hyperkeratosis
+DB00936,Skin hypertrophy
+DB00260,Urinary tract infection
+DB01156,Nicotine dependence
+DB00783,Hypogonadism
+DB00783,Atrophy
+DB04304,Tetany
+DB04398,Dry skin
+DB01093,Bacterial infection
+DB00655,Hypogonadism
+DB00655,Atrophy
+DB04574,Menopause
+DB04574,Hormone level abnormal
+DB00431,Acarodermatitis
+DB00668,Arthropod sting
+DB00451,Follicular thyroid cancer
+DB00451,Autoimmune thyroiditis
+DB01378,Tetany
+DB01065,Insomnia
+DB00286,Haemolysis
+DB00627,Blood triglycerides increased
+DB00627,Acute coronary syndrome
+DB00368,Hypotension
+DB01265,Hepatocellular injury
+DB03904,Infection
+DB02280,Cystitis noninfective
+DB02280,Cystitis
+DB00788,Juvenile idiopathic arthritis
+DB00242,Hairy cell leukaemia
+DB00445,Bladder cancer
+DB00445,Small cell lung cancer
+DB00445,Kaposi's sarcoma AIDS related
+DB01048,Immunodeficiency
+DB01193,Ventricular extrasystoles
+DB00316,Rhinitis
+DB00316,Body temperature increased
+DB00316,Migraine
+DB00316,Oropharyngeal discomfort
+DB00970,Nephroblastoma
+DB00787,Varicella
+DB00787,Sexually transmitted disease
+DB00787,Viral infection
+DB00787,Immunodeficiency
+DB00787,Herpes zoster disseminated
+DB01001,Obstructive airways disorder
+DB00437,Leukaemia
+DB00404,Depressive symptom
+DB00288,Neurodermatitis
+DB01143,Neoplasm malignant
+DB00277,Lung disorder
+DB06288,Hallucination
+DB00321,Depressive symptom
+DB00381,Prinzmetal angina
+DB00381,Cardiac failure
+DB00381,Hypertension
+DB00381,Acute coronary syndrome
+DB01060,Bacteraemia
+DB00278,Thrombosis
+DB00278,Heparin-induced thrombocytopenia
+DB00945,Inflammation
+DB00335,Hypotension
+DB00335,Myocardial infarction
+DB01076,Albuminuria
+DB00972,Pruritus
+DB00207,Chancroid
+DB00207,Conjunctivitis
+DB00181,Muscle spasticity
+DB00394,Rhinitis perennial
+DB01053,Pneumonia staphylococcal
+DB01053,Streptococcal infection
+DB01053,Tonsillitis
+DB01128,Prostate cancer metastatic
+DB01200,Amenorrhoea
+DB01200,Hyperprolactinaemia
+DB01222,Rhinitis perennial
+DB00887,Nephrotic syndrome
+DB00490,Renal impairment
+DB01091,Infection
+DB00201,Pulmonary function test decreased
+DB00201,Apnoea neonatal
+DB00136,Bone metabolism disorder
+DB00136,Hypoparathyroidism
+DB00136,Renal failure chronic
+DB00314,Lung infection
+DB01197,Retinal disorder
+DB00564,Affective disorder
+DB00190,Nausea
+DB00833,Infection
+DB01413,Abdominal infection
+DB00493,Abdominal infection
+DB00567,Bacterial infection
+DB00671,Rheumatic fever
+DB00185,Sjogren's syndrome
+DB00878,Gingivitis
+DB00477,Tetanus
+DB00477,Vomiting
+DB01188,Fungal infection
+DB00501,Anaphylactic shock
+DB00501,Scleroderma
+DB00501,Gastrooesophageal reflux disease
+DB00537,Arthropathy
+DB00215,Major depression
+DB01190,Acne
+DB01013,Dermatitis atopic
+DB01013,Eczema
+DB00882,Infertility
+DB01242,Obsessive rumination
+DB01068,Panic disorder
+DB00575,Flushing
+DB00575,Neuralgia
+DB00758,Electrocardiogram ST segment elevation
+DB00758,Peripheral arterial occlusive disease
+DB01003,Mastocytosis
+DB00924,Muscle spasms
+DB00531,Neoplasm malignant
+DB00091,Arthritis
+DB00091,Psoriasis
+DB04839,Prostate cancer
+DB01406,Breast pain
+DB01406,Tenderness
+DB00250,Acne
+DB00443,Gout
+DB00443,Inflammation
+DB00443,Non-Hodgkin's lymphoma
+DB00443,Neurodermatitis
+DB00443,Osteoarthritis
+DB00443,Rheumatic heart disease
+DB00829,Muscle spasms
+DB00829,Tension
+DB01119,Blood insulin increased
+DB00586,Arthritis
+DB00586,Contusion
+DB00586,Photophobia
+DB01075,Hypersensitivity
+DB00280,Ventricular arrhythmia
+DB00280,Sinus arrhythmia
+DB00280,Ventricular tachycardia
+DB00822,Alcohol abuse
+DB00313,Mania
+DB00765,Phaeochromocytoma malignant
+DB01248,Non-small cell lung cancer
+DB00757,Nausea
+DB00843,Vascular dementia
+DB00869,Ocular hypertension
+DB00561,Hypercapnia
+DB00590,Essential hypertension
+DB00590,Benign prostatic hyperplasia
+DB00590,Blood pressure normal
+DB00450,Agitation
+DB00450,Hyperkinesia
+DB06262,Dizziness
+DB01127,Skin infection
+DB01127,Body tinea
+DB01127,Tinea pedis
+DB01084,Conjunctivitis allergic
+DB00584,Left ventricular dysfunction
+DB00199,Inclusion conjunctivitis
+DB00199,Endophthalmitis
+DB00199,Rheumatic disorder
+DB00199,Sexually transmitted disease
+DB00199,Primary syphilis
+DB08866,Ovarian failure
+DB08866,Oestrogen deficiency
+DB01077,Osteoporosis
+DB01077,Spinal cord injury
+DB00426,Genital herpes
+DB00426,Herpes simplex
+DB00927,Dyspepsia
+DB00800,Hypertension
+DB00573,Rheumatoid arthritis
+DB00950,Rhinitis seasonal
+DB01148,Incontinence
+DB01148,Suprapubic pain
+DB01195,Myocardial infarction
+DB00196,Acquired immunodeficiency syndrome
+DB00196,Vulvovaginal candidiasis
+DB00591,Uveitis
+DB00544,Seborrhoeic keratosis
+DB00472,Depression
+DB00472,Obsessive-compulsive disorder
+DB00472,Mood swings
+DB00472,Obsessive thoughts
+DB00472,Binge eating
+DB00472,Bulimia nervosa
+DB00712,Osteoarthritis
+DB00499,Prostate cancer metastatic
+DB00588,Nasal polyps
+DB00588,Rhinitis
+DB00176,Compulsions
+DB00158,Folate deficiency
+DB00529,Acquired immunodeficiency syndrome
+DB00695,Brain oedema
+DB00695,Cardiac failure
+DB00695,Hypertension
+DB02703,Eye infection bacterial
+DB00996,Pain
+DB01241,Hyperlipidaemia
+DB01120,Hyperglycaemia
+DB01016,Hyperglycaemia
+DB00986,Chronic obstructive pulmonary disease
+DB00889,Procedural nausea
+DB02161,Iridocyclitis
+DB00999,Oedema
+DB00741,Addison's disease
+DB00741,Colitis ulcerative
+DB00741,Non-Hodgkin's lymphoma
+DB00741,Pneumonia
+DB00741,Sunburn
+DB01005,Sickle cell anaemia
+DB00557,Vomiting
+DB00424,Rhinitis
+DB00424,Peptic ulcer
+DB01050,Pain
+DB00281,Arrhythmia
+DB00281,Pruritus
+DB00281,Discomfort
+DB00808,Essential hypertension
+DB01249,Astrocytoma
+DB01249,Neoplasm malignant
+DB01249,Malignant glioma
+DB00332,Bronchial hyperreactivity
+DB00332,Rhinitis perennial
+DB01029,Microalbuminuria
+DB00951,Tuberculosis
+DB00883,Pulmonary oedema
+DB01167,Fungal infection
+DB01167,Oesophageal candidiasis
+DB01026,Skin candida
+DB01026,Fungal infection
+DB00465,Conjunctivitis allergic
+DB00581,Constipation
+DB00581,Hepatic encephalopathy
+DB00555,Lennox-Gastaut syndrome
+DB00448,Oesophagitis
+DB01097,Tenderness
+DB00589,Parkinsonism
+DB01206,Hodgkin's disease lymphocyte predominance type stage unspecified
+DB00186,Anxiety
+DB00186,Status epilepticus
+DB00408,Schizophrenia
+DB00888,Polycythaemia vera
+DB00737,Vomiting
+DB00939,Arthritis
+DB00603,Breast cancer stage IV
+DB00603,Endometrial cancer stage IV
+DB01042,Plasmacytoma
+DB00816,Lung neoplasm malignant
+DB00331,Weight decreased
+DB00563,Arthritis
+DB00563,Lymphoma
+DB00563,Psoriasis
+DB00563,Leukaemic infiltration brain
+DB00353,Haemorrhage
+DB00353,Uterine haemorrhage
+DB00959,Neoplasm
+DB01233,Vomiting
+DB00264,Myocardial ischaemia
+DB00264,Acute myocardial infarction
+DB00916,Bacterial infection
+DB00916,Rosacea
+DB00379,Ventricular arrhythmia
+DB00379,Ventricular tachycardia
+DB01110,Candida infection
+DB00370,Dysthymic disorder
+DB01204,Blast cell crisis
+DB00745,Poor quality sleep
+DB00295,Acute pulmonary oedema
+DB00218,Bacterial infection
+DB00461,Arthritis
+DB01183,Respiratory depression
+DB08804,Anaemia
+DB06711,Eye irritation
+DB01115,Coronary artery disease
+DB01595,Insomnia
+DB00727,Acute myocardial infarction
+DB00727,Coronary artery disease
+DB00717,Amenorrhoea
+DB00912,Blood glucose decreased
+DB01137,Abscess
+DB01137,Pneumonia anthrax
+DB00334,Bipolar I disorder
+DB00338,Infection
+DB00338,Gastric ulcer
+DB00338,Helicobacter infection
+DB00904,Nausea
+DB00239,Infection
+DB00239,Tinea infection
+DB01062,Pollakiuria
+DB01062,Agitation
+DB00233,Tuberculosis
+DB01229,Breast cancer
+DB01229,Metastatic neoplasm
+DB00282,Neoplasm malignant
+DB00282,Hyperparathyroidism
+DB00282,Neoplasm
+DB00715,Suicidal ideation
+DB00806,Arterial occlusive disease
+DB00806,Cardiovascular disorder
+DB01186,Parkinson's disease
+DB01608,Psychotic disorder
+DB01174,Convulsion
+DB00397,Nasopharyngitis
+DB01022,Vitamin K deficiency
+DB01085,Glaucoma
+DB01179,Anogenital warts
+DB01324,Cardiac failure congestive
+DB00413,Restless legs syndrome
+DB00175,Arteriosclerosis
+DB00175,Cardiovascular disorder
+DB00175,Myocardial infarction
+DB00635,Neoplasm malignant
+DB01035,Ventricular arrhythmia
+DB01035,Ventricular tachycardia
+DB01168,Hodgkin's disease lymphocyte depletion type stage unspecified
+DB00433,Nausea
+DB00433,Psychotic disorder
+DB00396,Amenorrhoea
+DB01069,Varicella
+DB01069,Motion sickness
+DB01069,Dermatitis contact
+DB00782,Irritable bowel syndrome
+DB00571,Palpitations
+DB00571,Syncope
+DB00881,Essential hypertension
+DB01129,Gastrooesophageal reflux disease
+DB00852,Hypersensitivity
+DB00852,Swelling
+DB00178,Acute myocardial infarction
+DB00863,Dyspepsia
+DB00863,Discomfort
+DB00863,Ulcer haemorrhage
+DB01180,Papule
+DB00811,Viral infection
+DB00811,Hepatic cirrhosis
+DB00478,Infection
+DB00734,Irritability
+DB00734,Mania
+DB00268,Parkinsonism
+DB01104,Anxiety
+DB01104,Depression
+DB01104,Obsessive-compulsive disorder
+DB01104,Sleep disorder
+DB01104,Obsessive thoughts
+DB01105,Weight decreased
+DB00203,Renal failure
+DB00359,Autoimmune disorder
+DB00884,Osteoporosis
+DB00421,Hirsutism
+DB00421,Malignant hypertension
+DB00619,Acute lymphocytic leukaemia
+DB00619,Dermatofibrosarcoma protuberans
+DB00428,Malignant neoplasm of islets of Langerhans
+DB00634,Conjunctivitis
+DB00634,Rosacea
+DB00669,Migraine
+DB00864,Arthralgia
+DB00864,Rheumatoid arthritis
+DB01044,Conjunctivitis bacterial
+DB00799,Psoriasis
+DB00857,Onychomycosis
+DB00624,Azoospermia
+DB00208,Agranulocytosis
+DB00373,Cardiac flutter
+DB00373,Hypertension
+DB00373,Migraine
+DB00911,Giardiasis
+DB00911,Vaginal infection
+DB00911,Vaginitis bacterial
+DB00697,Muscle spasticity
+DB00500,Arthritis
+DB00273,Hypersensitivity
+DB01030,Small cell lung cancer
+DB00519,Ischaemia
+DB00302,Haemorrhage
+DB00302,Nephropathy
+DB00302,Menorrhagia
+DB00656,Depression
+DB00620,Asthma
+DB00620,Drug hypersensitivity
+DB00620,Lymphoma
+DB00897,Insomnia
+DB00209,Urinary incontinence
+DB00577,Infection
+DB00577,Oral herpes
+DB00577,Pain
+DB00577,Congenital herpes simplex infection
+DB00177,Acute myocardial infarction
+DB00177,Cardiac failure chronic
+DB00512,Endocarditis bacterial
+DB00285,Social fear
+DB00285,Major depression
+DB01080,Infantile spasms
+DB00361,Non-small cell lung cancer metastatic
+DB00361,Breast cancer
+DB00909,Epilepsy
+DB00429,Cardiac arrest
+DB01176,Malaise
+DB00600,Leukoderma
+DB01223,Lung disorder
+DB01440,Cataplexy
+DB01624,Delusion
+DB01624,Mania
+DB00570,Lymphoma
+DB00594,Hypertension
+DB06689,Varices oesophageal
+DB00286,Menopause
+DB00035,Head injury
+DB00035,Polyuria
+DB00035,Urine output increased
+DB00035,Von Willebrand's disease
+DB01356,Mania
+DB00896,Inflammation
+DB04951,Idiopathic pulmonary fibrosis
+DB00214,Oedema
+DB00929,Ulcer
+DB00014,Pain
+DB00716,Pruritus
+DB00419,Gaucher's disease
+DB00104,Acromegaly
+DB00104,Haemoglobin
+DB00104,Paraesthesia
+DB01211,Ulcer
+DB05271,Restless legs syndrome
+DB00187,Tachycardia
+DB00790,Cardiac arrest
+DB00790,Hypertension
+DB00790,Acute coronary syndrome
+DB00790,Cardiac failure
+DB00744,Asthma
+DB00760,Appendicitis
+DB01238,Agitation
+DB01409,Dyspnoea
+DB00476,Major depression
+DB00710,Hypercalcaemia
+DB01101,Colorectal cancer metastatic
+DB01610,Retinitis
+DB00300,Chronic hepatitis B
+DB00626,Infection
+DB00966,Coronary artery disease
+DB01194,Hypotony of eye
+DB00659,Alcoholism
+DB00582,Fungal infection
+DB04729,Conjunctivitis
+DB04729,Dacryocystitis
+DB04729,Subcutaneous abscess
+DB00412,Type 2 diabetes mellitus
+DB00188,Mantle cell lymphoma
+DB08868,Secondary progressive multiple sclerosis
+DB00820,Hypertension
+DB00820,Erectile dysfunction
+DB00569,Thrombophlebitis superficial
+DB00569,Embolism
+DB00764,Asthma
+DB00764,Psoriasis
+DB00520,Peritonitis
+DB00967,Rhinitis seasonal
+DB00230,Convulsion
+DB06201,Convulsion
+DB01098,Cardiovascular disorder
+DB01098,Myocardial infarction
+DB05812,Prostate cancer
+DB08910,Plasmacytoma
+DB00700,Cardiac failure congestive
+DB06216,Bipolar I disorder
+DB01012,Hyperparathyroidism secondary
+DB01046,Functional gastrointestinal disorder
+DB00530,Non-small cell lung cancer
+DB04855,Sinus rhythm
+DB08815,Schizophrenia
+DB00398,Pulmonary embolism
+DB00398,Cerebrovascular accident
+DB00398,Deep vein thrombosis
+DB01111,Infection
+DB00480,Anaemia
+DB00440,Pneumonia
+DB00429,Postpartum haemorrhage
+DB01410,Rhinitis perennial
+DB01656,Bronchitis chronic
+DB01656,Chronic obstructive pulmonary disease
+DB01141,Oesophageal candidiasis
+DB00763,Hyperthyroidism
+DB00352,Chronic myeloid leukaemia
+DB00200,Anaemia
+DB00200,Vitamin B12 deficiency
+DB00200,Vomiting
+DB00851,Hodgkin's disease
+DB06616,Chromosome analysis abnormal
+DB00795,Crohn's disease
+DB00795,Proctitis
+DB00460,Pathologic myopia
+DB01079,Irritable bowel syndrome
+DB08819,Ocular hypertension
+DB05039,Bronchitis chronic
+DB05039,Chronic obstructive pulmonary disease
+DB08874,Diarrhoea
+DB06702,Hypertonic bladder
+DB08906,Rhinitis allergic
+DB06605,Atrial fibrillation
+DB06605,Embolism
+DB08873,Hepatocellular injury
+DB08897,Chronic obstructive pulmonary disease
+DB08899,Prostate cancer
+DB02351,Thrombosis
+DB02351,Heparin-induced thrombocytopenia
+DB08820,Cystic fibrosis
+DB08901,Chromosome analysis abnormal
+DB00666,Precocious puberty
+DB00254,Acne
+DB00595,Infection
+DB02530,Insomnia
+DB00855,Actinic keratosis
+DB00855,Malignant glioma
+DB00917,Abortion missed
+DB00917,Foetal death
+DB03793,Migraine
+DB00258,Hypocalcaemia
+DB00258,Poisoning
+DB00446,Conjunctivitis bacterial
+DB04272,Renal tubular acidosis
+DB00783,Dysuria
+DB00783,Menopause
+DB00783,Dyspareunia
+DB00742,Bronchial hyperreactivity
+DB00742,Intraocular pressure increased
+DB05494,Lymphoma
+DB05494,Leukaemic infiltration brain
+DB04398,Xerosis
+DB04398,Skin exfoliation
+DB04574,Atrophy
+DB00667,Skin test positive
+DB00667,Dermatitis atopic
+DB00761,Paralysis
+DB00668,Anaphylactic shock
+DB00668,Laryngospasm
+DB00451,Acute myocardial infarction
+DB00451,Myxoedema coma
+DB01378,Bacterial toxaemia
+DB01378,Hypomagnesaemia
+DB00286,Tachypnoea
+DB00286,Poisoning
+DB00627,Hypercholesterolaemia
+DB00627,Dyslipidaemia
+DB00152,Vitamin B1 deficiency
+DB02280,Bacteriuria
+DB00445,Acquired immunodeficiency syndrome
+DB00445,Lymphoma
+DB00681,Meningitis cryptococcal
+DB01193,Angina pectoris
+DB00316,Arthritis
+DB00316,Toothache
+DB00316,Poor quality sleep
+DB00316,Influenza
+DB00787,Autoimmune disorder
+DB00787,Genital herpes
+DB00787,Herpes simplex
+DB01001,Premature labour
+DB00630,Fracture
+DB00630,Osteoporosis postmenopausal
+DB00437,Gout
+DB00437,Non-Hodgkin's lymphoma
+DB00437,Hyperuricosuria
+DB00437,Urate nephropathy
+DB00404,Agoraphobia
+DB00404,Panic attack
+DB00915,Infection
+DB00915,Parkinson's disease
+DB01143,Ovarian cancer
+DB00479,Bacterial sepsis
+DB00277,Asthma
+DB00277,Bronchospasm
+DB01060,Infection
+DB00415,Infection
+DB00714,Parkinson's disease
+DB00945,Neck pain
+DB00945,Acute myocardial infarction
+DB00335,Angina pectoris
+DB01076,Coronary artery disease
+DB01076,Hypertriglyceridaemia
+DB00993,Rheumatoid arthritis
+DB00548,Rash pustular
+DB00972,Rhinitis seasonal
+DB00972,Nasal congestion
+DB00972,Nasopharyngitis
+DB00207,Rheumatic fever
+DB00394,Intertrigo
+DB01086,Discomfort
+DB00676,Lice infestation
+DB01053,Rheumatic disorder
+DB00195,Open angle glaucoma
+DB00484,Glaucoma
+DB01558,Anxiety
+DB01558,Agitation
+DB09019,Cough
+DB01200,Adenoma benign
+DB01200,Luteal phase deficiency
+DB01222,Seasonal allergy
+DB01222,Vasomotor rhinitis
+DB00887,Oedema
+DB00490,Depressive symptom
+DB00490,Renal failure
+DB00611,Pain
+DB00248,Parkinson's disease
+DB00201,Respiratory depression
+DB00661,Atrial fibrillation
+DB00661,Atrial flutter
+DB00136,Hypophosphataemic rickets
+DB00796,Cardiac failure
+DB00796,Hypertension
+DB00564,Trigeminal neuralgia
+DB00190,Parkinson's disease
+DB00748,Anaphylactic shock
+DB01136,Essential hypertension
+DB01140,Rheumatic disorder
+DB01413,Body temperature increased
+DB00438,Immunodeficiency
+DB00438,Sepsis
+DB01332,Infection
+DB01112,Rheumatic fever
+DB00482,Juvenile idiopathic arthritis
+DB00341,Rhinitis allergic
+DB00475,Alcoholism
+DB00880,Oedema
+DB01114,Anaphylactic shock
+DB00477,Hiccups
+DB00310,Hypertension
+DB01188,Infection
+DB01340,Essential hypertension
+DB00537,Cystic fibrosis
+DB00215,Dementia
+DB00283,Sneezing
+DB00283,Rhinorrhoea
+DB01190,Infection
+DB01242,Obsessive-compulsive disorder
+DB01242,Obsessive thoughts
+DB01068,Lennox-Gastaut syndrome
+DB00575,Menopause
+DB00575,Pain
+DB00257,Vulvovaginal candidiasis
+DB00091,Transplant rejection
+DB00434,Angioedema
+DB01406,Breast disorder
+DB01406,Hereditary angioedema
+DB00746,Shock
+DB01151,Bipolar disorder
+DB00547,Skin disorder
+DB00443,Leukaemia
+DB00443,Systemic lupus erythematosus
+DB00443,Uveitis
+DB00443,Eczema nummular
+DB01119,Cerebral haemorrhage
+DB00586,Dysmenorrhoea
+DB00586,Migraine
+DB00255,Bone density decreased
+DB00343,Arrhythmia
+DB00343,Arteriospasm coronary
+DB00343,Essential hypertension
+DB00975,Transient ischaemic attack
+DB00975,Embolism venous
+DB00280,Electrocardiogram QT prolonged
+DB00313,Lennox-Gastaut syndrome
+DB00757,Procedural nausea
+DB00561,Vomiting
+DB00561,Acute respiratory failure
+DB01142,Alcohol abuse
+DB01142,Major depression
+DB01142,Pruritus
+DB00450,Schizophreniform disorder
+DB00625,Infection
+DB00584,Hypotension
+DB00584,Myocardial infarction
+DB00696,Vascular headache
+DB00199,Erythrasma
+DB00199,Tetanus
+DB00199,Urethritis
+DB00903,Lymphoedema
+DB00903,Heart disease congenital
+DB00330,Tuberculosis
+DB00330,Pulmonary tuberculosis
+DB01077,Hypercalcaemia of malignancy
+DB00749,Arthritis
+DB00773,Small cell lung cancer
+DB00426,Immunodeficiency
+DB00949,Lennox-Gastaut syndrome
+DB01023,Hypertension
+DB01023,Acute coronary syndrome
+DB00573,Pain
+DB00813,Neoplasm malignant
+DB00813,Cancer pain
+DB00950,Pruritus
+DB00196,Candida infection
+DB00196,Body tinea
+DB00196,Tinea pedis
+DB00196,Systemic candida
+DB01099,Chromoblastomycosis
+DB01073,Non-Hodgkin's lymphoma
+DB00623,Psychotic disorder
+DB00180,Asthma
+DB01047,Psoriasis
+DB00324,Inflammation
+DB00472,Dysthymic disorder
+DB00472,Liver disorder
+DB00472,Foetor hepaticus
+DB00472,Panic disorder
+DB00472,Obsessive rumination
+DB00472,Purging
+DB00846,Skin disorder
+DB00712,Miosis
+DB00588,Asthma
+DB00176,Major depression
+DB00158,Coeliac disease
+DB00695,Nephropathy
+DB00695,Acute pulmonary oedema
+DB00996,Neuralgia
+DB00441,Breast cancer stage IV
+DB00441,Adenocarcinoma pancreas
+DB01120,Platelet adhesiveness
+DB00222,Type 2 diabetes mellitus
+DB00986,Bronchial hyperreactivity
+DB00889,Nausea
+DB01018,Hypertension
+DB00502,Schizophrenia
+DB00502,Tourette's disorder
+DB01275,Hypertension
+DB00741,Leukaemia
+DB00741,Systemic lupus erythematosus
+DB00741,Tenderness
+DB00774,Cardiac failure congestive
+DB00557,Pruritus
+DB00557,Skin disorder
+DB00424,Hyperhidrosis
+DB00424,Muscle rigidity
+DB00424,Parkinsonism
+DB01050,Rheumatoid arthritis
+DB01050,Headache
+DB01050,Nausea
+DB01050,Procedural pain
+DB01050,Oropharyngeal pain
+DB00281,Urethritis
+DB01249,Glioblastoma
+DB00332,Bronchitis chronic
+DB00332,Seasonal allergy
+DB00332,Chronic obstructive pulmonary disease
+DB01029,Renal failure chronic
+DB00883,Myocardial ischaemia
+DB00883,Coronary artery disease
+DB01026,Infection
+DB01026,Tinea infection
+DB01009,Musculoskeletal discomfort
+DB00448,Duodenal ulcer
+DB00448,Erosive oesophagitis
+DB00654,Ocular hypertension
+DB01106,Conjunctivitis allergic
+DB01403,Nausea
+DB01403,Insomnia
+DB01627,Diphtheria
+DB01627,Staphylococcal infection
+DB00722,Hypotension
+DB00722,Myocardial infarction
+DB00978,Bronchitis chronic
+DB00978,Infection
+DB01206,Hodgkin's disease lymphocyte depletion type stage unspecified
+DB00678,Renal failure chronic
+DB00408,Bipolar disorder
+DB06795,Wound
+DB00934,Major depression
+DB00888,Lymphoma
+DB00737,Motion sickness
+DB00737,Vertigo
+DB00939,Body temperature increased
+DB00939,Dysmenorrhoea
+DB00603,Pain
+DB00603,Uterine cancer
+DB00603,Hormone level abnormal
+DB00358,Infection
+DB00814,Osteoarthritis
+DB00454,Pancreatitis
+DB00371,Tension
+DB00816,Sarcoidosis
+DB00423,Discomfort
+DB00563,Malignant hydatidiform mole
+DB00232,Oedema
+DB00353,Haemoglobin
+DB00959,Rhinitis seasonal
+DB00959,Cutaneous lupus erythematosus
+DB00959,Synovitis
+DB00959,Granuloma annulare
+DB00959,Polymyositis
+DB00247,Vascular headache
+DB01233,Neoplasm malignant
+DB00524,Cardiac failure congestive
+DB00264,Atrial fibrillation
+DB00264,Hypertensive crisis
+DB00916,Vaginal infection
+DB00916,Vaginitis bacterial
+DB00916,Papule
+DB00916,Abdominal infection
+DB01110,Oral candidiasis
+DB01110,Vulvovaginal candidiasis
+DB00683,Amnesia
+DB00683,Insomnia
+DB00235,Cardiac failure congestive
+DB00350,Hypertension
+DB00370,Depression
+DB00471,Rhinitis seasonal
+DB00295,Dyspnoea
+DB00218,Abdominal infection
+DB01024,Transplant rejection
+DB01203,Hypertension
+DB01203,Hyperthyroidism
+DB01203,Acute coronary syndrome
+DB01183,Hypotension
+DB01183,Septic shock
+DB01183,Pulmonary function test decreased
+DB00704,Alcohol abuse
+DB06711,Conjunctivitis allergic
+DB00952,Migraine
+DB01149,Depression
+DB00452,Coma hepatic
+DB01400,Myasthenia gravis
+DB01115,Vasospasm
+DB00698,Abscess
+DB00727,Anal fissure
+DB00727,Cardiac failure congestive
+DB00585,Gastric ulcer
+DB01137,Conjunctivitis bacterial
+DB01137,Tendonitis
+DB01137,Pneumonia
+DB01137,Bacterial prostatitis
+DB00334,Psychotic disorder
+DB00338,Ulcer
+DB00338,Gastrinoma
+DB00904,Procedural nausea
+DB00991,Rheumatoid arthritis
+DB01229,Ovarian epithelial cancer stage IV
+DB01229,Ovarian epithelial cancer
+DB00282,Osteitis deformans
+DB00282,Bone cancer metastatic
+DB00213,Duodenal ulcer
+DB00213,Gastrointestinal disorder
+DB00213,Peptic ulcer
+DB00213,Erosive oesophagitis
+DB01421,Coma hepatic
+DB00715,Social phobia
+DB00715,Generalised anxiety disorder
+DB00715,Premenstrual dysphoric disorder
+DB00859,Metal poisoning
+DB00806,Ulcer
+DB00850,Vomiting
+DB01174,Partial seizures
+DB00397,Discomfort
+DB00960,Angina pectoris
+DB00175,Angina pectoris
+DB00175,Type IIa hyperlipidaemia
+DB00457,Raynaud's phenomenon
+DB00860,Conjunctivitis allergic
+DB01087,Plasmodium vivax infection
+DB00794,Epilepsy
+DB01168,Hodgkin's disease lymphocyte predominance type stage unspecified
+DB01069,Rhinitis seasonal
+DB01069,Vomiting
+DB00571,Atrial fibrillation
+DB00571,Familial tremor
+DB01224,Major depression
+DB00481,Breast cancer
+DB00863,Upper gastrointestinal haemorrhage
+DB01180,Rosacea
+DB00989,Parkinson's disease
+DB00938,Emphysema
+DB01399,Arthritis
+DB01104,Dysthymic disorder
+DB01104,Irritability
+DB01104,Panic disorder
+DB01104,Obsessive rumination
+DB00203,Renal impairment
+DB00359,Rheumatic disorder
+DB00489,Atrial fibrillation
+DB00489,Atrial flutter
+DB00421,Adenoma benign
+DB00421,Cardiac failure congestive
+DB00421,Hypernatraemia
+DB00619,Chronic myeloid leukaemia
+DB01015,Pneumocystis jirovecii pneumonia
+DB00864,Dermatitis atopic
+DB00675,Pulmonary embolism
+DB00675,Cerebrovascular accident
+DB00675,Deep vein thrombosis
+DB00853,Glioblastoma multiforme
+DB00871,Emphysema
+DB00894,Breast cancer
+DB01041,Plasmacytoma
+DB00373,Ocular hypertension
+DB00775,Angina unstable
+DB00775,Acute coronary syndrome
+DB00684,Bacterial infection
+DB00839,Type 2 diabetes mellitus
+DB01036,Urge incontinence
+DB00273,Headache
+DB01030,Small cell lung cancer recurrent
+DB00519,Cardiac failure congestive
+DB00302,Haemoglobin
+DB00302,Post procedural haemorrhage
+DB00656,Dysthymic disorder
+DB00523,Acne
+DB00523,Acne cystic
+DB00523,Skin hyperpigmentation
+DB00620,Rhinitis allergic
+DB00831,Schizophrenia
+DB01586,Biliary cirrhosis primary
+DB01586,Liver disorder
+DB01586,Foetor hepaticus
+DB00577,Herpes zoster
+DB00577,Ophthalmic herpes zoster
+DB00177,Pulmonary oedema
+DB00512,Endocarditis
+DB00495,Infection
+DB00692,Extravasation
+DB00541,Hodgkin's disease
+DB00541,Acute leukaemia
+DB00974,Toxicity to various agents
+DB01176,Meniere's disease
+DB01223,Asthma
+DB01440,Narcolepsy
+DB01440,Somnolence
+DB00985,Nausea
+DB00286,Hypogonadism
+DB00286,Atrophy
+DB00653,Magnesium deficiency
+DB00389,Hyperthyroidism
+DB00687,Addison's disease
+DB00776,Epilepsy
+DB00686,Discomfort
+DB01393,Dyslipidaemia
+DB00459,Psoriasis
+DB00708,Pain
+DB00929,Gastric ulcer
+DB00565,Hypotonia
+DB00735,Tinea cruris
+DB00014,Prostate cancer
+DB00104,Carpal tunnel syndrome
+DB00104,Haemorrhage
+DB00104,Hyperhidrosis
+DB00641,Type IIa hyperlipidaemia
+DB00641,Type IIb hyperlipidaemia
+DB01416,Infection
+DB01416,Bladder pain
+DB01211,Infection
+DB01211,Helicobacter infection
+DB00289,Attention deficit/hyperactivity disorder
+DB00885,Conjunctivitis allergic
+DB00210,Acne
+DB00369,Acquired immunodeficiency syndrome
+DB00760,Peritonitis
+DB00963,Inflammation
+DB01238,Irritability
+DB01238,Mania
+DB01409,Bronchospasm
+DB00476,Fibromyalgia
+DB00476,Diabetic neuropathy
+DB00642,Non-small cell lung cancer
+DB00710,Multiple fractures
+DB00718,Chronic hepatitis B
+DB00876,Hypertension
+DB01101,Neoplasm malignant
+DB06768,Xerosis
+DB06768,Skin exfoliation
+DB01610,Acquired immunodeficiency syndrome
+DB00626,Eye infection
+DB01153,Tinea pedis
+DB00399,Fracture
+DB00399,Plasma cell myeloma
+DB00399,Osteoporosis postmenopausal
+DB01194,Ocular hypertension
+DB04861,Hypotension
+DB04861,Myocardial infarction
+DB00204,Sinus rhythm
+DB04729,Eye infection bacterial
+DB01155,Infection
+DB00976,Infection
+DB01117,Pneumocystis jirovecii pneumonia
+DB00947,Disease progression
+DB00559,Immunodeficiency
+DB00862,Erectile dysfunction
+DB01267,Schizophrenia
+DB00580,Osteoarthritis
+DB06775,Hyperammonaemia
+DB00569,Acute myocardial infarction
+DB00317,Non-small cell lung cancer
+DB04573,Fracture
+DB00967,Pruritus
+DB00230,Fibromyalgia
+DB00230,Diabetic neuropathy
+DB00230,Partial seizures
+DB01098,Type IIa hyperlipidaemia
+DB01263,Aspergillus infection
+DB01263,Oropharyngeal candidiasis
+DB00700,Acute myocardial infarction
+DB00973,Hypercholesterolaemia
+DB01591,Micturition urgency
+DB01012,Neoplasm malignant
+DB01264,Immunodeficiency
+DB08815,Bipolar disorder
+DB00398,Acute coronary syndrome
+DB00398,Hepatocellular carcinoma
+DB00440,Gonorrhoea
+DB01410,Seasonal allergy
+DB01656,Bronchial hyperreactivity
+DB01141,Infection
+DB01033,Neoplasm malignant
+DB01254,Chromosome analysis abnormal
+DB06402,Pneumonia
+DB01261,Diabetic ketoacidosis
+DB00200,Optic nerve disorder
+DB00200,Respiratory fume inhalation disorder
+DB06616,Blast cell crisis
+DB00795,Arthritis
+DB00460,Age-related macular degeneration
+DB00995,Rheumatoid arthritis
+DB05039,Bronchial hyperreactivity
+DB00602,Onchocerciasis
+DB01590,Metastatic neoplasm
+DB08183,Arthritis
+DB08887,Blood triglycerides increased
+DB08882,Type 2 diabetes mellitus
+DB06771,Conjunctivitis bacterial
+DB08896,Colorectal cancer metastatic
+DB08897,Bronchial hyperreactivity
+DB08877,Polycythaemia vera
+DB06817,Immunodeficiency
+DB08901,Blast cell crisis
+DB00254,Infection
+DB08912,Metastatic malignant melanoma
+DB00855,Seborrhoeic keratosis
+DB00917,Hypotension
+DB00770,Erectile dysfunction
+DB04272,Road traffic accident
+DB00936,Arthropod bite
+DB00783,Endometrial hyperplasia
+DB00783,Osteoporosis
+DB00783,Vulvovaginal pruritus
+DB00742,Brain oedema
+DB05494,Acute lymphocytic leukaemia
+DB04304,Calcium deficiency
+DB06216,Hypertension
+DB01390,Haemolysis
+DB00451,Hypothyroidism
+DB00627,Myocardial infarction
+DB00368,Cardiac arrest
+DB00165,Anaemia
+DB00165,Vitamin B6 deficiency
+DB00468,Plasmodium falciparum infection
+DB00468,Myotonia
+DB02280,Bladder pain
+DB02280,Urinary tract infection
+DB00788,Gout
+DB00788,Osteoarthritis
+DB00788,Tendonitis
+DB00445,Menopause
+DB00445,Plasmacytoma
+DB00445,Gastric cancer
+DB00445,Sarcoma
+DB00681,Visceral leishmaniasis
+DB01193,Hypertension
+DB00316,Pain
+DB00518,Echinococciasis
+DB00630,Osteitis deformans
+DB00437,Neoplasm malignant
+DB00437,Nephrolithiasis
+DB00437,Neoplasm
+DB00915,Influenza
+DB00915,Parkinsonism
+DB00357,Cushing's syndrome
+DB00277,Bronchitis chronic
+DB00381,Hypotension
+DB00381,Myocardial infarction
+DB00543,Depressive symptom
+DB00701,Infection
+DB00714,Parkinsonism
+DB00945,Nasopharyngitis
+DB00335,Hypertension
+DB00335,Acute coronary syndrome
+DB00335,Ventricular arrhythmia
+DB01076,Retinal disorder
+DB00993,Crohn's disease
+DB00972,Upper-airway cough syndrome
+DB00972,Sneezing
+DB00972,Rhinorrhoea
+DB00207,Infection
+DB00207,Pharyngitis streptococcal
+DB00355,Infection
+DB00394,Asthma
+DB00394,Psoriasis
+DB00865,Obesity
+DB00245,Parkinsonism
+DB01053,Pharyngitis
+DB00195,Hypertension
+DB01558,Anxiety disorder
+DB01200,Neoplasm
+DB01200,Dyskinesia
+DB01222,Asthma
+DB00297,Pain
+DB00490,Generalised anxiety disorder
+DB00248,Parkinsonism
+DB00248,Galactorrhoea
+DB00661,Arrhythmia
+DB00661,Essential hypertension
+DB00136,Hyperparathyroidism secondary
+DB00796,Left ventricular dysfunction
+DB01197,Cardiac failure congestive
+DB00564,Glossopharyngeal neuralgia
+DB00190,Parkinsonism
+DB00262,Neoplasm malignant
+DB00262,Malignant glioma
+DB01413,Bacteraemia
+DB01331,Abscess
+DB01150,Otitis media
+DB01150,Streptococcal infection
+DB00438,Meningitis
+DB01415,Rheumatic disorder
+DB01212,Meningitis
+DB01212,Shunt infection
+DB01112,Bronchitis chronic
+DB01112,Infection
+DB01112,Hypersensitivity
+DB00482,Intestinal polyp
+DB00567,Infection
+DB00341,Rhinitis perennial
+DB00341,Urticaria
+DB00475,Drug withdrawal syndrome
+DB01114,Rhinitis seasonal
+DB00477,Agitation
+DB00477,Anxiety
+DB01340,Cardiac failure congestive
+DB00501,Dyspepsia
+DB00537,Blepharitis
+DB00537,Conjunctivitis bacterial
+DB00537,Osteoarthritis
+DB00537,Pneumonia
+DB00215,Dysthymic disorder
+DB00215,Ischaemia
+DB00283,Nasopharyngitis
+DB01190,Vaginal infection
+DB01190,Vaginitis bacterial
+DB01190,Plasmodium falciparum infection
+DB00575,Visceral pain
+DB00758,Atrial fibrillation
+DB00758,Embolism
+DB00758,Ischaemic stroke
+DB00628,Alcohol withdrawal syndrome
+DB00257,Vulvovaginal mycotic infection
+DB00257,Infection
+DB00363,Agranulocytosis
+DB00091,Rheumatoid arthritis
+DB00434,Hypersensitivity
+DB01219,Body temperature increased
+DB01219,Hypermetabolism
+DB00694,Acute lymphocytic leukaemia
+DB00746,Poisoning
+DB00746,Aluminium overload
+DB00470,Neoplasm malignant
+DB00470,Underweight
+DB00443,Rhinitis seasonal
+DB00443,Seborrhoeic dermatitis
+DB00443,Polymyositis
+DB00829,Monoplegia
+DB00829,Diplegia
+DB00829,Alcohol withdrawal syndrome
+DB01119,Cardiac failure congestive
+DB01119,Hypertensive crisis
+DB01119,Hypoglycaemia
+DB01119,Hypertensive encephalopathy
+DB00586,Rheumatoid arthritis
+DB00586,Procedural pain
+DB00586,Renal impairment
+DB00255,Menopause
+DB06781,Inflammation
+DB00390,Cardiac failure
+DB00320,Aura
+DB00343,Atrial fibrillation
+DB00343,Atrial flutter
+DB00343,Vasospasm
+DB00975,Cardiac valve replacement complication
+DB00313,Grand mal convulsion
+DB00313,Convulsion
+DB01248,Oesophageal adenocarcinoma
+DB00869,Open angle glaucoma
+DB01142,Neurodermatitis
+DB00450,Vomiting
+DB01127,Tinea infection
+DB01253,Post abortion haemorrhage
+DB00199,Endocarditis
+DB00199,Gonorrhoea
+DB00199,Pneumonia legionella
+DB00199,Trachoma
+DB00199,Pertussis
+DB01215,Insomnia
+DB08866,Menopause
+DB04573,Menopausal disorder
+DB04573,Menopausal symptoms
+DB04573,Urinary incontinence
+DB00903,Ascites
+DB00903,Nephrotic syndrome
+DB01077,Extraskeletal ossification
+DB00749,Pain
+DB00773,Testicular neoplasm
+DB00927,Gastrooesophageal reflux disease
+DB00949,Convulsion
+DB01039,Type 2 diabetes mellitus
+DB01039,Blood triglycerides increased
+DB01039,High density lipoprotein decreased
+DB00573,Arthritis
+DB01148,Nocturia
+DB01148,Abdominal pain lower
+DB01195,Acute coronary syndrome
+DB01195,Wolff-Parkinson-White syndrome
+DB01195,Ventricular tachycardia
+DB00196,Fungal infection
+DB00196,Oesophageal candidiasis
+DB01099,Cryptococcosis
+DB00591,Skin disorder
+DB00472,Vomiting
+DB00472,Musculoskeletal discomfort
+DB00472,Compulsions
+DB00588,Dermatitis atopic
+DB00588,Seasonal allergy
+DB00176,Depression
+DB00176,Obsessive-compulsive disorder
+DB00176,Obsessive thoughts
+DB00828,Urinary tract infection
+DB00695,Oedema
+DB00996,Epilepsy
+DB01004,Autoimmune disorder
+DB00441,Bladder cancer
+DB00441,Non-small cell lung cancer
+DB01067,Type 2 diabetes mellitus
+DB00986,Peptic ulcer
+DB00536,Muscular weakness
+DB02161,Iritis
+DB00999,Hypertension
+DB00741,Rhinitis seasonal
+DB00741,Anal pruritus
+DB00741,Seborrhoeic dermatitis
+DB00741,Tuberculosis
+DB00741,Polymyositis
+DB00774,Hepatic cirrhosis
+DB01005,Neoplasm malignant
+DB00557,Anxiety
+DB00557,Agitation
+DB00424,Pain
+DB00424,Salivary hypersecretion
+DB00424,Renal colic
+DB01050,Rhinitis
+DB01050,Dysmenorrhoea
+DB01050,Body temperature increased
+DB01050,Migraine
+DB01050,Oropharyngeal discomfort
+DB00281,Acute myocardial infarction
+DB01177,Acute lymphocytic leukaemia
+DB00249,Keratitis
+DB01181,Testis cancer
+DB00332,Asthma
+DB00332,Bronchospasm
+DB00332,Reversible airways obstruction
+DB01029,Proteinuria
+DB01029,Essential hypertension
+DB00951,Extrapulmonary tuberculosis
+DB01009,Sports injury
+DB01009,Ligament sprain
+DB00709,Infection
+DB00555,Partial seizures
+DB00448,Gastrinoma
+DB01627,Corynebacterium infection
+DB00601,Infection
+DB00455,Seasonal allergy
+DB00455,Hypersensitivity
+DB00678,Proteinuria
+DB00678,Essential hypertension
+DB00678,Dilatation ventricular
+DB00934,Anxiety
+DB00934,Depression
+DB00888,Hodgkin's disease lymphocyte depletion type stage unspecified
+DB00939,Rheumatoid arthritis
+DB00603,Endometrial hyperplasia
+DB00603,Uterine haemorrhage
+DB00603,Breast cancer recurrent
+DB00784,Metrorrhagia
+DB00358,Plasmodium falciparum infection
+DB01042,Polycythaemia vera
+DB00244,Colitis ulcerative
+DB00816,Respiratory tract congestion
+DB00331,Hyperglycaemia
+DB00563,Rheumatoid arthritis
+DB00553,Mycosis fungoides
+DB00959,Bursitis
+DB00959,Leukaemia
+DB00959,Systemic lupus erythematosus
+DB01233,Oesophageal ulcer
+DB00524,Essential hypertension
+DB00916,Infection
+DB00916,Erythema
+DB00916,Genital infection
+DB00370,Major depression
+DB01204,Acute myeloid leukaemia
+DB01204,Chronic myeloid leukaemia
+DB01171,Social phobia
+DB00295,Diarrhoea
+DB00218,Bronchitis chronic
+DB00218,Infection
+DB00461,Rheumatoid arthritis
+DB01203,Angina pectoris
+DB01203,Headache
+DB00779,Infection
+DB00779,Urinary tract infection
+DB01183,Blood pressure increased
+DB08804,Breast cancer
+DB01149,Major depression
+DB01400,Ileus paralytic
+DB01115,Essential hypertension
+DB00727,Discomfort
+DB00585,Oesophagitis
+DB01059,Neurogenic bladder
+DB00912,Type 2 diabetes mellitus
+DB01137,Pyelonephritis acute
+DB00334,Bipolar disorder
+DB00338,Duodenal ulcer
+DB00338,Peptic ulcer
+DB00338,Erosive oesophagitis
+DB01083,Type 2 diabetes mellitus
+DB00842,Alcohol withdrawal syndrome
+DB00239,Body tinea
+DB00239,Tinea pedis
+DB00497,Pain
+DB01229,Ovarian cancer
+DB00282,Plasma cell myeloma
+DB00282,Osteolysis
+DB00213,Gastrinoma
+DB01421,Amoebic colitis
+DB00299,Genital herpes
+DB00417,Endocarditis bacterial
+DB00960,Hypertension
+DB00175,Angina unstable
+DB00175,Type III hyperlipidaemia
+DB00175,Acute coronary syndrome
+DB00457,Urinary tract obstruction
+DB00860,Dermatomyositis
+DB01032,Gout
+DB00433,Meniere's disease
+DB00433,Schizophrenia
+DB01069,Arthropod bite
+DB01069,Procedural vomiting
+DB00571,Arrhythmia
+DB00571,Neoplasm
+DB00571,Loss of consciousness
+DB00344,Depression
+DB01129,Dyspepsia
+DB00852,Shock
+DB00178,Proteinuria
+DB00178,Essential hypertension
+DB00863,Scleroderma
+DB00863,Gastrooesophageal reflux disease
+DB00863,Gastrointestinal haemorrhage
+DB00811,Liver disorder
+DB00811,Foetor hepaticus
+DB00811,Respiratory syncytial virus infection
+DB00478,Body temperature increased
+DB00989,Dementia Alzheimer's type
+DB00989,Parkinsonism
+DB00649,Immunodeficiency
+DB01104,Compulsions
+DB00203,Connective tissue disorder
+DB00203,Hypertension
+DB00203,Erectile dysfunction
+DB00884,Multiple fractures
+DB01208,Infection
+DB00421,Hepatic cirrhosis
+DB00619,Chromosome analysis abnormal
+DB00619,Hypereosinophilic syndrome
+DB02546,Mycosis fungoides
+DB00669,Pain
+DB00864,Arthritis
+DB00675,Contralateral breast cancer
+DB00799,Acne
+DB00799,Lentigo maligna
+DB00853,Anaplastic astrocytoma
+DB00775,Angina pectoris
+DB00500,Rheumatoid arthritis
+DB00273,Epilepsy
+DB00273,Migraine
+DB00539,Neoplasm
+DB00519,Essential hypertension
+DB00523,Kaposi's sarcoma AIDS related
+DB00620,Rhinitis perennial
+DB00384,Cardiac failure congestive
+DB00662,Gastroenteritis
+DB00662,Nausea
+DB01157,Autoimmune disorder
+DB01157,Pneumocystis jirovecii pneumonia
+DB00209,Pollakiuria
+DB00177,Essential hypertension
+DB00285,Panic disorder
+DB01080,Partial seizures
+DB00305,Metastatic neoplasm
+DB04844,Huntington's disease
+DB04844,Tardive dyskinesia
+DB00937,Weight decreased
+DB01223,Bronchitis chronic
+DB01260,Dermatitis atopic
+DB00570,Hodgkin's disease lymphocyte predominance type stage unspecified
+DB00594,Oedema
+DB00956,Pain
+DB00286,Ovarian failure
+DB01020,Cardiac failure chronic
+DB01020,Coronary artery disease
+DB00380,Extravasation
+DB00686,Cystitis interstitial
+DB01393,Arteriosclerosis
+DB01393,Infarction
+DB00486,Neoplasm malignant
+DB00507,Diarrhoea
+DB00385,Carcinoma in situ
+DB00284,Type 2 diabetes mellitus
+DB00214,Hypertension
+DB00214,Hepatocellular injury
+DB00014,Endometriosis
+DB00104,Carcinoid tumour
+DB00104,Swelling
+DB00641,Type III hyperlipidaemia
+DB00641,Blood triglycerides increased
+DB00641,High density lipoprotein decreased
+DB01416,Rheumatic fever
+DB01211,Rheumatic fever
+DB00374,Connective tissue disorder
+DB00374,Hypertension
+DB01202,Epilepsy
+DB01202,Idiopathic generalised epilepsy
+DB00790,Myocardial infarction
+DB00990,Breast cancer
+DB00369,Cytomegalovirus infection
+DB00369,Cytomegalovirus chorioretinitis
+DB00760,Meningitis
+DB00760,Meningitis bacterial
+DB00308,Sinus rhythm
+DB01238,Autism
+DB01409,Bronchitis chronic
+DB01409,Chronic obstructive pulmonary disease
+DB00476,Musculoskeletal pain
+DB00642,Pleural mesothelioma malignant
+DB00246,Agitation
+DB00768,Eye pruritus
+DB01101,Breast cancer
+DB00685,Infection
+DB01610,Cytomegalovirus infection
+DB01610,Cytomegalovirus chorioretinitis
+DB00966,Essential hypertension
+DB00399,Osteitis deformans
+DB00399,Bone cancer metastatic
+DB00296,Procedural pain
+DB02638,Hepatorenal syndrome
+DB04729,Infection
+DB04729,Dermal cyst
+DB04729,Sepsis neonatal
+DB00290,Pleural effusion
+DB00998,Migraine
+DB00216,Migraine
+DB00412,Diabetic ketoacidosis
+DB00412,Insulin resistance
+DB00188,Plasmacytoma
+DB00364,Haemoglobin
+DB00559,Skin ulcer
+DB01098,Type III hyperlipidaemia
+DB01098,Blood triglycerides increased
+DB01098,Acute coronary syndrome
+DB04938,Menopause
+DB04938,Dyspareunia
+DB06287,Renal cell carcinoma
+DB00377,Vomiting
+DB00303,Bacteraemia
+DB00303,Pyelonephritis
+DB00303,Diabetic foot infection
+DB00673,Neoplasm malignant
+DB00442,Chronic hepatitis B
+DB01012,Renal failure chronic
+DB00530,Pancreatic carcinoma metastatic
+DB06268,Pulmonary hypertension
+DB00440,Otitis media
+DB00646,Infection
+DB01410,Asthma
+DB08903,Tuberculosis
+DB05521,Chronic hepatitis C
+DB00337,Immunodeficiency
+DB00200,Hereditary optic atrophy
+DB00795,Proctocolitis
+DB00460,Histoplasmosis
+DB08871,Breast cancer stage IV
+DB08819,Open angle glaucoma
+DB01590,Angiomyolipoma
+DB06702,Urge incontinence
+DB06590,Infection
+DB08906,Seasonal allergy
+DB08882,Renal impairment
+DB08873,Infection
+DB08822,Hypotension
+DB02351,Acute myocardial infarction
+DB08890,Constipation
+DB08901,Acute lymphocytic leukaemia
+DB00050,Menopause
+DB00254,Haemorrhage
+DB01418,Pulmonary embolism
+DB00650,Anaemia megaloblastic
+DB02379,Infection
+DB02379,Type 1 diabetes mellitus
+DB00770,Patent ductus arteriosus
+DB03793,Aura
+DB02527,Cardiac failure congestive
+DB00446,Conjunctivitis infective
+DB00446,Eye infection
+DB00936,Psoriasis
+DB00260,Extrapulmonary tuberculosis
+DB01156,Dysthymic disorder
+DB00783,Osteoporosis postmenopausal
+DB05494,Acute leukaemia
+DB00988,Myocardial infarction
+DB00988,Renal failure
+DB00655,Osteoporosis postmenopausal
+DB06216,Cardiac failure congestive
+DB00407,Angina unstable
+DB00407,Acute coronary syndrome
+DB00668,Dermatitis
+DB00668,Hypersensitivity
+DB00668,Hypotension
+DB00451,Adrenal insufficiency
+DB00451,Hypersensitivity
+DB00279,Depressed level of consciousness
+DB01378,Nephritic syndrome
+DB00286,Toxicity to various agents
+DB00627,Hyperlipidaemia
+DB00162,Acne
+DB00360,Phenylketonuria
+DB00788,Dysmenorrhoea
+DB00445,Autoimmune disorder
+DB00445,Bladder neoplasm
+DB00445,Squamous cell carcinoma
+DB00445,Ovarian cancer
+DB00316,Nasopharyngitis
+DB00970,Testis cancer
+DB00787,Acquired immunodeficiency syndrome
+DB00787,Rash
+DB00787,Iridocyclitis
+DB01001,Bronchitis chronic
+DB01001,Chronic obstructive pulmonary disease
+DB00346,Urinary retention
+DB00969,Irritable bowel syndrome
+DB00404,Anxiety
+DB00288,Dermatitis atopic
+DB00479,Infection
+DB01118,Ventricular fibrillation
+DB01118,Ventricular tachycardia
+DB01118,Ventricular arrhythmia
+DB01060,Endocarditis
+DB00276,Leukaemia
+DB00261,Myeloproliferative disorder
+DB00945,Myocardial infarction
+DB00945,Pain
+DB01076,Cardiovascular disorder
+DB01076,Myocardial infarction
+DB00548,Acne
+DB00972,Conjunctivitis allergic
+DB00207,Tonsillitis
+DB00181,Multiple sclerosis
+DB00181,Pain
+DB00436,Essential hypertension
+DB01086,Aphthous stomatitis
+DB00612,Hypertension
+DB00484,Open angle glaucoma
+DB01558,Tension
+DB01200,Hypogonadism
+DB00490,Liver disorder
+DB00248,Amenorrhoea
+DB00248,Anovulatory cycle
+DB00248,Hyperprolactinaemia
+DB00248,Prolactinoma
+DB00661,Angina pectoris
+DB00661,Tachycardia
+DB05318,Pain
+DB01197,Cardiac failure
+DB01197,Hypertension
+DB01197,Acute coronary syndrome
+DB01197,Vascular resistance systemic
+DB00748,Hypersensitivity
+DB01136,Cardiac failure
+DB01136,Hypertension
+DB01136,Vasodilation procedure
+DB01136,Vascular resistance systemic
+DB00456,Infection
+DB01327,Infection
+DB01150,Infection
+DB01112,Streptococcal infection
+DB00482,Arthritis
+DB00482,Adenomatous polyposis coli
+DB00482,Colon adenoma
+DB00671,Rheumatic disorder
+DB00341,Pruritus
+DB00291,Non-Hodgkin's lymphoma
+DB00475,Anxiety
+DB00878,Dental caries
+DB00608,Plasmodium vivax infection
+DB01114,Seasonal allergy
+DB00310,Hepatic cirrhosis
+DB01340,Renovascular hypertension
+DB00501,Gastrinoma
+DB00501,Ulcer
+DB00827,Urinary tract infection
+DB00537,Conjunctivitis
+DB00537,Body temperature increased
+DB00215,Social phobia
+DB00215,Generalised anxiety disorder
+DB00283,Lacrimation increased
+DB01190,Vulvovaginitis
+DB00882,Infertility male
+DB01068,Agoraphobia
+DB00758,Angina unstable
+DB00758,Acute coronary syndrome
+DB00257,Vaginal discharge
+DB00363,Suicidal behaviour
+DB00318,Cough
+DB00318,Diarrhoea
+DB00318,Headache
+DB00318,Procedural pain
+DB01219,Muscle spasticity
+DB00694,Acute leukaemia
+DB00470,Nausea
+DB01151,Major depression
+DB00443,Dermatitis atopic
+DB00443,Dermatomyositis
+DB00443,Seasonal allergy
+DB00443,Head injury
+DB00443,Hypersensitivity
+DB00443,Eczema infantile
+DB00443,Senile pruritus
+DB00443,Macular oedema
+DB00829,Irritability
+DB00829,Paraplegia
+DB00829,Stiff person syndrome
+DB01119,Vascular resistance systemic
+DB00586,Actinic keratosis
+DB00586,Aura
+DB00390,Atrial fibrillation
+DB00343,Prinzmetal angina
+DB00343,Hypertension
+DB00280,Hepatic failure
+DB00313,Headache
+DB01248,Squamous cell carcinoma
+DB01248,Adenocarcinoma gastric
+DB01248,Squamous cell carcinoma of head and neck
+DB01184,Parkinson's disease
+DB00561,Carbon dioxide increased
+DB01142,Bipolar disorder
+DB00450,Bipolar I disorder
+DB06262,Dizziness postural
+DB00696,Headache
+DB00199,Rheumatic fever
+DB04573,Menopause
+DB04573,Dysuria
+DB04573,Infection
+DB00903,Neoplasm malignant
+DB00593,Petit mal epilepsy
+DB00749,Juvenile idiopathic arthritis
+DB00773,Neoplasm
+DB00927,Oesophagitis
+DB01023,Essential hypertension
+DB01039,Low density lipoprotein increased
+DB00813,Migraine
+DB00950,Rhinitis allergic
+DB01216,Polyuria
+DB01195,Cardiac disorder
+DB00196,Peritonitis
+DB00196,Immunodeficiency
+DB00196,Candiduria
+DB00196,Tinea cruris
+DB00544,Basal cell carcinoma
+DB00472,Swelling
+DB00472,Myalgia
+DB00472,Breast tenderness
+DB00472,Bipolar I disorder
+DB00712,Pain
+DB00712,Ankylosing spondylitis
+DB00588,Rhinitis seasonal
+DB00983,Bronchitis chronic
+DB00983,Chronic obstructive pulmonary disease
+DB00529,Immunodeficiency
+DB00828,Perinephric abscess
+DB00695,Nephritic syndrome
+DB01004,Cytomegalovirus infection
+DB01004,Congenital cytomegalovirus infection
+DB01004,Cytomegalovirus chorioretinitis
+DB00441,Transitional cell carcinoma
+DB00441,Pancreatic carcinoma
+DB00798,Infection
+DB00798,Dermal cyst
+DB00798,Sepsis neonatal
+DB01120,Diabetes mellitus
+DB00999,Cardiac failure congestive
+DB00741,Adrenal insufficiency
+DB00741,Proctocolitis
+DB00741,Dermatomyositis
+DB00741,Dermatitis
+DB00741,Seasonal allergy
+DB00741,Pruritus genital
+DB00741,Anorectal discomfort
+DB00741,Photosensitivity reaction
+DB00741,Erythema
+DB00741,Temporal arteritis
+DB00424,Neurogenic bladder
+DB00424,Nasopharyngitis
+DB00424,Tremor
+DB00424,Abdominal pain upper
+DB00424,Infantile colic
+DB00424,Neurogenic bowel
+DB01050,Patent ductus arteriosus
+DB01050,Osteoarthritis
+DB00281,Post herpetic neuralgia
+DB01177,Acute leukaemia
+DB00808,Fluid retention
+DB00332,Rhinorrhoea
+DB00883,Left ventricular failure
+DB01026,Tinea versicolour
+DB01009,Arthritis
+DB01009,Contusion
+DB01009,Post-traumatic pain
+DB00465,Injury
+DB00555,Bipolar I disorder
+DB00448,Dyspepsia
+DB01097,Rheumatoid arthritis
+DB01006,Breast cancer
+DB00722,Acute myocardial infarction
+DB00455,Rhinitis seasonal
+DB00455,Nasopharyngitis
+DB00186,Depressive symptom
+DB00227,Hypercholesterolaemia
+DB00227,Dyslipidaemia
+DB06795,Bacterial infection
+DB00934,Bipolar disorder
+DB00888,Hodgkin's disease
+DB00603,Amenorrhoea
+DB00784,Menorrhagia
+DB00784,Toothache
+DB00814,Rheumatoid arthritis
+DB01042,Malignant melanoma
+DB01042,Breast cancer
+DB00454,Pain
+DB00371,Anxiety
+DB00244,Crohn's disease
+DB00244,Proctitis
+DB00244,Malaise
+DB00333,Drug dependence
+DB00333,Pain
+DB00563,Neoplasm malignant
+DB00563,Mycosis fungoides
+DB00968,Hypertensive crisis
+DB00959,Arthritis
+DB00959,Asthma
+DB00959,Drug hypersensitivity
+DB00959,Keloid scar
+DB00959,Nephropathy
+DB00959,Lymphoma
+DB01233,Impaired gastric emptying
+DB00264,Angina pectoris
+DB00916,Amoebic colitis
+DB00916,Parametritis
+DB00916,Urogenital trichomoniasis
+DB00683,Anxiety
+DB00211,Parkinsonism
+DB00211,Multiple system atrophy
+DB00211,Autonomic failure syndrome
+DB00648,Adrenal gland cancer
+DB01204,Lymphocytic leukaemia
+DB00471,Asthma
+DB00471,Bronchospasm
+DB00295,Neoplasm malignant
+DB00295,Acute left ventricular failure
+DB00410,Infection
+DB01203,Arrhythmia
+DB00952,Aura
+DB00731,Type 2 diabetes mellitus
+DB00452,Infection
+DB01400,Abdominal distension
+DB01115,Angina pectoris
+DB00393,Subarachnoid haemorrhage
+DB00698,Infection
+DB00698,Bladder pain
+DB00698,Urinary tract infection
+DB00727,Angina pectoris
+DB00585,Oesophagitis ulcerative
+DB01059,Cervicitis
+DB01059,Infection
+DB01059,Urethritis gonococcal
+DB01059,Urinary tract infection
+DB00367,Menorrhagia
+DB01137,Bacteraemia
+DB01137,Conjunctivitis infective
+DB01137,Plague
+DB01137,Sinusitis bacterial
+DB00334,Agitation
+DB01173,Discomfort
+DB00991,Osteoarthritis
+DB00213,Dyspepsia
+DB00213,Regurgitation
+DB01421,Infection
+DB00715,Compulsions
+DB00299,Oral herpes
+DB00859,Arthritis
+DB00417,Heart disease congenital
+DB00850,Schizophrenia
+DB01438,Pain
+DB01438,Urinary tract infection
+DB01174,Haemorrhage
+DB00397,Rhinitis
+DB01022,Coagulopathy
+DB01324,Oedema
+DB00413,Parkinsonism
+DB00860,Acute leukaemia
+DB00860,Thermal burn
+DB01032,Gouty arthritis
+DB00433,Labyrinthitis
+DB00396,Oestrogenic effect
+DB01069,Angioedema
+DB01069,Measles
+DB01069,Poor quality sleep
+DB00571,Angina pectoris
+DB00571,Headache
+DB00571,Migraine without aura
+DB00545,Myasthenia gravis
+DB06691,Bite
+DB00205,Malaria
+DB01224,Bipolar disorder
+DB01129,Ulcer
+DB01129,Gastrinoma
+DB01129,Gastritis
+DB00178,Left ventricular dysfunction
+DB00863,Oesophagitis
+DB00863,Haemorrhage
+DB00811,Influenza
+DB00734,Psychotic disorder
+DB00734,Social avoidant behaviour
+DB00533,Arthritis
+DB00268,Restless legs syndrome
+DB00938,Asthma exercise induced
+DB00938,Dyspnoea
+DB01037,Parkinson's disease
+DB01104,Depressive symptom
+DB00359,Meningitis meningococcal
+DB00421,Ascites
+DB00421,Hypokalaemia
+DB00421,Primary hyperaldosteronism
+DB03193,Infection
+DB00634,Seborrhoeic dermatitis
+DB01015,Enteritis
+DB00669,Cluster headache
+DB01044,Infection
+DB00799,Actinic keratosis
+DB00853,Metastatic malignant melanoma
+DB00444,Acute lymphocytic leukaemia
+DB00857,Skin infection
+DB00624,Cryptorchism
+DB01041,Plasma cell myeloma
+DB04572,Neoplasm
+DB01600,Arthritis
+DB00208,Blood disorder
+DB00684,Staphylococcal infection
+DB00273,Lennox-Gastaut syndrome
+DB00539,Breast cancer stage IV
+DB00519,Left ventricular dysfunction
+DB00752,Major depression
+DB00523,Seborrhoeic keratosis
+DB00523,Neoplasm skin
+DB00620,Neoplasm
+DB00620,Skin disorder
+DB00376,Parkinsonism
+DB00347,Petit mal epilepsy
+DB00440,Infection
+DB00440,Urinary tract infection
+DB00726,Depressive symptom
+DB00177,Left ventricular dysfunction
+DB00512,Infection
+DB00512,Endocarditis staphylococcal
+DB00285,Social phobia
+DB00285,Generalised anxiety disorder
+DB00962,Insomnia
+DB00909,Partial seizures
+DB00402,Insomnia
+DB00258,Renal failure chronic
+DB01176,Vomiting
+DB00607,Infection
+DB01624,Psychotic disorder
+DB01579,Obesity
+DB01100,Tourette's disorder
+DB01100,Schizophrenia
+DB00720,Hypercalcaemia of malignancy
+DB00035,Factor IX deficiency
+DB00035,Factor VIII deficiency
+DB00035,Nephrogenic diabetes insipidus
+DB00776,Grand mal convulsion
+DB00486,Nausea
+DB00214,Cardiac failure congestive
+DB00735,Body tinea
+DB00735,Tinea pedis
+DB00014,Breast cancer
+DB00716,Asthma
+DB00716,Bronchospasm
+DB00716,Conjunctivitis allergic
+DB00491,Type 2 diabetes mellitus
+DB00104,Neuroendocrine tumour
+DB00641,Skin ulcer
+DB00641,Low density lipoprotein increased
+DB00243,Angina pectoris
+DB00724,Hyperkeratosis
+DB00724,Actinic keratosis
+DB00724,Neoplasm
+DB00369,Autoimmune disorder
+DB00760,Bacterial infection
+DB01238,Bipolar I disorder
+DB00476,Generalised anxiety disorder
+DB00710,Breast cancer
+DB00246,Bipolar disorder
+DB00876,Essential hypertension
+DB05260,Neoplasm malignant
+DB01610,Autoimmune disorder
+DB00399,Hypercalcaemia
+DB00399,Plasmacytoma
+DB00496,Hypertonic bladder
+DB00290,Malignant pleural effusion
+DB00910,Hyperparathyroidism secondary
+DB00559,Connective tissue disorder
+DB00559,Hypertension
+DB00559,Heart disease congenital
+DB04839,Hirsutism
+DB00580,Rheumatoid arthritis
+DB01367,Parkinsonism
+DB00918,Pain
+DB00569,Myocardial infarction
+DB00764,Skin disorder
+DB00967,Rhinitis allergic
+DB06700,Major depression
+DB00230,Post herpetic neuralgia
+DB00230,Spinal cord injury
+DB00230,Generalised anxiety disorder
+DB00905,Ocular hypertension
+DB01319,Immunodeficiency
+DB01263,Fungal infection
+DB01263,Neutropenia
+DB00377,Procedural nausea
+DB00700,Hypotension
+DB00700,Myocardial infarction
+DB00973,Hyperlipidaemia
+DB00673,Nausea
+DB01126,Polyuria
+DB00442,Viral infection
+DB01591,Hypertonic bladder
+DB00530,Metastases to pancreas
+DB06414,Infection
+DB06695,Pulmonary embolism
+DB06695,Cerebrovascular accident
+DB06695,Deep vein thrombosis
+DB00480,Mantle cell lymphoma
+DB06717,Nausea
+DB00440,Bronchitis chronic
+DB00429,Uterine atony
+DB02110,Porphyria acute
+DB01141,Abscess
+DB04868,Chromosome analysis abnormal
+DB08903,Infection
+DB05521,Hepatocellular injury
+DB00494,Parkinsonism
+DB00615,Mycobacterial infection
+DB00615,Immunodeficiency
+DB00366,Pain
+DB00535,Infection
+DB06228,Atrial fibrillation
+DB06228,Embolism
+DB00602,Acarodermatitis
+DB00602,Volvulus
+DB01607,Infection
+DB01590,Cerebrosclerosis
+DB04845,Breast cancer
+DB06590,Pneumonia bacterial
+DB08906,Rhinitis seasonal
+DB08816,Acute coronary syndrome
+DB06292,Type 2 diabetes mellitus
+DB06771,Conjunctivitis infective
+DB08896,Gastrointestinal stromal tumour
+DB01255,Attention deficit/hyperactivity disorder
+DB08890,Functional gastrointestinal disorder
+DB08877,Essential thrombocythaemia
+DB00666,Endometriosis
+DB00254,Trachoma
+DB01418,Venous thrombosis
+DB00583,Carnitine deficiency
+DB00650,Colorectal cancer
+DB00917,Patent ductus arteriosus
+DB03166,Hyponatraemia
+DB02379,Tetany
+DB00258,Hyperphosphataemia
+DB00446,Otitis externa
+DB00936,Fungal infection
+DB01156,Major depression
+DB00783,Neoplasm malignant
+DB00783,Pruritus
+DB00783,Atrophic vulvovaginitis
+DB05494,Non-Hodgkin's lymphoma
+DB04304,Hypoparathyroidism
+DB04398,Ichthyosis
+DB01093,Cystitis interstitial
+DB00988,Acute coronary syndrome
+DB00988,Cardiac failure
+DB01390,Toxicity to various agents
+DB00407,Myocardial infarction
+DB00761,Hypokalaemia
+DB00761,Familial periodic paralysis
+DB00761,Metabolic alkalosis
+DB00451,Thyroid neoplasm
+DB00451,Hyperthyroidism
+DB00451,Primary hypothyroidism
+DB00286,Vomiting
+DB00184,Peptic ulcer
+DB00184,Drug withdrawal syndrome
+DB00162,Vitamin A deficiency
+DB00788,Pain
+DB00788,Ankylosing spondylitis
+DB00242,Chronic lymphocytic leukaemia
+DB00445,Breast cancer
+DB00445,Non-Hodgkin's lymphoma
+DB00445,Metastatic neoplasm
+DB00252,Status epilepticus
+DB00681,Fungal infection
+DB00316,Gout
+DB00316,Osteoarthritis
+DB00919,Infection
+DB00787,Herpes zoster
+DB00787,Keratitis
+DB00787,Herpes simplex encephalitis
+DB00518,Neurocysticercosis
+DB01001,Asthma exercise induced
+DB00437,Lymphoma
+DB01143,Neutropenia
+DB01143,Dry mouth
+DB00381,Pulmonary oedema
+DB01351,Insomnia
+DB00543,Depression
+DB00945,Angina unstable
+DB00945,Cerebral infarction
+DB00945,Rhinitis
+DB00945,Body temperature increased
+DB00945,Acute coronary syndrome
+DB00945,Migraine
+DB01076,Type 2 diabetes mellitus
+DB01076,Type III hyperlipidaemia
+DB01076,Hypertension
+DB01076,Blood triglycerides increased
+DB01076,Acute coronary syndrome
+DB01076,High density lipoprotein decreased
+DB00548,Papule
+DB00972,Rhinitis perennial
+DB00207,Pharyngitis
+DB00207,Conjunctivitis bacterial
+DB00394,Lichen planus
+DB00394,Pruritus
+DB00394,Skin disorder
+DB00542,Hypertension
+DB01053,Infection
+DB01053,Pharyngitis streptococcal
+DB00484,Ocular hypertension
+DB01200,Infertility
+DB01200,Parkinsonism
+DB01200,Galactorrhoea
+DB00490,Anxiety disorder
+DB00248,Empty sella syndrome
+DB00661,Sinus rhythm
+DB00136,Pseudohypoparathyroidism
+DB01197,Type 1 diabetes mellitus
+DB01197,Myocardial infarction
+DB01197,Renal failure
+DB00564,Mania
+DB01140,Infection
+DB00438,Infection
+DB01415,Rheumatic fever
+DB01212,Infection
+DB01112,Pneumonia
+DB00482,Rheumatoid arthritis
+DB00291,Chronic lymphocytic leukaemia
+DB00880,Hepatic cirrhosis
+DB00672,Type 2 diabetes mellitus
+DB00501,Haemorrhage
+DB00501,Stress ulcer
+DB00537,Bronchitis chronic
+DB00537,Infection
+DB00537,Urinary tract infection
+DB00283,Rhinitis allergic
+DB01013,Seborrhoeic dermatitis
+DB01242,Schizophrenia
+DB00758,Arteriosclerosis
+DB00758,Myocardial infarction
+DB00628,Anxiety disorder
+DB00257,Oropharyngeal candidiasis
+DB00531,Nephrotic syndrome
+DB00091,Uveitis
+DB01406,Angioedema
+DB00694,Kaposi's sarcoma
+DB08826,Thalassaemia beta
+DB08826,Iron overload
+DB00746,Thalassaemia
+DB00470,Acquired immunodeficiency syndrome
+DB01151,Dysthymic disorder
+DB00443,Gouty arthritis
+DB00443,Brain oedema
+DB00443,Shock
+DB00443,Retinal vein occlusion
+DB00443,Diabetic retinal oedema
+DB00182,Attention deficit/hyperactivity disorder
+DB00829,Anxiety disorder
+DB00829,Delirium
+DB00829,Injury
+DB00829,Convulsion
+DB00829,Convulsion in childhood
+DB01119,Hyperinsulinism
+DB00586,Ligament sprain
+DB00804,Functional gastrointestinal disorder
+DB00900,Immunodeficiency
+DB06781,Pain
+DB06782,Metal poisoning
+DB00975,Embolism
+DB00975,Ischaemic stroke
+DB00280,Glaucoma
+DB00822,Alcoholism
+DB01248,Breast cancer
+DB01248,Prostate cancer metastatic
+DB01248,Metastatic neoplasm
+DB00757,Neoplasm malignant
+DB01184,Gastrointestinal disorder
+DB01142,Bipolar I disorder
+DB01142,Dermatitis atopic
+DB00450,Aggression
+DB00450,Bipolar disorder
+DB00625,Immunodeficiency
+DB00153,Hypoparathyroidism
+DB00199,Acne
+DB00199,Panophthalmitis
+DB00199,Eye infection
+DB00593,Epilepsy
+DB00749,Osteoarthritis
+DB00426,Infection
+DB00426,Oral herpes
+DB00927,Ulcer
+DB01039,Hyperlipidaemia
+DB01039,Type I hyperlipidaemia
+DB00813,Pain
+DB00813,Breakthrough pain
+DB00950,Seasonal allergy
+DB00950,Hypersensitivity
+DB00950,Chronic spontaneous urticaria
+DB00301,Infection
+DB04441,Chronic lymphocytic leukaemia
+DB01205,Convulsion
+DB00591,Otitis externa
+DB00591,Psoriasis
+DB00472,Hepatocellular injury
+DB00472,Affect lability
+DB01185,Breast cancer
+DB00690,Insomnia
+DB00588,Nasal obstruction
+DB00492,Essential hypertension
+DB00695,Cardiac failure congestive
+DB00996,Partial seizures
+DB00674,Dementia Alzheimer's type
+DB01004,Retinitis
+DB00441,Ovarian cancer
+DB01241,Xanthoma
+DB00798,Conjunctivitis
+DB00798,Dacryocystitis
+DB00798,Subcutaneous abscess
+DB00222,Weight decreased
+DB00889,Vomiting
+DB00629,Renal failure chronic
+DB00536,Fatigue
+DB00999,Pregnancy
+DB00741,Proctitis
+DB00424,Conjunctivitis bacterial
+DB00424,Irritable bowel syndrome
+DB00424,Urethral disorder
+DB00424,Hypertonia
+DB01050,Nasopharyngitis
+DB01050,Juvenile idiopathic arthritis
+DB01050,Periarthritis
+DB01050,Analgesic therapy
+DB01177,Breast cancer
+DB00458,Enuresis
+DB01249,Ependymoma
+DB00332,Emphysema
+DB01029,Diabetic nephropathy
+DB01029,Nephropathy
+DB01167,Immunodeficiency
+DB01026,Tinea cruris
+DB01009,Arthralgia
+DB01009,Rheumatoid arthritis
+DB00598,Hypertension
+DB00709,Hepatitis B
+DB00709,Inflammation
+DB00555,Epilepsy
+DB00448,Gastrooesophageal reflux disease
+DB01097,Arthritis
+DB01403,Vomiting
+DB01627,Infection
+DB01627,Mastoiditis
+DB01627,Osteomyelitis
+DB00722,Essential hypertension
+DB00455,Eye pruritus
+DB00678,Diabetic nephropathy
+DB00678,Nephropathy
+DB00678,Cerebrovascular accident
+DB00678,Diabetes mellitus
+DB00934,Bipolar I disorder
+DB00888,Non-Hodgkin's lymphoma
+DB00888,Metastatic neoplasm
+DB00603,Neoplasm malignant
+DB00814,Arthritis
+DB00244,Colitis
+DB00244,Proctocolitis
+DB00816,Asthma
+DB00816,Bronchospasm
+DB00816,Wheezing
+DB00816,Pulmonary congestion
+DB00331,Diabetes mellitus
+DB00563,Benign hydatidiform mole
+DB00563,Osteosarcoma
+DB00563,Lung neoplasm malignant
+DB00553,Psoriasis
+DB00553,Vitiligo
+DB00232,Hepatic cirrhosis
+DB00353,Uterine hypotonus
+DB00422,Attention deficit/hyperactivity disorder
+DB00959,Alopecia areata
+DB00959,Rheumatoid arthritis
+DB00959,Rhinitis perennial
+DB01233,Procedural nausea
+DB00524,Nephropathy
+DB00524,Fluid retention
+DB00916,Postoperative wound infection
+DB00916,Rash pustular
+DB00211,Orthostatic hypotension
+DB01171,Major depression
+DB00745,Hypersomnia
+DB00471,Rhinitis perennial
+DB00218,Conjunctivitis bacterial
+DB00218,Pneumonia
+DB00410,Skin infection
+DB00704,Drug dependence
+DB08804,Renal failure
+DB00731,Blood glucose decreased
+DB00622,Angina pectoris
+DB00665,Prostate cancer metastatic
+DB00401,Hypertension
+DB01595,Myoclonic epilepsy
+DB00698,Cystitis noninfective
+DB00698,Cystitis
+DB00717,Uterine haemorrhage
+DB01059,Shigella infection
+DB01059,Dysentery
+DB00540,Nicotine dependence
+DB01137,Tendon rupture
+DB00904,Neoplasm malignant
+DB00198,Influenza
+DB00991,Juvenile idiopathic arthritis
+DB00842,Anxiety disorder
+DB01229,Non-small cell lung cancer
+DB01229,Kaposi's sarcoma AIDS related
+DB00213,Gastrooesophageal reflux disease
+DB00715,Anxiety
+DB00715,Depression
+DB00715,Obsessive-compulsive disorder
+DB00715,Sleep disorder
+DB00715,Obsessive thoughts
+DB00859,Rheumatoid arthritis
+DB00417,Infection
+DB00552,Hairy cell leukaemia
+DB00850,Nausea
+DB01174,Insomnia
+DB00191,Diabetes mellitus
+DB00397,Pain
+DB01022,Haemoglobin
+DB01324,Hypertension
+DB00457,Renal impairment
+DB00860,Inflammation
+DB01032,Blood uric acid increased
+DB01032,Hyperuricaemia
+DB01168,Hodgkin's disease
+DB00433,Vertigo
+DB00396,Uterine haemorrhage
+DB01069,Nausea
+DB01069,Procedural pain
+DB01069,Urticaria
+DB01182,Supraventricular extrasystoles
+DB00782,Peptic ulcer
+DB00571,Dizziness
+DB01224,Bipolar I disorder
+DB00852,Nasopharyngitis
+DB00481,Osteoporosis
+DB00178,Cerebrovascular accident
+DB00863,Gastrinoma
+DB00863,Ulcer
+DB00206,Hypertension
+DB00811,Lower respiratory tract infection
+DB00734,Schizophrenia
+DB00953,Migraine
+DB00533,Rheumatoid arthritis
+DB00938,Bronchitis chronic
+DB00938,Chronic obstructive pulmonary disease
+DB01399,Osteoarthritis
+DB00418,Insomnia
+DB00203,Pulmonary hypertension
+DB00359,Urinary tract infection
+DB00359,Wound sepsis
+DB00884,Fracture
+DB00884,Osteoporosis postmenopausal
+DB00464,Varicose vein
+DB00489,Sinus rhythm
+DB00675,Breast cancer
+DB00675,Intraductal proliferative breast lesion
+DB00799,Lentigo
+DB00231,Insomnia
+DB01162,Benign prostatic hyperplasia
+DB00871,Bronchitis
+DB01041,Type 2 lepra reaction
+DB00730,Body temperature increased
+DB00730,Infestation
+DB01600,Rheumatoid arthritis
+DB00208,Thrombotic thrombocytopenic purpura
+DB00373,Atrial fibrillation
+DB00373,Glaucoma
+DB00911,Hepatic amoebiasis
+DB00911,Trichomoniasis
+DB00911,Vulvovaginitis
+DB00620,Leukaemia
+DB00620,Systemic lupus erythematosus
+DB00384,Oedema
+DB00384,Polyuria
+DB00831,Anxiety
+DB01586,Hepatocellular injury
+DB00577,Genital herpes
+DB00577,Herpes simplex
+DB00285,Agoraphobia
+DB01080,Epilepsy
+DB00361,Non-small cell lung cancer
+DB00495,Immunodeficiency
+DB00315,Aura
+DB00541,Hodgkin's disease lymphocyte predominance type stage unspecified
+DB00556,Cardiovascular disorder
+DB01176,Breast cancer
+DB00600,Vitiligo
+DB00868,Cough
+DB00375,Hypercholesterolaemia
+DB00375,Blood cholesterol increased
+DB00566,Metal poisoning
+DB00647,Pain
+DB00985,Vomiting
+DB00594,Cardiac failure congestive
+DB01196,Prostate cancer
+DB00286,Menopausal symptoms
+DB01592,Iron deficiency anaemia
+DB03151,Unintended pregnancy
+DB00653,Pre-eclampsia
+DB00653,Tetany
+DB01020,Angina pectoris
+DB00687,Secondary adrenocortical insufficiency
+DB00841,Cardiac failure congestive
+DB00686,Bladder pain
+DB00596,Skin disorder
+DB00104,Hypoglycaemia
+DB00641,Hyperlipidaemia
+DB01416,Rheumatic disorder
+DB01211,Mycobacterial infection
+DB01211,Rheumatic disorder
+DB01211,Mycobacterium avium complex infection
+DB01320,Convulsion
+DB01202,Juvenile myoclonic epilepsy
+DB00790,Cardiac failure congestive
+DB00990,Contralateral breast cancer
+DB00760,Infection
+DB01238,Bipolar disorder
+DB00476,Neuralgia
+DB00710,Bone cancer metastatic
+DB00246,Bipolar I disorder
+DB01101,Colorectal cancer
+DB06768,Ichthyosis
+DB00234,Depression
+DB00966,Transient ischaemic attack
+DB00966,Diabetes mellitus
+DB00966,Cerebrovascular accident
+DB00399,Hip fracture
+DB00399,Hypercalcaemia of malignancy
+DB00659,Alcohol abuse
+DB00204,Atrial fibrillation
+DB00204,Atrial flutter
+DB00496,Urge incontinence
+DB01220,Hepatic encephalopathy
+DB00910,Renal failure chronic
+DB00947,Breast cancer stage IV
+DB01235,Parkinson's disease
+DB08868,Relapsing-remitting multiple sclerosis
+DB00348,Tyrosinaemia
+DB00580,Arthritis
+DB00918,Migraine
+DB00569,Angina unstable
+DB00569,Haemoglobin
+DB00569,Acute coronary syndrome
+DB00520,Fungal infection
+DB00520,Oesophageal candidiasis
+DB04573,Oestrogen deficiency
+DB00967,Seasonal allergy
+DB00967,Chronic spontaneous urticaria
+DB00230,Neuralgia
+DB00905,Open angle glaucoma
+DB06287,Mantle cell lymphoma refractory
+DB00700,Hypertension
+DB00700,Acute coronary syndrome
+DB06802,Procedural pain
+DB01591,Urge incontinence
+DB01012,Hypercalcaemia
+DB01046,Constipation
+DB00992,Actinic keratosis
+DB00362,Candida infection
+DB00362,Systemic candida
+DB01259,Breast cancer
+DB01264,Infection
+DB08815,Mania
+DB06268,Connective tissue disorder
+DB06268,Hypertension
+DB06212,Cardiac failure
+DB00480,Plasmacytoma
+DB06218,Convulsion
+DB02228,Epilepsy
+DB00440,Chancroid
+DB00440,Shigella infection
+DB01141,Peritonitis
+DB06207,Benign prostatic hyperplasia
+DB00609,Tuberculosis
+DB01268,Gastrointestinal stromal tumour
+DB00323,Parkinson's disease
+DB00851,Hodgkin's disease lymphocyte depletion type stage unspecified
+DB00851,Sarcoma
+DB00795,Colitis ulcerative
+DB00460,Choroidal neovascularisation
+DB00602,Infection
+DB06209,Cerebrovascular accident
+DB01256,Skin infection
+DB05013,Seborrhoeic keratosis
+DB08887,Hypertriglyceridaemia
+DB06237,Erectile dysfunction
+DB08816,Myocardial infarction
+DB06589,Metastatic renal cell carcinoma
+DB08873,Chronic hepatitis C
+DB06335,Type 2 diabetes mellitus
+DB08865,Non-small cell lung cancer
+DB02351,Angina pectoris
+DB08877,Myeloid metaplasia
+DB08877,Myelofibrosis
+DB08877,Splenomegaly
+DB06817,Infection
+DB00999,Left ventricular hypertrophy
+DB00595,Amoebic colitis
+DB06663,Pituitary-dependent Cushing's syndrome
+DB00650,Colon cancer
+DB01240,Hypertension
+DB00640,Supraventricular tachycardia
+DB00640,Wolff-Parkinson-White syndrome
+DB02379,Bacteraemia
+DB02379,Hypocalcaemia
+DB02379,Metabolic alkalosis
+DB00258,Abdominal pain
+DB00446,Infection
+DB04272,Nephrolithiasis
+DB01156,Depression
+DB00783,Breast cancer
+DB00783,Pollakiuria
+DB00783,Artificial menopause
+DB00783,Metastatic neoplasm
+DB06151,Traumatic liver injury
+DB05494,Neoplasm
+DB04398,Pruritus
+DB01093,Skin disorder
+DB04574,Osteoporosis postmenopausal
+DB01390,Metabolic acidosis
+DB01390,Discomfort
+DB00407,Deep vein thrombosis
+DB00668,Serum sickness
+DB00668,Urticaria
+DB00668,Respiratory distress
+DB00279,Myxoedema coma
+DB01378,Convulsion
+DB00286,Hypophosphataemia
+DB00339,Tuberculosis
+DB00468,Atrial fibrillation
+DB00788,Arthritis
+DB00445,Neoplasm malignant
+DB00445,Neoplasm
+DB00252,Arrhythmia
+DB00252,Convulsion
+DB00928,Myelodysplastic syndrome
+DB00681,Body temperature increased
+DB01193,Myocardial ischaemia
+DB00316,Dyspepsia
+DB00316,Tension headache
+DB00316,Discomfort
+DB00970,Neoplasm malignant
+DB00970,Gestational trophoblastic tumour
+DB00787,Body temperature increased
+DB00787,Meningoencephalitis herpetic
+DB01001,Bronchial hyperreactivity
+DB00630,Multiple fractures
+DB00346,Benign prostatic hyperplasia
+DB00437,Blood uric acid increased
+DB00437,Hyperuricaemia
+DB00404,Panic disorder
+DB01143,Non-small cell lung cancer
+DB00277,Emphysema
+DB01060,Endocarditis bacterial
+DB01060,Pharyngitis
+DB00701,Immunodeficiency
+DB01217,Breast cancer
+DB00945,Angina pectoris
+DB00335,Myocardial ischaemia
+DB00335,Acute myocardial infarction
+DB01076,Angina pectoris
+DB01076,Type IIa hyperlipidaemia
+DB00548,Erythema
+DB00972,Rhinitis allergic
+DB00207,Rheumatic disorder
+DB00355,Wound
+DB00181,Clonus
+DB00181,Muscle spasms
+DB00394,Neurodermatitis
+DB01053,Rheumatic fever
+DB06698,Meniere's disease
+DB01128,Prostate cancer
+DB09020,Constipation
+DB01200,Parkinson's disease
+DB01222,Croup infectious
+DB01222,Inflammation
+DB00887,Cardiac failure congestive
+DB00921,Pain
+DB00921,Drug dependence
+DB00490,Anxiety
+DB00661,Hypotension
+DB00661,Myocardial infarction
+DB02300,Psoriasis
+DB00136,Hypocalcaemia
+DB05318,Neuralgia
+DB01197,Diabetic nephropathy
+DB01197,Nephropathy
+DB01197,Cardiac failure high output
+DB00411,Glaucoma
+DB00578,Infection
+DB00395,Discomfort
+DB00262,Glioblastoma multiforme
+DB01140,Rheumatic fever
+DB01415,Infection
+DB01332,Meningitis
+DB01112,Rheumatic disorder
+DB00482,Dysmenorrhoea
+DB00341,Rhinitis seasonal
+DB00291,Leukaemia
+DB00608,Plasmodium falciparum infection
+DB00880,Cardiac failure congestive
+DB01114,Urticaria
+DB00477,Schizophrenia
+DB00310,Hypercalciuria
+DB01188,Dandruff
+DB00501,Gastric ulcer
+DB00515,Bladder transitional cell carcinoma
+DB00283,Urticaria
+DB00349,Anxiety
+DB00349,Sleep disorder
+DB01068,Petit mal epilepsy
+DB00575,Vascular headache
+DB00758,Cerebrovascular accident
+DB00628,Anxiety
+DB00257,Pruritus
+DB00257,Immunodeficiency
+DB00257,Neoplasm
+DB00318,Pain
+DB01394,Gout
+DB01003,Asthma
+DB01003,Bronchospasm
+DB01003,Conjunctivitis allergic
+DB01003,Vulvovaginal candidiasis
+DB00091,Glomerulonephritis minimal lesion
+DB00091,Choroiditis
+DB00091,Glomerulonephropathy
+DB04839,Hot flush
+DB01406,Pain
+DB00694,Neoplasm
+DB00746,Anaemia
+DB00443,Rheumatoid arthritis
+DB00443,Stasis dermatitis
+DB00443,Rhinitis perennial
+DB00443,Metastases to central nervous system
+DB00829,Anxiety
+DB00829,Athetosis
+DB00829,Inflammation
+DB00829,Muscle spasticity
+DB00829,Status epilepticus
+DB00829,Agitation
+DB00804,Irritable bowel syndrome
+DB00255,Type IV hyperlipidaemia
+DB06781,Iridocyclitis
+DB01075,Anaphylactic shock
+DB00280,Arrhythmia
+DB00313,Bipolar I disorder
+DB00313,Petit mal epilepsy
+DB00313,Complex partial seizures
+DB01248,Neoplasm
+DB00561,Lung disorder
+DB00590,Hypertension
+DB00590,Acute coronary syndrome
+DB00450,Nausea
+DB00450,Psychotic disorder
+DB00651,Asthma
+DB01127,Tinea cruris
+DB05109,Ovarian cancer
+DB01010,Myasthenia gravis
+DB00584,Cardiac failure congestive
+DB00199,Conjunctivitis
+DB01077,Osteitis deformans
+DB00927,Duodenal ulcer
+DB00927,Peptic ulcer
+DB00927,Erosive oesophagitis
+DB00927,Hyperchlorhydria
+DB01039,Hypertriglyceridaemia
+DB00573,Osteoarthritis
+DB00813,Toothache
+DB00322,Adenocarcinoma
+DB00196,Autoimmune disorder
+DB00196,Meningitis cryptococcal
+DB01099,Infection
+DB01099,Urinary tract infection
+DB00591,Dermatitis atopic
+DB01047,Skin disorder
+DB00472,Agoraphobia
+DB00472,Headache
+DB00712,Rheumatoid arthritis
+DB00499,Prostate cancer
+DB00588,Skin disorder
+DB01095,Hypercholesterolaemia
+DB01095,Dyslipidaemia
+DB00176,Social phobia
+DB00983,Bronchial hyperreactivity
+DB00529,Autoimmune disorder
+DB00492,Cardiac failure congestive
+DB00441,Ovarian epithelial cancer
+DB01241,Diabetes mellitus
+DB01241,Hypercholesterolaemia
+DB01241,Dyslipidaemia
+DB00798,Meibomianitis
+DB01016,Type 2 diabetes mellitus
+DB00874,Cough
+DB01018,Attention deficit/hyperactivity disorder
+DB02161,Ciliary muscle spasm
+DB02161,Lenticular opacities
+DB00774,Oedema
+DB01611,Plasmodium falciparum infection
+DB01005,Acute chest syndrome
+DB00424,Atrioventricular block
+DB00424,Functional gastrointestinal disorder
+DB00424,Biliary colic
+DB00424,Pylorospasm
+DB01050,Soft tissue injury
+DB01050,Ligament sprain
+DB00281,Cystitis noninfective
+DB00281,Cystitis
+DB00281,Ventricular arrhythmia
+DB00458,Depressive symptom
+DB00808,Hypertension
+DB01249,Craniopharyngioma
+DB01249,Glioma
+DB01064,Septic shock
+DB00883,Angina pectoris
+DB01026,Dandruff
+DB01009,Dysmenorrhoea
+DB00920,Asthma
+DB00920,Conjunctivitis allergic
+DB00581,Depressed level of consciousness
+DB00709,Immunodeficiency
+DB00654,Angle closure glaucoma
+DB01097,Pain
+DB01097,Swelling
+DB01097,Disability
+DB00854,Pain
+DB00722,Cardiac failure congestive
+DB00455,Pruritus
+DB00455,Skin disorder
+DB00186,Insomnia
+DB00678,Myocardial infarction
+DB00939,Juvenile idiopathic arthritis
+DB00784,Dysmenorrhoea
+DB00814,Pain
+DB01042,Plasma cell myeloma
+DB04843,Peptic ulcer
+DB00244,Proctitis ulcerative
+DB00816,Silicosis
+DB00331,Type 1 diabetes mellitus
+DB00331,Diabetic ketoacidosis
+DB00331,Myocardial infarction
+DB00331,Obesity
+DB00331,Blood glucose decreased
+DB00563,Acute leukaemia
+DB00563,Juvenile idiopathic arthritis
+DB00553,Dermatitis atopic
+DB00232,Cardiac failure congestive
+DB08167,Methaemoglobinaemia
+DB00353,Uterine atony
+DB00959,Gouty arthritis
+DB01233,Diabetes mellitus
+DB00524,Oedema
+DB00264,Hypotension
+DB00264,Myocardial infarction
+DB00264,Ventricular extrasystoles
+DB00916,Sepsis
+DB00916,Sexually transmitted disease
+DB00379,Arrhythmia
+DB01204,Acute leukaemia
+DB00745,Narcolepsy
+DB00745,Somnolence
+DB00471,Rhinitis allergic
+DB01024,Kidney transplant rejection
+DB00220,Immunodeficiency
+DB00452,Conjunctivitis infective
+DB00622,Hypertension
+DB01115,Hypotension
+DB01115,Myocardial infarction
+DB01595,Infantile spasms
+DB00698,Pyelonephritis
+DB00727,Pain
+DB00727,Ventricular extrasystoles
+DB00717,Uterine cancer
+DB00717,Hormone level abnormal
+DB01137,Bronchitis chronic
+DB01137,Infection
+DB01137,Urinary tract infection
+DB01137,Plague sepsis
+DB00334,Mania
+DB00338,Gastrooesophageal reflux disease
+DB01083,Weight decreased
+DB00198,Infection
+DB00713,Infection
+DB00842,Anxiety
+DB01062,Urge incontinence
+DB01229,Breast cancer stage IV
+DB01229,Adenocarcinoma pancreas
+DB01113,Pulmonary embolism
+DB00715,Major depression
+DB00715,Post-traumatic stress disorder
+DB00715,Exaggerated startle response
+DB01359,Hypertension
+DB00859,Cystinuria
+DB00859,Environmental exposure
+DB01174,Haemoglobin
+DB00191,Obesity
+DB01085,Open angle glaucoma
+DB01085,Tension
+DB01132,Type 2 diabetes mellitus
+DB00319,Infection
+DB00175,Coronary artery disease
+DB00457,Hypertension
+DB00457,Acute coronary syndrome
+DB00860,Neoplasm malignant
+DB00860,Hypoxia
+DB01035,Arrhythmia
+DB00433,Anxiety
+DB00396,Uterine cancer
+DB00396,Hormone level abnormal
+DB01069,Rhinitis allergic
+DB01182,Cardiac disorder
+DB00782,Gastritis
+DB00571,Hypotension
+DB00571,Myocardial infarction
+DB00571,Ventricular extrasystoles
+DB01224,Schizophrenia
+DB01224,Generalised anxiety disorder
+DB00881,Cardiac failure
+DB00881,Hypertension
+DB01129,Infection
+DB01129,Gastric ulcer
+DB00852,Rhinorrhoea
+DB00178,Hypotension
+DB00178,Myocardial infarction
+DB00178,Renal failure
+DB00863,Duodenal ulcer
+DB00863,Haemoglobin
+DB00863,Peptic ulcer
+DB00863,Erosive oesophagitis
+DB00811,Hepatocellular injury
+DB00734,Bipolar I disorder
+DB00533,Dysmenorrhoea
+DB00533,Migraine
+DB00778,Infection
+DB00938,Asthma
+DB00938,Bronchospasm
+DB00938,Reversible airways obstruction
+DB00649,Infection
+DB01399,Rheumatic disorder
+DB01104,Agoraphobia
+DB01104,Anger
+DB01104,Emotional distress
+DB01105,Obesity
+DB00359,Acquired immunodeficiency syndrome
+DB00359,Rheumatic fever
+DB00884,Osteitis deformans
+DB00421,Polyuria
+DB00421,Oedema
+DB00421,Hypotension
+DB00421,Myocardial infarction
+DB01082,Infection
+DB00259,Vulvovaginitis
+DB00605,Pain
+DB00669,Aura
+DB00864,Liver transplant rejection
+DB00675,Neoplasm malignant
+DB00675,Neoplasm
+DB01044,Conjunctivitis infective
+DB00871,Bronchospasm
+DB00730,Eosinophilia
+DB00911,Amoebic colitis
+DB00500,Juvenile idiopathic arthritis
+DB00519,Myocardial infarction
+DB00620,Rhinitis seasonal
+DB00620,Polymyositis
+DB00831,Alcohol abuse
+DB00662,Vomiting
+DB00209,Hypertonic bladder
+DB00177,Hypotension
+DB00177,Left ventricular failure
+DB00177,Myocardial infarction
+DB00512,Diarrhoea
+DB00512,Enterocolitis
+DB00512,Gastroenteritis staphylococcal
+DB00285,Malaise
+DB00361,Breast cancer stage IV
+DB00361,Non-small cell lung cancer stage III
+DB04844,Chorea
+DB00974,Hypercalcaemia
+DB00974,Encephalopathy
+DB00432,Keratitis
+DB05246,Convulsion
+DB00429,Metabolic acidosis
+DB01176,Motion sickness
+DB01223,Emphysema
+DB01260,Skin disorder
+DB00632,Herpes simplex
+DB00570,Hodgkin's disease
+DB00570,Testis cancer
+DB00660,Discomfort
+DB00594,Hepatic cirrhosis
+DB00286,Osteoporosis postmenopausal
+DB01618,Schizophrenia
+DB00653,Hypocalcaemia
+DB00035,Nocturia
+DB01356,Bipolar I disorder
+DB00687,Adrenogenital syndrome
+DB00776,Partial seizures
+DB00214,Liver disorder
+DB00214,Foetor hepaticus
+DB00639,Infection
+DB00104,Fatigue
+DB00104,Asthenia
+DB00104,Neoplasm
+DB00104,Varices oesophageal
+DB00641,Coronary artery disease
+DB00641,Hypertriglyceridaemia
+DB00289,Mydriasis
+DB04896,Fibromyalgia
+DB01320,Status epilepticus
+DB00885,Pruritus
+DB00187,Atrial fibrillation
+DB00187,Atrial flutter
+DB00187,Sinus tachycardia
+DB00790,Essential hypertension
+DB00963,Eye pain
+DB00308,Atrial fibrillation
+DB00308,Atrial flutter
+DB01409,Emphysema
+DB00476,Stress urinary incontinence
+DB00710,Fracture
+DB00710,Metastasis
+DB00710,Osteoporosis postmenopausal
+DB00246,Schizophrenia
+DB00768,Conjunctivitis allergic
+DB00879,Alcohol abuse
+DB01101,Colon cancer
+DB06768,Pruritus
+DB00234,Major depression
+DB00528,Hypertension
+DB00966,Hypotension
+DB00966,Myocardial infarction
+DB00399,Multiple fractures
+DB00582,Aspergillus infection
+DB02638,Ascites
+DB01220,Dysentery
+DB04729,Staphylococcal infection
+DB00976,Pneumonia
+DB00307,Mycosis fungoides
+DB06594,Major depression
+DB01235,Parkinsonism
+DB04839,Inflammation
+DB08868,Physical disability
+DB00820,Benign prostatic hyperplasia
+DB01267,Schizoaffective disorder
+DB00631,Acute lymphocytic leukaemia
+DB08439,Procedural pain
+DB00287,Ocular hypertension
+DB00569,Angina pectoris
+DB00520,Candida infection
+DB00520,Body temperature increased
+DB00520,Systemic candida
+DB04573,Multiple fractures
+DB01098,Coronary artery disease
+DB01098,Hypertriglyceridaemia
+DB08910,Plasma cell myeloma
+DB00435,Hypoxia
+DB00435,Respiratory failure
+DB01263,Graft versus host disease
+DB00377,Nausea
+DB00700,Left ventricular dysfunction
+DB00303,Pelvic infection
+DB00673,Procedural nausea
+DB00992,Seborrhoeic keratosis
+DB00275,Hypertension
+DB00275,Acute coronary syndrome
+DB00362,Fungal infection
+DB00362,Oesophageal candidiasis
+DB00398,Hepatic cancer
+DB00480,Myelodysplastic syndrome
+DB00440,Cholera
+DB00440,Diarrhoea
+DB00440,Gastroenteritis
+DB00440,Toxoplasmosis
+DB00440,Anorectal infection
+DB00550,Hyperthyroidism
+DB00337,Dermatitis atopic
+DB05294,Medullary thyroid cancer
+DB06402,Infection
+DB00658,Renal failure chronic
+DB01268,Renal cell carcinoma
+DB00240,Skin disorder
+DB00323,Parkinsonism
+DB00615,Tuberculosis
+DB00615,Pulmonary tuberculosis
+DB01079,Constipation
+DB01590,Renal cell carcinoma
+DB06209,Myocardial infarction
+DB05013,Hyperkeratosis
+DB05013,Actinic keratosis
+DB08827,Type IIa hyperlipidaemia
+DB08816,Cerebrovascular accident
+DB08822,Essential hypertension
+DB02351,Angina unstable
+DB06699,Prostate cancer
+DB03614,Vitamin B12 deficiency
+DB08828,Basal cell carcinoma
+DB00666,Infertility
+DB00254,Periodontitis
+DB01418,Atrial fibrillation
+DB08881,Metastatic malignant melanoma
+DB00595,Trachoma
+DB02530,Rubella
+DB00650,Folate deficiency
+DB02379,Hyponatraemia
+DB02379,Nephropathy
+DB02379,Abdominal infection
+DB00936,Pain
+DB00936,Skin papilloma
+DB01156,Seasonal affective disorder
+DB00783,Micturition urgency
+DB00783,Menopausal symptoms
+DB00742,Cystic fibrosis
+DB00742,Renal failure acute
+DB00742,Brain mass
+DB06151,Liver injury
+DB01390,Injection site pain
+DB00407,Angina pectoris
+DB01172,Infection
+DB00668,Angioedema
+DB00668,Bronchospasm
+DB00668,Rash
+DB00451,Goitre
+DB00451,Thyroiditis subacute
+DB01378,Magnesium deficiency
+DB00286,Respiratory fume inhalation disorder
+DB00286,Metabolic acidosis
+DB00627,Hypertriglyceridaemia
+DB00627,Coronary artery disease
+DB00165,Hyperoxaluria
+DB00468,Malaria
+DB01265,Liver disorder
+DB01265,Foetor hepaticus
+DB00788,Rheumatoid arthritis
+DB00445,Plasma cell myeloma
+DB00252,Temporal lobe epilepsy
+DB01048,Infection
+DB00316,Sinus headache
+DB00819,Mountain sickness acute
+DB00970,Ewing's sarcoma
+DB00787,Infection
+DB00787,Cytomegalovirus infection
+DB00787,Dermatitis
+DB00787,Oral herpes
+DB00787,Ophthalmic herpes simplex
+DB00787,Pain
+DB00787,Congenital herpes simplex infection
+DB00518,Infection
+DB01001,Asthma
+DB01001,Bronchospasm
+DB00630,Osteoporosis
+DB00969,Functional gastrointestinal disorder
+DB00404,Anxiety disorder
+DB01143,Infection
+DB01143,Nephropathy toxic
+DB06288,Social avoidant behaviour
+DB00321,Major depression
+DB00381,Myocardial ischaemia
+DB00543,Dysthymic disorder
+DB01060,Tonsillitis
+DB00261,Thrombocytosis
+DB01217,Disease progression
+DB00945,Transient ischaemic attack
+DB00945,Influenza
+DB00945,Photophobia
+DB00945,Embolism venous
+DB00335,Arrhythmia
+DB01076,Hypercholesterolaemia
+DB01076,Cerebrovascular accident
+DB01076,Dyslipidaemia
+DB00548,Rosacea
+DB00972,Seasonal allergy
+DB00972,Vasomotor rhinitis
+DB00207,Syphilis
+DB00207,Trachoma
+DB00355,Abscess
+DB00181,Muscle rigidity
+DB00181,Spinal cord disorder
+DB00394,Cutaneous lupus erythematosus
+DB00394,Polyp
+DB00394,Seborrhoeic dermatitis
+DB00676,Acarodermatitis
+DB04890,Pruritus
+DB01244,Angina pectoris
+DB01200,Acromegaly
+DB01222,Rhinitis seasonal
+DB01008,Chronic myeloid leukaemia
+DB00248,Oligomenorrhoea
+DB00201,Apnoea
+DB00661,Hypertension
+DB00661,Acute coronary syndrome
+DB00661,Supraventricular tachycardia
+DB00661,Vascular resistance systemic
+DB00136,Osteoporosis
+DB01197,Left ventricular dysfunction
+DB01197,Renal impairment
+DB00564,Status epilepticus
+DB00190,Vomiting
+DB00833,Rheumatic disorder
+DB01327,Rheumatic fever
+DB01413,Pneumonia
+DB01331,Infection
+DB01331,Pelvic inflammatory disease
+DB01150,Rheumatic fever
+DB00482,Pain
+DB00482,Ankylosing spondylitis
+DB00185,Dry mouth
+DB00475,Alcohol abuse
+DB00475,Anxiety disorder
+DB00608,Amoebiasis
+DB00880,Pregnancy
+DB01114,Angioedema
+DB00477,Nausea
+DB00477,Psychotic disorder
+DB00310,Cardiac failure congestive
+DB00169,Osteoporosis
+DB01188,Seborrhoeic dermatitis
+DB01188,Onychomycosis
+DB00501,Duodenal ulcer
+DB00501,Haemoglobin
+DB00501,Hyperchlorhydria
+DB00537,Conjunctivitis infective
+DB00537,Pyelonephritis
+DB00515,Ovarian neoplasm
+DB00283,Angioedema
+DB01013,Skin disorder
+DB00845,Lepromatous leprosy
+DB01242,Personality disorder
+DB01068,Epilepsy
+DB00575,Attention deficit/hyperactivity disorder
+DB00758,Angina pectoris
+DB00628,Partial seizures
+DB00257,Leukaemia
+DB00363,Schizophrenia
+DB01003,Keratitis
+DB00434,Anaphylactic shock
+DB04839,Menopausal symptoms
+DB01406,Endometriosis
+DB08826,Thalassaemia
+DB00746,Renal failure chronic
+DB00746,Iron overload
+DB01151,Depression
+DB00443,Arthritis
+DB00443,Asthma
+DB00443,Drug hypersensitivity
+DB00443,Lymphoma
+DB00443,Psoriasis
+DB00443,Brain cancer metastatic
+DB00443,Secondary adrenocortical insufficiency
+DB00443,Solar dermatitis
+DB00829,Cerebral palsy
+DB00829,Tetanus
+DB00829,Tremor
+DB01119,Nephritis
+DB00586,Inflammation
+DB00586,Seborrhoeic keratosis
+DB00586,Osteoarthritis
+DB00255,Fracture
+DB00255,Hypertriglyceridaemia
+DB00320,Migraine
+DB00343,Angina pectoris
+DB01075,Motion sickness
+DB00313,Bipolar disorder
+DB00313,Epilepsy
+DB00313,Migraine
+DB00757,Vomiting
+DB01184,Anorexia nervosa
+DB01184,Parkinsonism
+DB00843,Cerebrovascular disorder
+DB00869,Glaucoma
+DB00590,Polyuria
+DB00590,Hypotension
+DB00590,Myocardial infarction
+DB01142,Alcoholism
+DB01142,Neurosis
+DB01127,Tinea versicolour
+DB00696,Migraine
+DB00199,Infection
+DB00199,Legionella infection
+DB00199,Pharyngitis streptococcal
+DB00199,Pelvic inflammatory disease
+DB08866,Osteoporosis postmenopausal
+DB04573,Postmenopause
+DB00754,Convulsion
+DB00426,Herpes zoster
+DB00927,Gastric ulcer
+DB00927,Abdominal discomfort
+DB01039,Diabetic retinopathy
+DB01039,Hyperchylomicronaemia
+DB00813,Headache
+DB00813,Procedural pain
+DB00950,Urticaria
+DB01216,Prostatomegaly
+DB01148,Dysuria
+DB01195,Arrhythmia
+DB01195,Arrhythmia supraventricular
+DB00196,Pneumonia
+DB00196,Oropharyngeal candidiasis
+DB01099,Candida infection
+DB01099,Systemic candida
+DB00223,Skin disorder
+DB00544,Colon cancer
+DB00472,Premenstrual dysphoric disorder
+DB00712,Arthritis
+DB00158,Anaemia
+DB00983,Asthma
+DB00983,Bronchospasm
+DB00983,Reversible airways obstruction
+DB00695,Anuria
+DB00996,Restless legs syndrome
+DB00996,Grand mal convulsion
+DB01004,Acquired immunodeficiency syndrome
+DB00441,Neoplasm malignant
+DB00798,Eye infection bacterial
+DB01067,Hyperglycaemia
+DB01016,Blood glucose decreased
+DB00986,Arrhythmia
+DB00889,Neoplasm malignant
+DB00400,Infection
+DB00400,Tinea infection
+DB00536,Myasthenic syndrome
+DB00502,Abnormal behaviour
+DB01275,Cardiac failure congestive
+DB00999,Hepatic cirrhosis
+DB00741,Asthma
+DB00741,Drug hypersensitivity
+DB00741,Rash
+DB00741,Lymphoma
+DB00741,Psoriasis
+DB00741,Proctitis ulcerative
+DB00774,Hypertension
+DB00327,Pain
+DB00557,Nausea
+DB00557,Psychotic disorder
+DB00557,Tension
+DB00557,Urticaria chronic
+DB00557,Vomiting in pregnancy
+DB00424,Pancreatitis
+DB00424,Urinary tract disorder
+DB00424,Abdominal pain
+DB00424,Rhinorrhoea
+DB01050,Discomfort
+DB00281,Bladder pain
+DB00281,Pain
+DB00281,Urethritis noninfective
+DB00332,Nasopharyngitis
+DB00332,Rhinitis seasonal
+DB01029,Type 2 diabetes mellitus
+DB01029,Hypertension
+DB01029,Protein urine present
+DB00762,Metastatic neoplasm
+DB08941,Cerebrovascular insufficiency
+DB01167,Onychomycosis
+DB01026,Seborrhoeic dermatitis
+DB01009,Pain
+DB01009,Swelling
+DB00465,Inflammation
+DB00465,Eye pruritus
+DB00465,Uterine spasm
+DB00581,Coma
+DB01206,Brain neoplasm
+DB01206,Hodgkin's disease
+DB00836,Inflammatory bowel disease
+DB00455,Sneezing
+DB00455,Rhinorrhoea
+DB00678,Type 2 diabetes mellitus
+DB00678,Hypertension
+DB00678,Acute coronary syndrome
+DB00678,Protein urine present
+DB00227,Cardiovascular disorder
+DB00408,Agitation
+DB06795,Burns third degree
+DB00737,Nausea
+DB00939,Osteoarthritis
+DB00784,Pain
+DB00358,Malaria
+DB01042,Neoplasm malignant
+DB00371,Anxiety disorder
+DB00816,Dyspnoea
+DB00331,Type 2 diabetes mellitus
+DB00331,Acute coronary syndrome
+DB00563,Breast cancer
+DB00563,Bronchial carcinoma
+DB00563,Choriocarcinoma
+DB00563,Non-Hodgkin's lymphoma
+DB00462,Peptic ulcer
+DB00959,Dermatomyositis
+DB00959,Oedema
+DB00959,Seasonal allergy
+DB00959,Tenosynovitis
+DB00959,Temporal arteritis
+DB01233,Decreased appetite
+DB01233,Nausea
+DB01233,Gastric atony
+DB00524,Hypertension
+DB00264,Cardiac failure
+DB00264,Hypertension
+DB00264,Hyperthyroidism
+DB00264,Acute coronary syndrome
+DB00264,Migraine
+DB00916,Hepatic amoebiasis
+DB00916,Trichomoniasis
+DB00916,Vulvovaginitis
+DB06148,Major depression
+DB01110,Vulvovaginitis
+DB00211,Parkinson's disease
+DB00235,Cardiac failure acute
+DB01204,Metastatic neoplasm
+DB00745,Sleep disorder
+DB00471,Seasonal allergy
+DB00295,Anxiety
+DB00295,Pulmonary oedema
+DB00218,Abscess
+DB01024,Lupus nephritis
+DB00461,Osteoarthritis
+DB00844,Pain
+DB00704,Alcoholism
+DB08804,Renal impairment
+DB01400,Urinary retention
+DB01115,Prinzmetal angina
+DB01115,Hypertension
+DB01115,Acute coronary syndrome
+DB01115,Vascular resistance systemic
+DB00727,Hypertension
+DB00717,Endometriosis
+DB01059,Gastrointestinal infection
+DB00367,Assisted fertilisation
+DB00540,Depressive symptom
+DB01137,Bacterial infection
+DB01137,Conjunctivitis
+DB01137,Wound infection
+DB00338,Dyspepsia
+DB00904,Vomiting
+DB01062,Hypertonic bladder
+DB01192,Pain
+DB00282,Hypercalcaemia
+DB00282,Plasmacytoma
+DB01113,Angina pectoris
+DB01113,Peripheral vascular disorder
+DB00715,Dysthymic disorder
+DB00715,Irritability
+DB00715,Panic disorder
+DB00715,Obsessive rumination
+DB00859,Hepato-lenticular degeneration
+DB00738,Pneumocystis jirovecii pneumonia
+DB00806,Intermittent claudication
+DB02000,Amino acid metabolism disorder
+DB00397,Cough
+DB00397,Headache
+DB01022,Haemorrhage
+DB01085,Ocular hypertension
+DB00960,Arrhythmia
+DB01291,Asthma
+DB01291,Bronchospasm
+DB00413,Parkinson's disease
+DB00457,Hypotension
+DB00457,Myocardial infarction
+DB00457,Renal failure
+DB00635,Dermatomyositis
+DB00433,Vomiting
+DB01069,Seasonal allergy
+DB01069,Hypersensitivity
+DB00571,Hypertension
+DB00571,Acute coronary syndrome
+DB00571,Shock
+DB00571,Supraventricular tachycardia
+DB00571,Hyperthyroidism
+DB00571,Wolff-Parkinson-White syndrome
+DB00571,Hypertrophic cardiomyopathy
+DB06691,Arthropod sting
+DB00881,Hypotension
+DB01129,Duodenal ulcer
+DB01129,Peptic ulcer
+DB00178,Hypertension
+DB00178,Acute coronary syndrome
+DB00178,Protein urine present
+DB00863,Gastric ulcer
+DB00863,Helicobacter infection
+DB01180,Rash pustular
+DB00811,Infection
+DB00740,Amyotrophic lateral sclerosis
+DB00734,Aggression
+DB00734,Bipolar disorder
+DB00734,Poverty of speech
+DB00989,Dementia
+DB00533,Pain
+DB00938,Bronchial hyperreactivity
+DB01037,Parkinsonism
+DB01104,Social phobia
+DB01104,Premenstrual dysphoric disorder
+DB00203,Hepatic cirrhosis
+DB00359,Burns third degree
+DB00489,Cardiac flutter
+DB00489,Ventricular arrhythmia
+DB00489,Ventricular tachycardia
+DB00421,Hypertension
+DB00421,Acute coronary syndrome
+DB00421,Hyperadrenocorticism
+DB00634,Ulcerative keratitis
+DB00634,Trachoma
+DB00669,Hemiplegic migraine
+DB00864,Musculoskeletal discomfort
+DB00864,Kidney transplant rejection
+DB00799,Seborrhoeic keratosis
+DB00799,Neoplasm skin
+DB00624,Hypogonadism male
+DB00624,Secondary hypogonadism
+DB00906,Partial seizures
+DB00208,Neutropenia
+DB00373,Migraine with aura
+DB00684,Lung infection
+DB00500,Osteoarthritis
+DB00273,Grand mal convulsion
+DB00273,Convulsion
+DB01030,Cervix carcinoma
+DB00193,Pain
+DB00519,Hypertension
+DB00519,Acute coronary syndrome
+DB00523,Actinic keratosis
+DB00523,Hyperkeratosis
+DB00620,Non-Hodgkin's lymphoma
+DB00831,Delusion
+DB01157,Acquired immunodeficiency syndrome
+DB00209,Urge incontinence
+DB00577,Varicella
+DB00577,Sexually transmitted disease
+DB00577,Immunodeficiency
+DB00577,Herpes zoster disseminated
+DB00177,Cardiac failure
+DB00177,Hypertension
+DB00177,Acute coronary syndrome
+DB00558,Influenza
+DB00495,Pregnancy
+DB00692,Necrosis
+DB00692,Hypertension
+DB00541,Hodgkin's disease lymphocyte depletion type stage unspecified
+DB00541,Acute lymphocytic leukaemia
+DB00541,Idiopathic thrombocytopenic purpura
+DB00974,Ventricular arrhythmia
+DB00847,Cystinosis
+DB01176,Procedural vomiting
+DB00937,Obesity
+DB00985,Motion sickness
+DB00985,Vertigo
+DB00570,Choriocarcinoma
+DB00570,Non-Hodgkin's lymphoma
+DB00286,Neoplasm malignant
+DB00653,Eclampsia
+DB00653,Hypomagnesaemia
+DB00483,Lung disorder
+DB01356,Bipolar disorder
+DB00380,Breast cancer stage IV
+DB00896,Iridocyclitis
+DB00929,Mucosal haemorrhage
+DB00641,Cerebrovascular disorder
+DB00691,Hypertension
+DB00724,Anogenital warts
+DB00724,Seborrhoeic keratosis
+DB01202,Grand mal convulsion
+DB01202,Myoclonic epilepsy
+DB01202,Convulsion
+DB00210,Acne pustular
+DB00790,Coronary artery disease
+DB00760,Bacteraemia
+DB01238,Schizophrenia
+DB00710,Bone disorder
+DB00710,Neoplasm
+DB00246,Psychotic disorder
+DB01101,Breast cancer stage IV
+DB00234,Dysthymic disorder
+DB00966,Hypertension
+DB00966,Acute coronary syndrome
+DB00399,Osteoporosis
+DB04946,Schizophrenia
+DB02638,Oesophageal varices haemorrhage
+DB01220,Infection
+DB00998,Aura
+DB00216,Aura
+DB00188,Plasma cell myeloma
+DB01280,Acute lymphocytic leukaemia
+DB00559,Ulcer
+DB00559,Pulmonary arterial hypertension
+DB00580,Dysmenorrhoea
+DB04953,Convulsion
+DB01367,Parkinson's disease
+DB00287,Open angle glaucoma
+DB00569,Haemorrhage
+DB00569,Pulmonary embolism
+DB00569,Deep vein thrombosis
+DB00520,Infection
+DB00520,Abdominal abscess
+DB00967,Rhinitis perennial
+DB00967,Urticaria
+DB00905,Hypotrichosis
+DB01263,Candida infection
+DB01263,Haematological malignancy
+DB01263,Systemic mycosis
+DB00973,Phytosterolaemia
+DB00303,Pneumonia
+DB06802,Pain
+DB06802,Macular oedema
+DB01126,Prostatomegaly
+DB00442,Inflammation
+DB00275,Hypotension
+DB00275,Myocardial infarction
+DB04855,Atrial fibrillation
+DB06212,Hyponatraemia
+DB06212,Inappropriate antidiuretic hormone secretion
+DB00398,Atrial fibrillation
+DB00398,Embolism
+DB00398,Thyroid cancer
+DB00429,Uterine hypotonus
+DB00826,Keratitis fungal
+DB01410,Rhinitis seasonal
+DB04868,Chronic myeloid leukaemia
+DB01033,Chronic myeloid leukaemia
+DB08864,Infection
+DB00658,Hyperphosphataemia
+DB00200,Amblyopia tobacco
+DB00200,Tachypnoea
+DB00494,Parkinson's disease
+DB00851,Hodgkin's disease lymphocyte predominance type stage unspecified
+DB00733,Myasthenia gravis
+DB06204,Pain
+DB05039,Emphysema
+DB08874,Clostridium difficile infection
+DB04918,Infection
+DB06209,Acute coronary syndrome
+DB06605,Pulmonary embolism
+DB06605,Cerebrovascular accident
+DB06605,Deep vein thrombosis
+DB08873,Liver disorder
+DB08873,Foetor hepaticus
+DB08932,Disease progression
+DB08890,Irritable bowel syndrome
+DB00999,Dilatation ventricular
+DB00254,Amoebic colitis
+DB00254,Malaria
+DB01418,Coronary artery occlusion
+DB00560,Infection
+DB00583,Renal failure chronic
+DB00583,Inborn error of metabolism
+DB02530,Hepatitis
+DB02530,Measles
+DB00650,Osteosarcoma
+DB02379,Diabetic retinopathy
+DB01494,Homocystinuria
+DB00936,Inflammation
+DB00783,Ovarian failure
+DB00783,Oestrogen deficiency
+DB05494,Acute myeloid leukaemia
+DB05494,Metastases to meninges
+DB04304,Hypocalcaemia
+DB00988,Sepsis
+DB00655,Ovarian failure
+DB04574,Uterine haemorrhage
+DB01390,Diarrhoea
+DB01390,Hypokalaemia
+DB01390,Metabolic alkalosis
+DB01390,Poisoning
+DB00407,Acute myocardial infarction
+DB00668,Pruritus
+DB00451,Neoplasm malignant
+DB01378,Nephritis
+DB00165,Homocystinuria
+DB00468,Cardiac flutter
+DB00468,Ventricular arrhythmia
+DB00468,Ventricular tachycardia
+DB01265,Chronic hepatitis B
+DB02280,Pyelonephritis
+DB00788,Bursitis
+DB00445,Breast cancer stage IV
+DB00681,Aspergillus infection
+DB00681,Mucocutaneous leishmaniasis
+DB00316,Headache
+DB00316,Sinusitis
+DB00316,Ulcer
+DB00316,Insomnia
+DB00316,Oropharyngeal pain
+DB00551,Urinary tract infection
+DB00970,Rhabdomyosarcoma
+DB00787,Herpes virus infection
+DB00787,Scab
+DB01001,Emphysema
+DB01001,Status asthmaticus
+DB00404,Generalised anxiety disorder
+DB00404,Phobia
+DB00915,Malaise
+DB00288,Skin disorder
+DB00479,Staphylococcal infection
+DB06288,Delusion
+DB06288,Blunted affect
+DB00381,Angina pectoris
+DB01060,Duodenal ulcer
+DB00261,Thrombosis
+DB00993,Arthritis
+DB00207,Conjunctivitis infective
+DB00355,Ulcer
+DB00394,Nasal polyps
+DB00394,Rhinitis
+DB00542,Essential hypertension
+DB00436,Oedema
+DB00245,Extrapyramidal disorder
+DB01053,Bacterial sepsis
+DB04890,Conjunctivitis allergic
+DB00195,Ocular hypertension
+DB01019,Urinary retention
+DB01200,Stillbirth
+DB01222,Crohn's disease
+DB01222,Nasal polyps
+DB01008,Leukaemia
+DB01197,Cardiac output increased
+DB00564,Petit mal epilepsy
+DB00564,Multiple sclerosis
+DB00564,Pain
+DB00564,Bipolar I disorder
+DB01136,Cardiac failure chronic
+DB01136,Atrial pressure
+DB00833,Rheumatic fever
+DB01327,Rheumatic disorder
+DB01413,Infection
+DB00493,Infection
+DB01150,Rheumatic disorder
+DB00482,Inflammation
+DB00482,Osteoarthritis
+DB00671,Infection
+DB00341,Seasonal allergy
+DB00341,Hypersensitivity
+DB00341,Chronic spontaneous urticaria
+DB00291,Lymphoma
+DB00608,Plasmodium ovale infection
+DB00880,Hypertension
+DB00310,Oedema
+DB00356,Discomfort
+DB01188,Body tinea
+DB01188,Tinea pedis
+DB01166,Intermittent claudication
+DB00501,Upper gastrointestinal haemorrhage
+DB00537,Ulcerative keratitis
+DB00215,Anxiety
+DB00215,Depression
+DB00215,Obsessive-compulsive disorder
+DB00283,Pruritus
+DB00349,Epilepsy
+DB01013,Psoriasis
+DB01242,Compulsions
+DB01068,Atonic seizures
+DB01068,Partial seizures
+DB00575,Hypertension
+DB00575,Migraine
+DB00758,Ischaemia
+DB00758,Acute myocardial infarction
+DB00363,Schizoaffective disorder
+DB00363,Convulsion
+DB00531,Breast cancer
+DB00091,Dermatitis atopic
+DB00091,Graft versus host disease
+DB00694,Acute myeloid leukaemia
+DB00470,Autoimmune disorder
+DB00470,Vomiting
+DB01151,Bipolar I disorder
+DB00443,Neoplasm malignant
+DB00443,Dermatitis contact
+DB00443,Neoplasm
+DB00443,Skin disorder
+DB03856,Hirsutism
+DB00829,Epilepsy
+DB00829,Body temperature increased
+DB00586,Pain
+DB00586,Ankylosing spondylitis
+DB00586,Renal failure
+DB00485,Infection
+DB00255,Multiple fractures
+DB01075,Parkinsonism
+DB00449,Glaucoma
+DB00280,Cardiomyopathy
+DB01248,Breast cancer stage IV
+DB01248,Prostate cancer
+DB00843,Dementia Alzheimer's type
+DB00450,Delirium
+DB01127,Skin candida
+DB05109,Sarcoma
+DB00584,Cardiac failure
+DB00584,Hypertension
+DB00584,Renovascular hypertension
+DB00584,Acute coronary syndrome
+DB01253,Postpartum haemorrhage
+DB00199,Endocarditis bacterial
+DB00199,Pneumonia
+DB08866,Hypogonadism
+DB08866,Atrophy
+DB00903,Oedema
+DB01077,Pain
+DB00749,Rheumatoid arthritis
+DB00949,Partial seizures
+DB01023,Hypotension
+DB01023,Myocardial infarction
+DB01039,Hypercholesterolaemia
+DB01039,Dyslipidaemia
+DB01216,Alopecia
+DB01216,Benign prostatic hyperplasia
+DB00196,Vulvovaginal mycotic infection
+DB00196,Infection
+DB00196,Urinary tract infection
+DB01073,Chronic lymphocytic leukaemia
+DB00591,Seborrhoeic dermatitis
+DB00544,Neoplasm malignant
+DB00544,Hyperkeratosis
+DB00544,Actinic keratosis
+DB00472,Depressed mood
+DB00472,Major depression
+DB00588,Rhinitis perennial
+DB01095,Coronary artery disease
+DB00176,Dysthymic disorder
+DB00176,Obsessive rumination
+DB00158,Anaemia megaloblastic
+DB00983,Emphysema
+DB00529,Infection
+DB00529,Cytomegalovirus infection
+DB00529,Cytomegalovirus chorioretinitis
+DB00828,Pyelonephritis
+DB00492,Cardiac failure
+DB00492,Hypertension
+DB00695,Nephrotic syndrome
+DB00695,Oliguria
+DB00996,Post herpetic neuralgia
+DB01004,Immunodeficiency
+DB01241,Coronary artery disease
+DB00798,Staphylococcal infection
+DB00222,Blood glucose decreased
+DB00502,Psychotic disorder
+DB00999,Cerebrovascular accident
+DB00741,Pruritus
+DB00741,Skin disorder
+DB00424,Conjunctivitis infective
+DB00424,Eye infection
+DB01050,Arthritis
+DB01050,Ear pain
+DB01050,Toothache
+DB01177,Acute myeloid leukaemia
+DB00808,Cardiac failure congestive
+DB00328,Dysmenorrhoea
+DB00332,Rhinitis
+DB00270,Hypertension
+DB01026,Body tinea
+DB01026,Tinea pedis
+DB01009,Inflammation
+DB01009,Osteoarthritis
+DB01009,Tendonitis
+DB00465,Pain
+DB00465,Eye pain
+DB00709,Chronic hepatitis B
+DB00555,Convulsion
+DB00448,Infection
+DB00448,Gastric ulcer
+DB00654,Open angle glaucoma
+DB00601,Bacteraemia
+DB00722,Cardiac failure
+DB00722,Hypertension
+DB00722,Renovascular hypertension
+DB00722,Acute coronary syndrome
+DB00836,Diarrhoea
+DB00455,Rhinitis perennial
+DB00455,Urticaria chronic
+DB00186,Anxiety disorder
+DB00678,Left ventricular hypertrophy
+DB00408,Bipolar I disorder
+DB00934,Dysthymic disorder
+DB00643,Infection
+DB00657,Essential hypertension
+DB00888,Hodgkin's disease lymphocyte predominance type stage unspecified
+DB00939,Pain
+DB00603,Endometriosis
+DB00358,Plasmodium vivax infection
+DB00814,Juvenile idiopathic arthritis
+DB01043,Dementia Alzheimer's type
+DB00454,Biliary colic
+DB00816,Tuberculosis
+DB00563,Acute lymphocytic leukaemia
+DB00232,Hypertension
+DB00959,Gout
+DB00959,Non-Hodgkin's lymphoma
+DB00959,Osteoarthritis
+DB00959,Rheumatic heart disease
+DB00959,Neurodermatitis
+DB01233,Gastrooesophageal reflux disease
+DB01233,Diabetic gastroparesis
+DB00648,Adrenocortical carcinoma
+DB01204,Pain
+DB01204,Disability
+DB00745,Sleep apnoea syndrome
+DB00295,Pain
+DB00218,Conjunctivitis infective
+DB00218,Sinusitis bacterial
+DB00410,Impetigo
+DB00688,Transplant rejection
+DB01203,Hypotension
+DB01203,Myocardial infarction
+DB01595,Epilepsy
+DB00585,Duodenal ulcer
+DB01059,Nephrolithiasis
+DB00334,Schizophrenia
+DB00991,Arthritis
+DB01062,Incontinence
+DB01229,Neoplasm malignant
+DB00282,Breast cancer
+DB00213,Gastric ulcer
+DB01113,Acute myocardial infarction
+DB00715,Agoraphobia
+DB00715,Anger
+DB00417,Endocarditis
+DB00652,Pain
+DB00806,Angiopathy
+DB01186,Parkinsonism
+DB01438,Discomfort
+DB01174,Anxiety
+DB01022,Haemorrhagic disease of newborn
+DB01085,Angle closure glaucoma
+DB00960,Hyperkinetic heart syndrome
+DB00781,Infection
+DB01324,Hepatic cirrhosis
+DB00175,Hypercholesterolaemia
+DB00175,Cerebrovascular accident
+DB01058,Infection
+DB00457,Cardiac failure congestive
+DB00860,Conjunctivitis infective
+DB00433,Migraine
+DB01069,Arthropod sting
+DB01069,Anxiety
+DB01182,Supraventricular tachycardia
+DB01182,Ventricular arrhythmia
+DB01182,Ventricular tachycardia
+DB00782,Functional gastrointestinal disorder
+DB00571,Tremor
+DB00205,Toxoplasmosis
+DB01589,Insomnia
+DB01224,Mania
+DB00881,Cardiac failure congestive
+DB00852,Asthma
+DB00852,Bronchospasm
+DB00863,Mendelson's syndrome
+DB01180,Erythema
+DB00811,Chronic hepatitis C
+DB00478,Influenza
+DB00734,Autism
+DB00734,Hallucination
+DB00734,Dementia
+DB00953,Aura
+DB00533,Osteoarthritis
+DB00268,Parkinson's disease
+DB01399,Rheumatoid arthritis
+DB01037,Major depression
+DB01104,Major depression
+DB01104,Post-traumatic stress disorder
+DB01104,Exaggerated startle response
+DB00421,Pregnancy
+DB00619,Blast cell crisis
+DB00619,Systemic mastocytosis
+DB01082,Tuberculosis
+DB00634,Acne
+DB00634,Eye infection
+DB00669,Headache
+DB00870,Miosis
+DB00864,Transplant rejection
+DB00675,Breast cancer stage IV
+DB00444,Neoplasm malignant
+DB01162,Hypertension
+DB00251,Vulvovaginal candidiasis
+DB00624,Libido decreased
+DB00624,Androgen deficiency
+DB00730,Enterobiasis
+DB01623,Schizophrenia
+DB01600,Osteoarthritis
+DB00208,Aplastic anaemia
+DB00373,Open angle glaucoma
+DB00911,Infection
+DB00775,Myocardial infarction
+DB00684,Infection
+DB01036,Hypertonic bladder
+DB00302,Coagulopathy
+DB00302,Haemophilia
+DB00656,Major depression
+DB00523,Skin wrinkling
+DB00620,Dermatomyositis
+DB00620,Seasonal allergy
+DB00831,Alcoholism
+DB00831,Psychotic disorder
+DB00662,Procedural nausea
+DB01157,Immunodeficiency
+DB00512,Staphylococcal infection
+DB00512,Pseudomembranous colitis
+DB00285,Anxiety
+DB01080,Grand mal convulsion
+DB00361,Neoplasm malignant
+DB00549,Asthma
+DB00315,Migraine
+DB00425,Insomnia
+DB00621,Bone pain
+DB00541,Purpura
+DB00974,Metal poisoning
+DB01176,Nausea
+DB00985,Meniere's disease
+DB01624,Hallucination
+DB00570,Hodgkin's disease lymphocyte depletion type stage unspecified
+DB04156,Dental caries
+DB00594,Ascites
+DB00594,Metabolic alkalosis
+DB01262,Myelodysplastic syndrome
+DB00721,Infection
+DB00286,Endometrial hyperplasia
+DB00653,Convulsion
+DB00720,Osteolysis
+DB00035,Polydipsia
+DB00035,Enuresis
+DB00035,Diabetes insipidus
+DB00486,Vomiting
+DB00284,Diabetes mellitus
+DB00214,Nephropathy
+DB00929,Duodenal ulcer
+DB00929,Peptic ulcer
+DB00929,Gastritis erosive
+DB01330,Infection
+DB01130,Skin disorder
+DB00104,Diarrhoea
+DB00104,Flushing
+DB00104,Headache
+DB00104,Hypokalaemia
+DB00641,Diabetes mellitus
+DB00641,Hypercholesterolaemia
+DB00641,Cerebrovascular accident
+DB01416,Cystitis noninfective
+DB01416,Cystitis
+DB01211,Duodenal ulcer
+DB01211,Peptic ulcer
+DB00724,Anorectal human papilloma virus infection
+DB00724,Basal cell carcinoma
+DB00187,Hypertension
+DB00706,Lower urinary tract symptoms
+DB00706,Benign prostatic hyperplasia
+DB01238,Major depression
+DB01409,Bronchial hyperreactivity
+DB00710,Osteoporosis
+DB00246,Mania
+DB06704,Neuroblastoma
+DB00922,Cardiac failure chronic
+DB00879,Alcoholism
+DB01133,Osteitis deformans
+DB05260,Hypercalcaemia
+DB00399,Neoplasm malignant
+DB00399,Hyperparathyroidism
+DB00399,Neoplasm
+DB00399,Injury
+DB01194,Open angle glaucoma
+DB00296,Pain
+DB04861,Hypertension
+DB04861,Acute coronary syndrome
+DB00582,Candida infection
+DB00582,Systemic candida
+DB00496,Pollakiuria
+DB04729,Meibomianitis
+DB01280,Non-Hodgkin's lymphoma
+DB01280,T-cell type acute leukaemia
+DB00364,Haemorrhage
+DB00559,Scleroderma
+DB00559,Systemic sclerosis
+DB01267,Psychotic disorder
+DB00918,Aura
+DB00764,Dermatitis atopic
+DB00520,Aspergillus infection
+DB00520,Oropharyngeal candidiasis
+DB00905,Glaucoma
+DB06201,Lennox-Gastaut syndrome
+DB01098,Hypercholesterolaemia
+DB01098,Cerebrovascular accident
+DB01319,Infection
+DB06813,Peripheral T-cell lymphoma unspecified
+DB04938,Atrophy
+DB00377,Neoplasm malignant
+DB00700,Systolic dysfunction
+DB00303,Infection
+DB00303,Urinary tract infection
+DB06802,Inflammation
+DB00673,Vomiting
+DB01126,Benign prostatic hyperplasia
+DB00442,Infection
+DB01591,Pollakiuria
+DB06216,Schizophrenia
+DB01046,Irritable bowel syndrome
+DB00388,Inflammation
+DB00980,Insomnia
+DB01259,Breast cancer stage IV
+DB06695,Atrial fibrillation
+DB06695,Embolism
+DB08815,Bipolar I disorder
+DB00398,Renal cell carcinoma
+DB00480,Plasma cell myeloma
+DB06717,Vomiting
+DB01656,Bronchospasm
+DB01141,Candida infection
+DB01141,Systemic candida
+DB08903,Mycobacterial infection
+DB01033,Leukaemia
+DB05521,Liver disorder
+DB05521,Foetor hepaticus
+DB01254,Acute lymphocytic leukaemia
+DB06402,Pneumonia bacterial
+DB01268,Neuroendocrine tumour
+DB01268,Disease progression
+DB01261,Type 2 diabetes mellitus
+DB04876,Type 2 diabetes mellitus
+DB00851,Metastatic malignant melanoma
+DB06616,Chronic myeloid leukaemia
+DB00795,Rheumatoid arthritis
+DB00615,Infection
+DB06800,Constipation
+DB01079,Functional gastrointestinal disorder
+DB00995,Arthritis
+DB06228,Pulmonary embolism
+DB06228,Cerebrovascular accident
+DB06228,Deep vein thrombosis
+DB00602,Strongyloidiasis
+DB01590,Tuberous sclerosis
+DB01590,"Astrocytoma, low grade"
+DB01590,Neuroendocrine tumour
+DB06684,Major depression
+DB01256,Impetigo
+DB06772,Prostate cancer metastatic
+DB08183,Rheumatoid arthritis
+DB08906,Rhinitis perennial
+DB08882,Diabetic ketoacidosis
+DB08882,Renal failure
+DB06589,Renal cell carcinoma
+DB06589,Sarcoma
+DB08932,Connective tissue disorder
+DB08932,Hypertension
+DB08932,Heart disease congenital
+DB08901,Chronic myeloid leukaemia
+DB00254,Bacterial infection
+DB00254,Haemoglobin
+DB00254,Rosacea

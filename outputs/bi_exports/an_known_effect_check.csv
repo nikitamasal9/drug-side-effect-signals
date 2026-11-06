@@ -1,0 +1,19 @@
+atc_class,class_label,side_effect_name,status,odds_ratio,q_value,pct_in_class,pct_outside_class
+C10AA,Statins,Rhabdomyolysis,recovered,139.2341766357422,1.1891431948226113e-06,1.0,0.10839532315731049
+C10AA,Statins,Myalgia,recovered,21.17401885986328,0.008800323669720566,1.0,0.44527098536491394
+C09AA,ACE inhibitors,Cough,recovered,28.411760330200195,0.0017898064320092469,1.0,0.42492014169692993
+C09AA,ACE inhibitors,Angioedema,recovered,31.569902420043945,0.0010932862198790422,1.0,0.3993610143661499
+J01MA,Fluoroquinolones,Tendon rupture,recovered,191.6896209716797,3.333291494178314e-09,0.7777777910232544,0.014893617480993271
+J01MA,Fluoroquinolones,Tendonitis,recovered,74.34246826171875,4.4465925973064884e-07,0.7777777910232544,0.0382978729903698
+N06AB,SSRIs,Ejaculation disorder,recovered,281.81695556640625,3.819690167236107e-06,1.0,0.03707627207040787
+N05AH,Atypical antipsychotics (diazepines),Weight increased,recovered,32.58491134643555,0.006345659296014938,1.0,0.25211864709854126
+N05AD,Butyrophenone antipsychotics,Tardive dyskinesia,not tested (too few drugs),,,,
+N02AA,Opioids (natural opium alkaloids),Respiratory depression,recovered,99.4585952758789,0.0005863174560894384,1.0,0.08253968507051468
+N02AA,Opioids (natural opium alkaloids),Constipation,not significant,7.140284538269043,0.19263811198029188,1.0,0.5576719641685486
+C07AB,Selective beta-blockers,Bradycardia,recovered,35.60822677612305,0.0018381855417873743,1.0,0.29617834091186523
+H02AB,Glucocorticoids,Cushingoid,recovered,677.880126953125,3.768387703858224e-07,0.6666666865348816,0.002120890887454152
+A10BB,Sulfonylureas,Hypoglycaemia,recovered,67.47811889648438,0.0001235969724242197,1.0,0.18152865767478943
+C03CA,Loop diuretics (sulfonamides),Hypokalaemia,not tested (too few drugs),,,,
+M01AE,NSAIDs (propionic acid),Gastrointestinal haemorrhage,recovered,22.787607192993164,0.000533888536841743,0.875,0.1795961707830429
+N03AF,Carboxamide anticonvulsants,Hyponatraemia,not tested (too few drugs),,,,
+C08CA,Dihydropyridine calcium channel blockers,Oedema peripheral,recovered,11.10256290435791,0.00919176458752859,0.875,0.31030818819999695

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "DrugSideEffectSignals"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "a9884186-b144-55c6-896e-7dc8714dc7f1"
+  }
+}

@@ -1,0 +1,735 @@
+level,atc_class,class_name
+4,C04AD,Purine derivatives
+4,C04AX,Other peripheral vasodilators
+4,L01AB,Alkyl sulfonates
+4,L01AX,Other alkylating agents
+4,R01AA,"Sympathomimetics, plain"
+4,G04BX,Other urologicals
+4,H02AB,Glucocorticoids
+4,J01XD,Imidazole derivatives
+4,J02AX,Other antimycotics for systemic use
+4,J05AE,Protease inhibitors
+4,M03BC,"Ethers, chemically close to antihistamines"
+4,N06AF,"Monoamine oxidase inhibitors, non-selective"
+4,P01AA,Hydroxyquinoline derivatives
+4,P01BB,Biguanides
+4,R03CB,Non-selective beta-adrenoreceptor agonists
+4,A07AB,Sulfonamides
+4,A16AX,Various alimentary tract and metabolism products
+4,D11AX,Other dermatologicals
+4,L01AC,Ethylene imines
+4,L01XA,Platinum compounds
+4,M04AC,Preparations with no effect on uric acid metabolism
+4,N04AA,Tertiary amines
+4,N05AH,"Diazepines, oxazepines, thiazepines and oxepines"
+4,N05BE,Azaspirodecanedione derivatives
+4,R02AD,"Anesthetics, local"
+4,R06AB,Substituted alkylamines
+4,S01CB,Corticosteroids/antiinfectives/mydriatics in combination
+4,S03BA,Corticosteroids
+4,B02AA,Amino acids
+4,C03XA,Vasopressin antagonists
+4,D06AX,Other antibiotics for topical use
+4,H03BA,Thiouracils
+4,J01DD,Third-generation cephalosporins
+4,N01BB,Amides
+4,N07XX,Other nervous system drugs
+4,R01AX,Other nasal preparations
+4,R03AB,Non-selective beta-adrenoreceptor agonists
+4,A03AE,Serotonin receptor antagonists
+4,A12CC,Magnesium
+4,B02BC,Local hemostatics
+4,B05BC,Solutions producing osmotic diuresis
+4,C05AX,Other agents for treatment of hemorrhoids and anal fissures for topical use
+4,C08DB,Benzothiazepine derivatives
+4,G01AG,Triazole derivatives
+4,G03XC,Selective estrogen receptor modulators
+4,J04AC,Hydrazides
+4,N02AD,Benzomorphan derivatives
+4,C02DC,Pyrimidine derivatives
+4,C05AD,Local anesthetics
+4,G02CC,Antiinflammatory products for vaginal administration
+4,L01XD,Sensitizers used in photodynamic/radiation therapy
+4,M01AH,Coxibs
+4,M02AX,Other topical products for joint and muscular pain
+4,P01BX,Other antimalarials
+4,S01BA,"Corticosteroids, plain"
+4,A02BX,Other drugs for peptic ulcer and gastro-oesophageal reflux disease (GORD)
+4,B03AA,"Iron bivalent, oral preparations"
+4,B05CA,Antiinfectives
+4,C01BB,"Antiarrhythmics, class Ib"
+4,C02AC,Imidazoline receptor agonists
+4,G03CA,"Natural and semisynthetic estrogens, plain"
+4,N02CC,Selective serotonin (5HT1) agonists
+4,N05AC,Phenothiazines with piperidine structure
+4,N06DX,Other anti-dementia drugs
+4,A03AD,Papaverine and derivatives
+4,G03HA,"Antiandrogens, plain"
+4,J05AF,Nucleoside and nucleotide reverse transcriptase inhibitors
+4,N05BC,Carbamates
+4,P03AX,"Other ectoparasiticides, incl. scabicides"
+4,R06AD,Phenothiazine derivatives
+4,S01AX,Other antiinfectives
+3,S01G,DECONGESTANTS AND ANTIALLERGICS
+3,C03B,"LOW-CEILING DIURETICS, EXCL. THIAZIDES"
+3,G02A,UTEROTONICS
+3,L02A,HORMONES AND RELATED AGENTS
+3,P01B,ANTIMALARIALS
+3,P03A,"ECTOPARASITICIDES, INCL. SCABICIDES"
+3,R06A,ANTIHISTAMINES FOR SYSTEMIC USE
+3,A06A,DRUGS FOR CONSTIPATION
+3,N05C,HYPNOTICS AND SEDATIVES
+3,A01A,STOMATOLOGICAL PREPARATIONS
+3,A11D,"VITAMIN B1, PLAIN AND IN COMBINATION WITH VITAMIN B6 AND B12"
+3,N07X,OTHER NERVOUS SYSTEM DRUGS
+3,V08A,"X-RAY CONTRAST MEDIA, IODINATED"
+3,P02C,ANTINEMATODAL AGENTS
+3,S02B,CORTICOSTEROIDS
+3,A12B,POTASSIUM
+3,A02A,ANTACIDS
+3,M09A,OTHER DRUGS FOR DISORDERS OF THE MUSCULO-SKELETAL SYSTEM
+1,N,NERVOUS SYSTEM
+2,A06,DRUGS FOR CONSTIPATION
+2,C02,ANTIHYPERTENSIVES
+2,P01,ANTIPROTOZOALS
+2,H01,PITUITARY AND HYPOTHALAMIC HORMONES AND ANALOGUES
+4,C09CA,"Angiotensin II receptor blockers (ARBs), plain"
+4,C10AB,Fibrates
+4,D08AC,Biguanides and amidines
+4,G04BE,Drugs used in erectile dysfunction
+4,H02AA,Mineralocorticoids
+4,N06DA,Anticholinesterases
+4,C08CA,Dihydropyridine derivatives
+4,C08EX,Other non-selective calcium channel blockers
+4,D09AA,Medicated dressings with antiinfectives
+4,J01DI,Other cephalosporins and penems
+4,J05AX,Other antivirals
+4,P03AA,Sulfur containing products
+4,A07EB,"Antiallergic agents, excl. corticosteroids"
+4,A08AB,Peripherally acting antiobesity products
+4,L02BX,Other hormone antagonists and related agents
+4,N07AX,Other parasympathomimetics
+4,V04CA,Tests for diabetes
+4,D10AD,Retinoids for topical use in acne
+4,J01DB,First-generation cephalosporins
+4,J01EA,Trimethoprim and derivatives
+4,J01XA,Glycopeptide antibacterials
+4,L04AA,Selective immunosuppressants
+4,N02CX,Other antimigraine preparations
+4,N04BA,Dopa and dopa derivatives
+4,N04BB,Adamantane derivatives
+4,V08AA,"Watersoluble, nephrotropic, high osmolar X-ray contrast media"
+4,A08AX,Other antiobesity drugs
+4,D07AB,"Corticosteroids, moderately potent (group II)"
+4,L02BB,Anti-androgens
+4,N02AC,Diphenylpropylamine derivatives
+4,R06AE,Piperazine derivatives
+4,A03AA,"Synthetic anticholinergics, esters with tertiary amino group"
+4,A04AA,Serotonin (5HT3) antagonists
+4,D01AE,Other antifungals for topical use
+4,D05AD,Psoralens for topical use
+4,G03XB,Progesterone receptor modulators
+4,J01FA,Macrolides
+4,J04AA,Aminosalicylic acid and derivatives
+4,J04AB,Antibiotics
+4,N07BA,Drugs used in nicotine dependence
+4,P02CA,Benzimidazole derivatives
+4,B01AE,Direct thrombin inhibitors
+4,H01CB,Somatostatin and analogues
+4,N05AB,Phenothiazines with piperazine structure
+4,A02AA,Magnesium compounds
+4,C05AA,Corticosteroids
+4,M03BX,Other centrally acting agents
+4,P03AB,Chlorine containing products
+4,R06AA,Aminoalkyl ethers
+3,A10B,"BLOOD GLUCOSE LOWERING DRUGS, EXCL. INSULINS"
+3,B05X,I.V. SOLUTION ADDITIVES
+3,C09C,"ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), PLAIN"
+3,D08A,ANTISEPTICS AND DISINFECTANTS
+3,D10A,ANTI-ACNE PREPARATIONS FOR TOPICAL USE
+3,L01C,PLANT ALKALOIDS AND OTHER NATURAL PRODUCTS
+3,N06A,ANTIDEPRESSANTS
+3,B05C,IRRIGATING SOLUTIONS
+3,C08C,SELECTIVE CALCIUM CHANNEL BLOCKERS WITH MAINLY VASCULAR EFFECTS
+3,C09A,"ACE INHIBITORS, PLAIN"
+3,J01M,QUINOLONE ANTIBACTERIALS
+3,V04C,OTHER DIAGNOSTIC AGENTS
+3,J04B,DRUGS FOR TREATMENT OF LEPRA
+3,N07A,PARASYMPATHOMIMETICS
+3,P02B,ANTITREMATODALS
+3,V01A,ALLERGENS
+3,A07D,ANTIPROPULSIVES
+3,J04A,DRUGS FOR TREATMENT OF TUBERCULOSIS
+3,D05A,ANTIPSORIATICS FOR TOPICAL USE
+3,S01B,ANTIINFLAMMATORY AGENTS
+3,A03B,"BELLADONNA AND DERIVATIVES, PLAIN"
+1,L,ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+1,R,RESPIRATORY SYSTEM
+1,S,SENSORY ORGANS
+2,G01,GYNECOLOGICAL ANTIINFECTIVES AND ANTISEPTICS
+2,G04,UROLOGICALS
+2,A05,BILE AND LIVER THERAPY
+2,G03,SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+2,V09,DIAGNOSTIC RADIOPHARMACEUTICALS
+2,A02,DRUGS FOR ACID RELATED DISORDERS
+2,A09,"DIGESTIVES, INCL. ENZYMES"
+2,R05,COUGH AND COLD PREPARATIONS
+2,L04,IMMUNOSUPPRESSANTS
+2,L01,ANTINEOPLASTIC AGENTS
+2,A08,"ANTIOBESITY PREPARATIONS, EXCL. DIET PRODUCTS"
+2,N05,PSYCHOLEPTICS
+3,A16A,OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS
+3,C01B,"ANTIARRHYTHMICS, CLASS I AND III"
+3,C01C,CARDIAC STIMULANTS EXCL. CARDIAC GLYCOSIDES
+3,C02D,"ARTERIOLAR SMOOTH MUSCLE, AGENTS ACTING ON"
+3,G01A,"ANTIINFECTIVES AND ANTISEPTICS, EXCL. COMBINATIONS WITH CORTICOSTEROIDS"
+3,N01B,"ANESTHETICS, LOCAL"
+3,N02B,OTHER ANALGESICS AND ANTIPYRETICS
+3,A14A,ANABOLIC STEROIDS
+3,C08E,NON-SELECTIVE CALCIUM CHANNEL BLOCKERS
+3,G02C,OTHER GYNECOLOGICALS
+3,J02A,ANTIMYCOTICS FOR SYSTEMIC USE
+3,J05A,DIRECT ACTING ANTIVIRALS
+3,M03B,"MUSCLE RELAXANTS, CENTRALLY ACTING AGENTS"
+3,M05B,DRUGS AFFECTING BONE STRUCTURE AND MINERALIZATION
+3,R05C,"EXPECTORANTS, EXCL. COMBINATIONS WITH COUGH SUPPRESSANTS"
+3,A05A,BILE THERAPY
+3,L03A,IMMUNOSTIMULANTS
+3,M03C,"MUSCLE RELAXANTS, DIRECTLY ACTING AGENTS"
+3,N03A,ANTIEPILEPTICS
+3,N05A,ANTIPSYCHOTICS
+3,S03B,CORTICOSTEROIDS
+3,C03X,OTHER DIURETICS
+3,L01B,ANTIMETABOLITES
+3,N02C,ANTIMIGRAINE PREPARATIONS
+3,N04B,DOPAMINERGIC AGENTS
+3,C08D,SELECTIVE CALCIUM CHANNEL BLOCKERS WITH DIRECT CARDIAC EFFECTS
+3,R07A,OTHER RESPIRATORY SYSTEM PRODUCTS
+3,S01A,ANTIINFECTIVES
+3,C03A,"LOW-CEILING DIURETICS, THIAZIDES"
+4,A16AA,Amino acids and derivatives
+4,C01AA,Digitalis glycosides
+4,L01XB,Methylhydrazines
+4,N01BC,Esters of benzoic acid
+4,R03BA,Glucocorticoids
+4,R03BB,Anticholinergics
+4,R03CC,Selective beta-2-adrenoreceptor agonists
+4,C01BD,"Antiarrhythmics, class III"
+4,G02AB,Ergot alkaloids
+4,L01AD,Nitrosoureas
+4,M01CB,Gold preparations
+4,N02BA,Salicylic acid and derivatives
+4,N05BA,Benzodiazepine derivatives
+4,N06AX,Other antidepressants
+4,S01XA,Other ophthalmologicals
+4,D10AA,"Corticosteroids, combinations for treatment of acne"
+4,J01XB,Polymyxins
+4,J04BA,Drugs for treatment of lepra
+4,P01BC,Methanolquinolines
+4,R01AC,"Antiallergic agents, excl. corticosteroids"
+4,R03DX,Other systemic drugs for obstructive airway diseases
+4,C05BA,Heparins or heparinoids for topical use
+4,D07XB,"Corticosteroids, moderately potent, other combinations"
+4,G01AD,Organic acids
+4,J01DF,Monobactams
+4,J01EC,Intermediate-acting sulfonamides
+4,P01AX,Other agents against amoebiasis and other protozoal diseases
+4,B05XB,Amino acids
+4,C04AB,Imidazoline derivatives
+4,J01BA,Amphenicols
+4,L01CB,Podophyllotoxin derivatives
+4,L01CX,Other plant alkaloids and natural products
+4,N05CF,Benzodiazepine related drugs
+4,R03AC,Selective beta-2-adrenoreceptor agonists
+4,R05DB,Other cough suppressants
+4,S01JA,Colouring agents
+4,D11AH,"Agents for dermatitis, excluding corticosteroids"
+4,G01AX,Other antiinfectives and antiseptics
+4,G02AD,Prostaglandins
+4,H01CA,Gonadotropin-releasing hormones
+4,L01XX,Other antineoplastic agents
+4,L02AA,Estrogens
+4,N05CM,Other hypnotics and sedatives
+4,R07AB,Respiratory stimulants
+4,A12BA,Potassium
+4,C01DA,Organic nitrates
+4,D07AD,"Corticosteroids, very potent (group IV)"
+4,D11AC,Medicated shampoos
+4,J01FF,Lincosamides
+4,L01DA,Actinomycines
+4,D04AB,Anesthetics for topical use
+4,G03XA,Antigonadotropins and similar agents
+4,J01DC,Second-generation cephalosporins
+4,N03AF,Carboxamide derivatives
+4,N04BX,Other dopaminergic agents
+4,N05AL,Benzamides
+4,N06BA,Centrally acting sympathomimetics
+4,V04CG,Tests for gastric secretion
+1,D,DERMATOLOGICALS
+2,A03,DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS
+2,D05,ANTIPSORIATICS
+2,A10,DRUGS USED IN DIABETES
+2,C10,LIPID MODIFYING AGENTS
+2,D01,ANTIFUNGALS FOR DERMATOLOGICAL USE
+2,A04,ANTIEMETICS AND ANTINAUSEANTS
+2,M01,ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+2,M04,ANTIGOUT PREPARATIONS
+2,H03,THYROID THERAPY
+2,H05,CALCIUM HOMEOSTASIS
+2,V03,ALL OTHER THERAPEUTIC PRODUCTS
+2,D04,"ANTIPRURITICS, INCL. ANTIHISTAMINES, ANESTHETICS, ETC."
+2,H02,CORTICOSTEROIDS FOR SYSTEMIC USE
+1,G,GENITO URINARY SYSTEM AND SEX HORMONES
+4,B01AX,Other antithrombotic agents
+4,C02DB,Hydrazinophthalazine derivatives
+4,M03AC,Other quaternary ammonium compounds
+4,B03AB,"Iron trivalent, oral preparations"
+4,G03AC,Progestogens
+4,L02BG,Aromatase inhibitors
+4,M04AB,Preparations increasing uric acid excretion
+4,N02AX,Other opioids
+4,V04CC,Tests for bile duct patency
+4,A10BG,Thiazolidinediones
+4,C10AX,Other lipid modifying agents
+4,D07XA,"Corticosteroids, weak, other combinations"
+4,J02AC,Triazole and tetrazole derivatives
+4,L04AD,Calcineurin inhibitors
+4,M03CA,Dantrolene and derivatives
+4,S01ED,Beta blocking agents
+4,S01FB,Sympathomimetics excl. antiglaucoma preparations
+4,V04CM,Tests for fertility disturbances
+4,A01AD,Other agents for local oral treatment
+4,C03DA,Aldosterone antagonists
+4,D07AA,"Corticosteroids, weak (group I)"
+4,J01XE,Nitrofuran derivatives
+4,J04AD,Thiocarbamide derivatives
+4,J04AK,Other drugs for treatment of tuberculosis
+4,M05BB,"Bisphosphonates, combinations"
+4,N01BA,Esters of aminobenzoic acid
+4,N02CA,Ergot alkaloids
+4,S01EE,Prostaglandin analogues
+4,B03AE,Iron in other combinations
+4,D08AX,Other antiseptics and disinfectants
+4,G04CA,Alpha-adrenoreceptor antagonists
+4,H01BA,Vasopressin and analogues
+4,J05AH,Neuraminidase inhibitors
+4,L01DC,Other cytotoxic antibiotics
+4,M01AE,Propionic acid derivatives
+4,N04AB,Ethers chemically close to antihistamines
+4,N04BC,Dopamine agonists
+4,N05CD,Benzodiazepine derivatives
+4,N07BC,Drugs used in opioid dependence
+4,P02CF,Avermectines
+4,A02BB,Prostaglandins
+4,C01CE,Phosphodiesterase inhibitors
+4,D09AB,Zinc bandages
+4,G04BD,Drugs for urinary frequency and incontinence
+4,H01CC,Anti-gonadotropin-releasing hormones
+4,J01GB,Other aminoglycosides
+4,V03AF,Detoxifying agents for antineoplastic treatment
+4,A04AD,Other antiemetics
+4,B01AB,Heparin group
+4,D04AA,Antihistamines for topical use
+4,N03AG,Fatty acid derivatives
+4,N05CH,Melatonin receptor agonists
+4,S01AD,Antivirals
+4,C01CX,Other cardiac stimulants
+4,D06BX,Other chemotherapeutics
+4,J05AD,Phosphonic acid derivatives
+4,M09AA,Quinine and derivatives
+4,P01AB,Nitroimidazole derivatives
+4,S02DA,Analgesics and anesthetics
+4,L01XE,
+3,A12C,OTHER MINERAL SUPPLEMENTS
+3,B02B,VITAMIN K AND OTHER HEMOSTATICS
+3,H02A,"CORTICOSTEROIDS FOR SYSTEMIC USE, PLAIN"
+3,J01E,SULFONAMIDES AND TRIMETHOPRIM
+3,N04A,ANTICHOLINERGIC AGENTS
+3,N06D,ANTI-DEMENTIA DRUGS
+3,V03A,ALL OTHER THERAPEUTIC PRODUCTS
+3,J01A,TETRACYCLINES
+3,M01C,SPECIFIC ANTIRHEUMATIC AGENTS
+3,P01A,AGENTS AGAINST AMOEBIASIS AND OTHER PROTOZOAL DISEASES
+3,A08A,"ANTIOBESITY PREPARATIONS, EXCL. DIET PRODUCTS"
+3,C02C,"ANTIADRENERGIC AGENTS, PERIPHERALLY ACTING"
+3,C05B,ANTIVARICOSE THERAPY
+3,G03D,PROGESTOGENS
+3,A04A,ANTIEMETICS AND ANTINAUSEANTS
+3,N06B,"PSYCHOSTIMULANTS, AGENTS USED FOR ADHD AND NOOTROPICS"
+3,H05B,ANTI-PARATHYROID AGENTS
+3,S02D,OTHER OTOLOGICALS
+1,A,ALIMENTARY TRACT AND METABOLISM
+2,M02,TOPICAL PRODUCTS FOR JOINT AND MUSCULAR PAIN
+2,P03,"ECTOPARASITICIDES, INCL. SCABICIDES, INSECTICIDES AND REPELLENTS"
+2,M03,MUSCLE RELAXANTS
+2,D08,ANTISEPTICS AND DISINFECTANTS
+2,B03,ANTIANEMIC PREPARATIONS
+2,A07,"ANTIDIARRHEALS, INTESTINAL ANTIINFLAMMATORY/ANTIINFECTIVE AGENTS"
+2,N06,PSYCHOANALEPTICS
+2,J04,ANTIMYCOBACTERIALS
+2,N01,ANESTHETICS
+2,N03,ANTIEPILEPTICS
+2,B01,ANTITHROMBOTIC AGENTS
+4,A10BX,"Other blood glucose lowering drugs, excl. insulins"
+4,B03AD,Iron in combination with folic acid
+4,C01CA,Adrenergic and dopaminergic agents
+4,D10AX,Other anti-acne preparations for topical use
+4,S01GA,Sympathomimetics used as decongestants
+4,B01AC,Platelet aggregation inhibitors excl. heparin
+4,D06AA,Tetracycline and derivatives
+4,L02AE,Gonadotropin releasing hormone analogues
+4,N01AF,"Barbiturates, plain"
+4,R06AC,Substituted ethylene diamines
+4,S01EC,Carbonic anhydrase inhibitors
+4,A03AB,"Synthetic anticholinergics, quaternary ammonium compounds"
+4,C01EB,Other cardiac preparations
+4,C03DB,Other potassium-sparing agents
+4,J01XX,Other antibacterials
+4,J05AC,Cyclic amines
+4,L03AX,Other immunostimulants
+4,P01BD,Diaminopyrimidines
+4,D07XC,"Corticosteroids, potent, other combinations"
+4,G01AC,Quinoline derivatives
+4,J02AA,Antibiotics
+4,J05AG,Non-nucleoside reverse transcriptase inhibitors
+4,N02AB,Phenylpiperidine derivatives
+4,N05AN,Lithium
+4,V04CH,Tests for renal function and ureteral injuries
+4,A11HA,Other plain vitamin preparations
+4,D05AX,Other antipsoriatics for topical use
+4,J01GA,Streptomycins
+4,N02AA,Natural opium alkaloids
+4,N03AC,Oxazolidine derivatives
+4,N05AG,Diphenylbutylpiperidine derivatives
+4,P01CX,Other agents against leishmaniasis and trypanosomiasis
+4,R01AD,Corticosteroids
+4,A06AX,Other drugs for constipation
+4,B01AF,Direct factor Xa inhibitors
+4,C07AB,"Beta blocking agents, selective"
+4,C08DA,Phenylalkylamine derivatives
+4,D10AF,Antiinfectives for treatment of acne
+4,M01AX,"Other antiinflammatory and antirheumatic agents, non-steroids"
+4,M03AB,Choline derivatives
+4,N01AB,Halogenated hydrocarbons
+4,N02AE,Oripavine derivatives
+4,P01BA,Aminoquinolines
+4,R02AA,Antiseptics
+4,R03DC,Leukotriene receptor antagonists
+4,A08AA,Centrally acting antiobesity products
+4,A12AA,Calcium
+4,D05BA,Psoralens for systemic use
+4,H05BX,Other anti-parathyroid agents
+4,C03AA,"Thiazides, plain"
+4,C05BB,Sclerosing agents for local injection
+4,C08EA,Phenylalkylamine derivatives
+4,G03EK,Androgens and female sex hormones in combination with other drugs
+4,J01CA,Penicillins with extended spectrum
+4,N03AE,Benzodiazepine derivatives
+4,N04BD,Monoamine oxidase B inhibitors
+3,A07A,INTESTINAL ANTIINFECTIVES
+3,C01A,CARDIAC GLYCOSIDES
+3,C04A,PERIPHERAL VASODILATORS
+3,G04B,UROLOGICALS
+3,R01A,DECONGESTANTS AND OTHER NASAL PREPARATIONS FOR TOPICAL USE
+3,R03B,"OTHER DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES, INHALANTS"
+3,R03C,ADRENERGICS FOR SYSTEMIC USE
+3,A03F,PROPULSIVES
+3,D01A,ANTIFUNGALS FOR TOPICAL USE
+3,J01C,"BETA-LACTAM ANTIBACTERIALS, PENICILLINS"
+3,J01D,OTHER BETA-LACTAM ANTIBACTERIALS
+3,N07C,ANTIVERTIGO PREPARATIONS
+3,V08C,MAGNETIC RESONANCE IMAGING CONTRAST MEDIA
+3,G04C,DRUGS USED IN BENIGN PROSTATIC HYPERTROPHY
+3,L04A,IMMUNOSUPPRESSANTS
+3,S01C,ANTIINFLAMMATORY AGENTS AND ANTIINFECTIVES IN COMBINATION
+3,S01F,MYDRIATICS AND CYCLOPLEGICS
+3,C02A,"ANTIADRENERGIC AGENTS, CENTRALLY ACTING"
+3,G03G,GONADOTROPINS AND OTHER OVULATION STIMULANTS
+3,H01B,POSTERIOR PITUITARY LOBE HORMONES
+3,P01C,AGENTS AGAINST LEISHMANIASIS AND TRYPANOSOMIASIS
+3,S01J,DIAGNOSTIC AGENTS
+3,G03C,ESTROGENS
+3,S01L,OCULAR VASCULAR DISORDER AGENTS
+1,H,"SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS"
+1,M,MUSCULO-SKELETAL SYSTEM
+2,R03,DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+2,A11,VITAMINS
+2,J01,ANTIBACTERIALS FOR SYSTEMIC USE
+2,N04,ANTI-PARKINSON DRUGS
+2,A12,MINERAL SUPPLEMENTS
+2,C08,CALCIUM CHANNEL BLOCKERS
+2,R06,ANTIHISTAMINES FOR SYSTEMIC USE
+2,D07,"CORTICOSTEROIDS, DERMATOLOGICAL PREPARATIONS"
+2,V01,ALLERGENS
+4,A07AC,Imidazole derivatives
+4,A09AB,Acid preparations
+4,B02BA,Vitamin K
+4,C04AC,Nicotinic acid and derivatives
+4,C07AA,"Beta blocking agents, non-selective"
+4,G01AA,Antibiotics
+4,L01CD,Taxanes
+4,S01HA,Local anesthetics
+4,V03AB,Antidotes
+4,A07EA,Corticosteroids acting locally
+4,C03BA,"Sulfonamides, plain"
+4,C09AA,"ACE inhibitors, plain"
+4,C10AC,Bile acid sequestrants
+4,D08AE,Phenol and derivatives
+4,J01CE,Beta-lactamase sensitive penicillins
+4,J02AB,Imidazole derivatives
+4,L02BA,Anti-estrogens
+4,M01AG,Fenamates
+4,R05CA,Expectorants
+4,A06AG,Enemas
+4,C02DA,Thiazide derivatives
+4,D06BB,Antivirals
+4,G04CB,Testosterone-5-alpha reductase inhibitors
+4,P02BA,Quinoline derivatives and related substances
+4,P03AC,"Pyrethrines, incl. synthetic compounds"
+4,V01AA,Allergen extracts
+4,A07DA,Antipropulsives
+4,C02AB,Methyldopa
+4,L01DB,Anthracyclines and related substances
+4,V08CB,Superparamagnetic contrast media
+4,H03AA,Thyroid hormones
+4,J01DE,Fourth-generation cephalosporins
+4,J05AB,Nucleosides and nucleotides excl. reverse transcriptase inhibitors
+4,M03BA,Carbamic acid esters
+4,R07AX,Other respiratory system products
+4,S01AA,Antibiotics
+4,S01AB,Sulfonamides
+4,S02BA,Corticosteroids
+4,C01EA,Prostaglandins
+4,D06BA,Sulfonamides
+4,G03CC,"Estrogens, combinations with other drugs"
+4,L01BC,Pyrimidine analogues
+4,L04AX,Other immunosuppressants
+4,N03AD,Succinimide derivatives
+4,N05AF,Thioxanthene derivatives
+4,N06AG,Monoamine oxidase A inhibitors
+4,N06BC,Xanthine derivatives
+4,N07AB,Choline esters
+4,R03DA,Xanthines
+4,S01LA,Antineovascularisation agents
+4,A11CA,"Vitamin A, plain"
+4,C02AA,Rauwolfia alkaloids
+4,C07AG,Alpha and beta blocking agents
+4,H03BB,Sulfur-containing imidazole derivatives
+4,N05BB,Diphenylmethane derivatives
+4,R03AA,Alpha- and beta-adrenoreceptor agonists
+4,R05DA,Opium alkaloids and derivatives
+4,S01AE,Fluoroquinolones
+4,A06AH,Peripheral opioid receptor antagonists
+4,D05BB,Retinoids for treatment of psoriasis
+4,M04AA,Preparations inhibiting uric acid production
+4,N05AE,Indole derivatives
+4,V04CD,Tests for pituitary function
+3,A09A,"DIGESTIVES, INCL. ENZYMES"
+3,L01A,ALKYLATING AGENTS
+3,L01X,OTHER ANTINEOPLASTIC AGENTS
+3,S01H,LOCAL ANESTHETICS
+3,D06A,ANTIBIOTICS FOR TOPICAL USE
+3,L02B,HORMONE ANTAGONISTS AND RELATED AGENTS
+3,M04A,ANTIGOUT PREPARATIONS
+3,N01A,"ANESTHETICS, GENERAL"
+3,N02A,OPIOIDS
+3,N05B,ANXIOLYTICS
+3,C03D,ALDOSTERONE ANTAGONISTS AND OTHER POTASSIUM-SPARING AGENTS
+3,D07X,"CORTICOSTEROIDS, OTHER COMBINATIONS"
+3,R03D,OTHER SYSTEMIC DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+3,R01B,NASAL DECONGESTANTS FOR SYSTEMIC USE
+3,C05A,AGENTS FOR TREATMENT OF HEMORRHOIDS AND ANAL FISSURES FOR TOPICAL USE
+3,H03A,THYROID PREPARATIONS
+3,R05D,"COUGH SUPPRESSANTS, EXCL. COMBINATIONS WITH EXPECTORANTS"
+3,B06A,OTHER HEMATOLOGICAL AGENTS
+3,D04A,"ANTIPRURITICS, INCL. ANTIHISTAMINES, ANESTHETICS, ETC."
+1,J,ANTIINFECTIVES FOR SYSTEMIC USE
+2,N07,OTHER NERVOUS SYSTEM DRUGS
+2,V08,CONTRAST MEDIA
+2,D11,OTHER DERMATOLOGICAL PREPARATIONS
+2,B02,ANTIHEMORRHAGICS
+2,C04,PERIPHERAL VASODILATORS
+2,L02,ENDOCRINE THERAPY
+2,S02,OTOLOGICALS
+2,C09,AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM
+2,A14,ANABOLIC AGENTS FOR SYSTEMIC USE
+2,S01,OPHTHALMOLOGICALS
+2,D09,MEDICATED DRESSINGS
+2,C01,CARDIAC THERAPY
+2,V04,DIAGNOSTIC AGENTS
+2,R07,OTHER RESPIRATORY SYSTEM PRODUCTS
+4,C01BA,"Antiarrhythmics, class Ia"
+4,N04AC,Ethers of tropine or tropine derivatives
+4,A14AA,Androstan derivatives
+4,B03AC,"Iron, parenteral preparations"
+4,D01AA,Antibiotics
+4,G02CB,Prolactine inhibitors
+4,J01MA,Fluoroquinolones
+4,L02AB,Progestogens
+4,M05BA,Bisphosphonates
+4,N06AA,Non-selective monoamine reuptake inhibitors
+4,R06AX,Other antihistamines for systemic use
+4,V08CA,Paramagnetic contrast media
+4,A05AA,Bile acids and derivatives
+4,C10AA,HMG CoA reductase inhibitors
+4,M03BB,"Oxazol, thiazine, and triazine derivatives"
+4,N02AF,Morphinan derivatives
+4,N03AB,Hydantoin derivatives
+4,N07BB,Drugs used in alcohol dependence
+4,A11DA,"Vitamin B1, plain"
+4,L01AA,Nitrogen mustard analogues
+4,L01BB,Purine analogues
+4,M01AB,Acetic acid derivatives and related substances
+4,N03AA,Barbiturates and derivatives
+4,C02KB,Tyrosine hydroxylase inhibitors
+4,G03DA,Pregnen (4) derivatives
+4,G03GB,"Ovulation stimulants, synthetic"
+4,N01AX,Other general anesthetics
+4,A06AD,Osmotically acting laxatives
+4,A10BB,Sulfonylureas
+4,A10BH,Dipeptidyl peptidase 4 (DPP-4) inhibitors
+4,C03CA,"Sulfonamides, plain"
+4,J01XC,Steroid antibacterials
+4,N07AA,Anticholinesterases
+4,R03BC,"Antiallergic agents, excl. corticosteroids"
+4,V03AH,Drugs for treatment of hypoglycemia
+4,A03BA,"Belladonna alkaloids, tertiary amines"
+4,A11CC,Vitamin D and analogues
+4,B03BA,Vitamin B12 (cyanocobalamin and analogues)
+4,L01BA,Folic acid analogues
+4,N05AD,Butyrophenone derivatives
+4,N05AX,Other antipsychotics
+4,A07AA,Antibiotics
+4,D01BA,Antifungals for systemic use
+4,G03CB,"Synthetic estrogens, plain"
+3,B01A,ANTITHROMBOTIC AGENTS
+3,C10A,"LIPID MODIFYING AGENTS, PLAIN"
+3,M03A,"MUSCLE RELAXANTS, PERIPHERALLY ACTING AGENTS"
+3,S01E,ANTIGLAUCOMA PREPARATIONS AND MIOTICS
+3,J01X,OTHER ANTIBACTERIALS
+3,M02A,TOPICAL PRODUCTS FOR JOINT AND MUSCULAR PAIN
+3,S01X,OTHER OPHTHALMOLOGICALS
+3,C01E,OTHER CARDIAC PREPARATIONS
+3,D07A,"CORTICOSTEROIDS, PLAIN"
+3,N07B,DRUGS USED IN ADDICTIVE DISORDERS
+3,B02A,ANTIFIBRINOLYTICS
+3,L01D,CYTOTOXIC ANTIBIOTICS AND RELATED SUBSTANCES
+3,S02A,ANTIINFECTIVES
+3,A11H,OTHER PLAIN VITAMIN PREPARATIONS
+3,C02K,OTHER ANTIHYPERTENSIVES
+3,J01G,AMINOGLYCOSIDE ANTIBACTERIALS
+3,J01F,"MACROLIDES, LINCOSAMIDES AND STREPTOGRAMINS"
+3,A11C,"VITAMIN A AND D, INCL. COMBINATIONS OF THE TWO"
+3,A12A,CALCIUM
+3,B03B,VITAMIN B12 AND FOLIC ACID
+3,C01D,VASODILATORS USED IN CARDIAC DISEASES
+3,D05B,ANTIPSORIATICS FOR SYSTEMIC USE
+3,D01B,ANTIFUNGALS FOR SYSTEMIC USE
+3,G03E,ANDROGENS AND FEMALE SEX HORMONES IN COMBINATION
+3,G03H,ANTIANDROGENS
+1,P,"ANTIPARASITIC PRODUCTS, INSECTICIDES AND REPELLENTS"
+2,B05,BLOOD SUBSTITUTES AND PERFUSION SOLUTIONS
+2,D06,ANTIBIOTICS AND CHEMOTHERAPEUTICS FOR DERMATOLOGICAL USE
+2,G02,OTHER GYNECOLOGICALS
+2,R02,THROAT PREPARATIONS
+2,S03,OPHTHALMOLOGICAL AND OTOLOGICAL PREPARATIONS
+2,A01,STOMATOLOGICAL PREPARATIONS
+2,C03,DIURETICS
+2,J05,ANTIVIRALS FOR SYSTEMIC USE
+2,M05,DRUGS FOR TREATMENT OF BONE DISEASES
+2,M09,OTHER DRUGS FOR DISORDERS OF THE MUSCULO-SKELETAL SYSTEM
+4,A07EC,Aminosalicylic acid and similar agents
+4,A10BA,Biguanides
+4,A12CB,Zinc
+4,B05XA,Electrolyte solutions
+4,C03CC,Aryloxyacetic acid derivatives
+4,C10AD,Nicotinic acid and derivatives
+4,J01EB,Short-acting sulfonamides
+4,N02BE,Anilides
+4,N06AB,Selective serotonin reuptake inhibitors
+4,S01EA,Sympathomimetics in glaucoma therapy
+4,V09IX,Other diagnostic radiopharmaceuticals for tumour detection
+4,A03FA,Propulsives
+4,B01AA,Vitamin K antagonists
+4,B05CB,Salt solutions
+4,C01BC,"Antiarrhythmics, class Ic"
+4,J01AA,Tetracyclines
+4,J01DH,Carbapenems
+4,M02AA,"Antiinflammatory preparations, non-steroids for topical use"
+4,N01AH,Opioid anesthetics
+4,N07CA,Antivertigo preparations
+4,R01AB,"Sympathomimetics, combinations excl. corticosteroids"
+4,B05CX,Other irrigating solutions
+4,D07AC,"Corticosteroids, potent (group III)"
+4,G03AD,Emergency contraceptives
+4,N05CA,"Barbiturates, plain"
+4,S01FA,Anticholinergics
+4,S03AA,Antiinfectives
+4,A01AB,Antiinfectives and antiseptics for local oral treatment
+4,C02CA,Alpha-adrenoreceptor antagonists
+4,D01AC,Imidazole and triazole derivatives
+4,G03BA,3-oxoandrosten (4) derivatives
+4,J01CF,Beta-lactamase resistant penicillins
+4,R01BA,Sympathomimetics
+4,R02AB,Antibiotics
+4,S02AA,Antiinfectives
+4,V03AE,Drugs for treatment of hyperkalemia and hyperphosphatemia
+4,V08AB,"Watersoluble, nephrotropic, low osmolar X-ray contrast media"
+4,A01AC,Corticosteroids for local oral treatment
+4,A02BC,Proton pump inhibitors
+4,C02BB,Secondary and tertiary amines
+4,G01AF,Imidazole derivatives
+4,J01MB,Other quinolones
+4,M01CC,Penicillamine and similar agents
+4,N03AX,Other antiepileptics
+4,B06AC,Drugs used in hereditary angioedema
+4,C02KX,Antihypertensives for pulmonary arterial hypertension
+4,S01BC,"Antiinflammatory agents, non-steroids"
+4,V03AC,Iron chelating agents
+4,A02BA,H2-receptor antagonists
+4,D08AH,Quinoline derivatives
+4,M01AC,Oxicams
+4,A03BB,"Belladonna alkaloids, semisynthetic, quaternary ammonium compounds"
+4,A10BD,Combinations of oral blood glucose lowering drugs
+4,A10BF,Alpha glucosidase inhibitors
+4,L01CA,Vinca alkaloids and analogues
+4,S01EB,Parasympathomimetics
+4,S01GX,Other antiallergics
+4,V08AC,"Watersoluble, hepatotropic X-ray contrast media"
+4,V09AB,Iodine (123I) compounds
+3,A07E,INTESTINAL ANTIINFLAMMATORY AGENTS
+3,B03A,IRON PREPARATIONS
+3,C03C,HIGH-CEILING DIURETICS
+3,C07A,BETA BLOCKING AGENTS
+3,V09I,TUMOUR DETECTION
+3,D09A,MEDICATED DRESSINGS
+3,G03A,HORMONAL CONTRACEPTIVES FOR SYSTEMIC USE
+3,M01A,"ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS"
+3,A03A,DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS
+3,D06B,CHEMOTHERAPEUTICS FOR TOPICAL USE
+3,D11A,OTHER DERMATOLOGICAL PREPARATIONS
+3,R02A,THROAT PREPARATIONS
+3,S03A,ANTIINFECTIVES
+3,G03B,ANDROGENS
+3,H03B,ANTITHYROID PREPARATIONS
+3,R03A,"ADRENERGICS, INHALANTS"
+3,A02B,DRUGS FOR PEPTIC ULCER AND GASTRO-OESOPHAGEAL REFLUX DISEASE (GORD)
+3,B05B,I.V. SOLUTIONS
+3,C02B,"ANTIADRENERGIC AGENTS, GANGLION-BLOCKING"
+3,G03X,OTHER SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+3,J01B,AMPHENICOLS
+3,H01C,HYPOTHALAMIC HORMONES
+3,V09A,CENTRAL NERVOUS SYSTEM
+1,C,CARDIOVASCULAR SYSTEM
+1,B,BLOOD AND BLOOD FORMING ORGANS
+1,V,VARIOUS
+2,A16,OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS
+2,N02,ANALGESICS
+2,P02,ANTHELMINTICS
+2,C07,BETA BLOCKING AGENTS
+2,R01,NASAL PREPARATIONS
+2,J02,ANTIMYCOTICS FOR SYSTEMIC USE
+2,B06,OTHER HEMATOLOGICAL AGENTS
+2,C05,VASOPROTECTIVES
+2,D10,ANTI-ACNE PREPARATIONS
+2,L03,IMMUNOSTIMULANTS

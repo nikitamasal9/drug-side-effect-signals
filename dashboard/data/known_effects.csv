@@ -1,0 +1,19 @@
+atc_class,class_label,side_effect_name,status,odds_ratio,q_value,pct_in_class,pct_outside_class
+C10AA,Statins,Rhabdomyolysis,recovered,139.2,1.1891431948226113e-06,1.0,0.1084
+C10AA,Statins,Myalgia,recovered,21.2,0.008800323669720566,1.0,0.4453
+C09AA,ACE inhibitors,Cough,recovered,28.4,0.0017898064320092469,1.0,0.4249
+C09AA,ACE inhibitors,Angioedema,recovered,31.6,0.0010932862198790422,1.0,0.3994
+J01MA,Fluoroquinolones,Tendon rupture,recovered,191.7,3.333291494178314e-09,0.7778,0.0149
+J01MA,Fluoroquinolones,Tendonitis,recovered,74.3,4.4465925973064884e-07,0.7778,0.0383
+N06AB,SSRIs,Ejaculation disorder,recovered,281.8,3.819690167236107e-06,1.0,0.0371
+N05AH,Atypical antipsychotics (diazepines),Weight increased,recovered,32.6,0.006345659296014938,1.0,0.2521
+N05AD,Butyrophenone antipsychotics,Tardive dyskinesia,not tested (too few drugs),,,,
+N02AA,Opioids (natural opium alkaloids),Respiratory depression,recovered,99.5,0.0005863174560894384,1.0,0.0825
+N02AA,Opioids (natural opium alkaloids),Constipation,not significant,7.1,0.19263811198029188,1.0,0.5577
+C07AB,Selective beta-blockers,Bradycardia,recovered,35.6,0.0018381855417873743,1.0,0.2962
+H02AB,Glucocorticoids,Cushingoid,recovered,677.9,3.768387703858224e-07,0.6667,0.0021
+A10BB,Sulfonylureas,Hypoglycaemia,recovered,67.5,0.0001235969724242197,1.0,0.1815
+C03CA,Loop diuretics (sulfonamides),Hypokalaemia,not tested (too few drugs),,,,
+M01AE,NSAIDs (propionic acid),Gastrointestinal haemorrhage,recovered,22.8,0.000533888536841743,0.875,0.1796
+N03AF,Carboxamide anticonvulsants,Hyponatraemia,not tested (too few drugs),,,,
+C08CA,Dihydropyridine calcium channel blockers,Oedema peripheral,recovered,11.1,0.00919176458752859,0.875,0.3103

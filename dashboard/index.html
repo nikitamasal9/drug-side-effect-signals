@@ -1,0 +1,671 @@
+<style>
+.dx { font-family: var(--font-anthropic-sans); color: var(--color-fg); }
+.dx-head { display: flex; flex-direction: column; gap: var(--cds-gap-xs); margin-bottom: var(--cds-gap-md); }
+.dx-title { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; }
+.dx-takeaway { color: var(--color-fg-muted); font-size: var(--cds-font-size-body); margin: 0; max-width: 70ch; }
+.dx b { font-weight: 600; color: var(--color-fg); }
+.dx-tabs { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs); border-bottom: 1px solid var(--color-border-line); margin-bottom: var(--cds-gap-lg); }
+.dx-tab { font: inherit; font-size: var(--cds-font-size-body); background: none; border: 0; border-bottom: 2px solid transparent; color: var(--color-fg-muted); padding: var(--cds-pad-sm) var(--cds-pad-md); cursor: pointer; margin-bottom: -1px; }
+.dx-tab[aria-selected="true"] { color: var(--color-fg); border-bottom-color: var(--color-fg); }
+.dx-page[hidden] { display: none; }
+.dx-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); gap: var(--cds-gap-md); margin-bottom: var(--cds-gap-lg); }
+.dx-kpi { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-xs); }
+.dx-kpi-label { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.dx-kpi-value { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; }
+.dx-kpi-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.dx-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 26rem), 1fr)); gap: var(--cds-gap-md); margin-bottom: var(--cds-gap-md); }
+.dx-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); min-width: 0; display: flex; flex-direction: column; gap: var(--cds-gap-sm); }
+.dx-card.wide { grid-column: 1 / -1; }
+.dx-card h3 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
+.dx-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; }
+.dx-chart { position: relative; min-height: 220px; }
+.dx-controls { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); align-items: end; margin-bottom: var(--cds-gap-md); }
+.dx-controls label { display: flex; flex-direction: column; gap: 2px; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.dx-controls select, .dx-controls input[type="text"], .dx-controls input[type="search"] { font: inherit; font-size: var(--cds-font-size-body); color: var(--color-fg); background: var(--color-bg); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-xs) var(--cds-pad-sm); min-width: 12rem; max-width: 100%; }
+.dx-controls .grow select { min-width: min(100%, 24rem); }
+.dx-check { flex-direction: row !important; align-items: center; gap: var(--cds-gap-xs) !important; padding-bottom: var(--cds-pad-xs); }
+.dx-tablewrap { max-height: 26rem; overflow: auto; }
+.dx-table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+.dx-table th { position: sticky; top: 0; background: var(--color-panel); text-align: left; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
+.dx-table th.num, .dx-table td.num { text-align: right; }
+.dx-table td { padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); }
+.dx-table tr.click { cursor: pointer; }
+.dx-table tr.click:hover td { background: var(--cds-chart-grid); }
+.dx-table button.sort { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+.dx-pill { display: inline-block; font-size: var(--cds-font-size-caption); padding: 1px 6px; border-radius: 999px; border: 1px solid var(--color-border-line); color: var(--color-fg-muted); white-space: nowrap; }
+.dx-pill.bad { color: var(--color-bad); border-color: currentColor; }
+.dx-pill.ok { color: var(--color-ok); border-color: currentColor; }
+.dx-chips { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs); }
+.dx-cellbar { display: flex; align-items: center; gap: var(--cds-gap-xs); }
+.dx-cellbar span.bar { display: inline-block; height: 8px; border-radius: 4px; }
+.dx-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); max-width: 18rem; z-index: 5; display: none; }
+.dx-tip .t { color: var(--cds-text-secondary); margin-bottom: 2px; }
+.dx-legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.dx-legend i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; vertical-align: -1px; }
+.dx-callout { font-size: var(--cds-font-size-body); margin: 0; }
+.dx [data-dash-source-state=empty] { color: transparent; }
+.dx [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+.dx-fail { display: flex; align-items: center; justify-content: center; gap: 6px; min-height: inherit; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+.dx-fail::before { content: ""; width: .375rem; height: .375rem; border-radius: 50%; background: var(--color-bad); }
+.dx svg text { font-family: var(--font-anthropic-sans); }
+</style>
+
+<div class="dx">
+  <header class="dx-head" id="top">
+    <h1 class="dx-title">Drug side-effect signals</h1>
+    <p class="dx-takeaway">Across <b data-source="kpis" data-field="drugs" data-row="0">—</b> drugs and
+      <b data-source="kpis" data-field="drug_side_effect_pairs" data-row="0">—</b> labelled drug–side-effect pairs,
+      <b data-source="kpis" data-field="signals" data-row="0">—</b> side effects are statistically over-represented in a drug class —
+      and the method recovers <b data-source="kpis" data-field="known_recovered" data-row="0">—</b> of
+      <b data-source="kpis" data-field="known_testable" data-row="0">—</b> textbook class effects it could test.</p>
+  </header>
+
+  <nav class="dx-tabs" role="tablist">
+    <button class="dx-tab" role="tab" data-page="overview" aria-selected="true">Overview</button>
+    <button class="dx-tab" role="tab" data-page="classes" aria-selected="false">Class signals</button>
+    <button class="dx-tab" role="tab" data-page="drugs" aria-selected="false">Drug explorer</button>
+    <button class="dx-tab" role="tab" data-page="conditions" aria-selected="false">Conditions</button>
+    <button class="dx-tab" role="tab" data-page="trials" aria-selected="false">Trials vs real world</button>
+  </nav>
+
+  <!-- ================= OVERVIEW ================= -->
+  <section class="dx-page" id="overview">
+    <div class="dx-kpis">
+      <div class="dx-kpi"><span class="dx-kpi-label">Drugs analysed</span>
+        <span class="dx-kpi-value" data-source="kpis" data-field="drugs" data-row="0">—</span>
+        <span class="dx-kpi-note"><span data-source="kpis" data-field="drugs_with_class" data-row="0">—</span> have a WHO drug class</span></div>
+      <div class="dx-kpi"><span class="dx-kpi-label">Distinct side effects</span>
+        <span class="dx-kpi-value" data-source="kpis" data-field="side_effects" data-row="0">—</span>
+        <span class="dx-kpi-note">MedDRA preferred terms</span></div>
+      <div class="dx-kpi"><span class="dx-kpi-label">Class signals</span>
+        <span class="dx-kpi-value" data-source="kpis" data-field="signals" data-row="0">—</span>
+        <span class="dx-kpi-note">of <span data-source="kpis" data-field="pairs_tested" data-row="0">—</span> class × side-effect pairs tested</span></div>
+      <div class="dx-kpi"><span class="dx-kpi-label">Known class effects recovered</span>
+        <span class="dx-kpi-value"><span data-source="kpis" data-field="known_recovered" data-row="0">—</span> / <span data-source="kpis" data-field="known_testable" data-row="0">—</span></span>
+        <span class="dx-kpi-note">sanity check of the method</span></div>
+    </div>
+
+    <div class="dx-grid">
+      <div class="dx-card" id="card-funnel">
+        <h3>How much data survives the merge</h3>
+        <p class="dx-note">SIDER uses STITCH compound IDs, DrugBank its own IDs; the join runs through PubChem.</p>
+        <div class="dx-chart" id="chart-funnel" data-source="funnel" style="min-height:190px"></div>
+      </div>
+      <div class="dx-card" id="card-known">
+        <h3>Does the method find what pharmacology already knows?</h3>
+        <p class="dx-note">Share of drugs listing the side effect, inside vs outside the class.</p>
+        <div class="dx-legend"><span><i class="sw-in"></i>In class</span><span><i class="sw-out"></i>All other drugs</span></div>
+        <div class="dx-chart" id="chart-known" data-source="known_effects" style="min-height:420px"></div>
+      </div>
+    </div>
+    <div class="dx-grid">
+      <div class="dx-card" id="card-burden">
+        <h3>Side-effect burden by anatomical group</h3>
+        <p class="dx-note">Median labelled side effects per drug (WHO ATC level 1).</p>
+        <div class="dx-chart" id="chart-burden" data-source="burden" style="min-height:360px"></div>
+      </div>
+      <div class="dx-card" id="card-sim">
+        <h3>Side-effect profiles carry pharmacology</h3>
+        <p class="dx-callout">A drug's nearest neighbour by side-effect profile (Jaccard similarity) shares its chemical subgroup
+          <b data-source="kpis" data-field="nn_same_class_rate" data-row="0">—</b> of the time, versus
+          <b data-source="kpis" data-field="random_same_class_rate" data-row="0">—</b> for two random drugs.</p>
+        <p class="dx-note">Mapping coverage: <span data-source="kpis" data-field="mapping_rate" data-row="0">—</span> of SIDER compounds were linked to DrugBank.
+          Signals require a Benjamini–Hochberg q below <span data-source="kpis" data-field="fdr_alpha" data-row="0">—</span> and an odds ratio of at least
+          <span data-source="kpis" data-field="min_odds_ratio" data-row="0">—</span>.</p>
+        <p class="dx-note">Caveat: these are label co-occurrences, not causal estimates. Drugs in one class often share label templates, and newer, heavily trialled drugs have longer labels.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CLASS SIGNALS ================= -->
+  <section class="dx-page" id="classes" hidden>
+    <template>
+      <div class="dx-controls">
+        <label>Class level
+          <select class="ctl-level" aria-label="Class level">
+            <option value="2">Therapeutic group (level 2)</option>
+            <option value="3">Pharmacological group (level 3)</option>
+            <option value="4">Chemical group (level 4)</option>
+          </select></label>
+        <label class="grow">Drug class <select class="ctl-class" aria-label="Drug class" data-source="signals"></select></label>
+        <label>Search side effects <input type="search" class="ctl-se" placeholder="e.g. cough"></label>
+        <label class="dx-check"><input type="checkbox" class="ctl-serious"> Serious only</label>
+      </div>
+      <div class="dx-grid">
+        <div class="dx-card wide" id="card-class-top">
+          <h3 class="class-title">Strongest signals in this class</h3>
+          <p class="dx-note">Top 15 by odds ratio. Each row compares how often drugs in the class list the side effect with all other classified drugs.</p>
+          <div class="dx-legend"><span><i class="sw-in"></i>In class</span><span><i class="sw-out"></i>All other drugs</span></div>
+          <div class="dx-chart" id="chart-class" data-source="signals" style="min-height:420px"></div>
+        </div>
+        <div class="dx-card wide" id="card-class-table">
+          <h3>All signals in this class</h3>
+          <p class="dx-note class-count">&nbsp;</p>
+          <div class="dx-tablewrap">
+            <table class="dx-table" id="tbl-class" data-source="signals" data-row-key="signal_id">
+              <thead><tr>
+                <th data-field="side_effect_name"><button class="sort" data-k="side_effect_name">Side effect</button></th>
+                <th data-field="drugs_in_class_with_se" class="num"><button class="sort" data-k="drugs_in_class_with_se">Drugs with it</button></th>
+                <th data-field="drugs_in_class" class="num">Drugs in class</th>
+                <th data-field="pct_in_class" class="num"><button class="sort" data-k="pct_in_class">% in class</button></th>
+                <th data-field="pct_outside_class" class="num"><button class="sort" data-k="pct_outside_class">% outside</button></th>
+                <th data-field="odds_ratio" class="num"><button class="sort" data-k="odds_ratio" aria-sort="descending">Odds ratio</button></th>
+                <th data-field="q_value" class="num"><button class="sort" data-k="q_value">q value</button></th>
+              </tr></thead><tbody></tbody></table>
+          </div>
+        </div>
+      </div>
+    </template>
+  </section>
+
+  <!-- ================= DRUG EXPLORER ================= -->
+  <section class="dx-page" id="drugs" hidden>
+    <template>
+      <div class="dx-controls">
+        <label class="grow">Drug <input type="text" class="ctl-drug" list="dx-druglist" placeholder="Type a drug name" style="min-width:min(100%,20rem)"></label>
+        <datalist id="dx-druglist"></datalist>
+      </div>
+      <div class="dx-kpis">
+        <div class="dx-kpi"><span class="dx-kpi-label">Drug</span>
+          <span class="dx-kpi-value d-name" data-source="drugs" data-field="drug_name">—</span>
+          <span class="dx-kpi-note d-atc" data-source="drugs" data-field="atc_l4_codes">—</span></div>
+        <div class="dx-kpi"><span class="dx-kpi-label">Labelled side effects</span>
+          <span class="dx-kpi-value d-n" data-source="drugs" data-field="n_side_effects">—</span></div>
+        <div class="dx-kpi"><span class="dx-kpi-label">Serious side effects</span>
+          <span class="dx-kpi-value d-s" data-source="drugs" data-field="n_serious_side_effects">—</span></div>
+        <div class="dx-kpi"><span class="dx-kpi-label">Labelled indications</span>
+          <span class="dx-kpi-value d-i" data-source="drugs" data-field="n_indications">—</span></div>
+      </div>
+      <div class="dx-grid">
+        <div class="dx-card wide" id="card-drug-freq">
+          <h3>Most frequent side effects in trials — drug vs placebo</h3>
+          <p class="dx-note">Top 12 by drug-arm rate, using only precise label frequencies. Gaps on the placebo side mean no placebo rate was reported.</p>
+          <div class="dx-legend"><span><i class="sw-in"></i>Drug</span><span><i class="sw-out"></i>Placebo</span></div>
+          <div class="dx-chart" id="chart-drug" data-source="drug_side_effects" style="min-height:340px"></div>
+        </div>
+        <div class="dx-card" id="card-drug-serious">
+          <h3>Serious side effects on the label</h3>
+          <div class="dx-tablewrap">
+            <table class="dx-table" id="tbl-serious" data-source="drug_side_effects" data-row-key="drugbank_id,side_effect_id">
+              <thead><tr><th data-field="side_effect_name">Side effect</th><th data-field="freq_drug" class="num">Trial rate</th><th data-field="postmarketing_only">Source</th></tr></thead>
+              <tbody></tbody></table>
+          </div>
+        </div>
+        <div class="dx-card" id="card-drug-similar">
+          <h3>Drugs with the most similar profile</h3>
+          <p class="dx-note">Jaccard similarity of side-effect sets. Click a row to open that drug.</p>
+          <table class="dx-table" id="tbl-similar" data-source="neighbours" data-row-key="drugbank_id,rank">
+            <thead><tr><th data-field="rank" class="num">#</th><th data-field="similar_drug_name">Drug</th><th data-field="jaccard" class="num">Similarity</th></tr></thead>
+            <tbody></tbody></table>
+          <h3 style="margin-top:var(--cds-gap-md)">Labelled for</h3>
+          <div class="dx-chips" id="chips-ind" data-source="indications"></div>
+        </div>
+      </div>
+    </template>
+  </section>
+
+  <!-- ================= CONDITIONS ================= -->
+  <section class="dx-page" id="conditions" hidden>
+    <template>
+      <div class="dx-controls">
+        <label class="grow">Condition <select class="ctl-cond" aria-label="Condition" data-source="condition_options"></select></label>
+      </div>
+      <div class="dx-card wide" id="card-cond">
+        <h3 class="cond-title">Treatment options</h3>
+        <p class="dx-note">Approved drugs labelled for this condition, ordered by serious side effects then total. Fewer listed effects can also mean an older, shorter label — use this to compare, not to choose a treatment.</p>
+        <div class="dx-tablewrap" style="max-height:36rem">
+          <table class="dx-table" id="tbl-cond" data-source="condition_options" data-row-key="condition_name,drugbank_id">
+            <thead><tr><th data-field="burden_rank" class="num">Rank</th><th data-field="drug_name">Drug</th>
+              <th data-field="n_serious_side_effects">Serious side effects</th><th data-field="n_side_effects">All side effects</th></tr></thead>
+            <tbody></tbody></table>
+        </div>
+      </div>
+    </template>
+  </section>
+
+  <!-- ================= TRIALS VS REAL WORLD ================= -->
+  <section class="dx-page" id="trials" hidden>
+    <template>
+      <div class="dx-grid">
+        <div class="dx-card" id="card-pm">
+          <h3>Serious effects first seen after approval</h3>
+          <p class="dx-note">Share of labels where the effect is listed only from post-marketing reports (effects on 20+ labels).</p>
+          <div class="dx-chart" id="chart-pm" data-source="postmarketing_serious" style="min-height:440px"></div>
+        </div>
+        <div class="dx-card" id="card-nocebo">
+          <h3>Reported as often on placebo as on the drug</h3>
+          <p class="dx-note">Median excess over placebo across drugs with both arms reported (10+ drugs). Near zero suggests the drug may not be the cause.</p>
+          <div class="dx-tablewrap">
+            <table class="dx-table" id="tbl-nocebo" data-source="nocebo" data-row-key="side_effect_name">
+              <thead><tr><th data-field="side_effect_name">Side effect</th><th data-field="n_drugs_with_both_arms" class="num">Drugs</th>
+                <th data-field="median_freq_drug" class="num">Drug</th><th data-field="median_freq_placebo" class="num">Placebo</th>
+                <th data-field="median_excess" class="num">Excess</th></tr></thead>
+              <tbody></tbody></table>
+          </div>
+        </div>
+      </div>
+      <div class="dx-card wide" id="card-heat">
+        <h3>Common side effects across anatomical groups</h3>
+        <p class="dx-note">Share of drugs in each WHO ATC level-1 group that list each of the 25 most common side effects.</p>
+        <div class="dx-chart" id="chart-heat" data-source="heatmap" style="min-height:520px"></div>
+      </div>
+    </template>
+  </section>
+</div>
+
+<script>
+/* ---------- shared helpers ---------- */
+window.DX = (() => {
+  const fmt = { int: d3.format(','), pct: d3.format('.0%'), pct1: d3.format('.1%'), or: (v) => v >= 100 ? d3.format(',.0f')(v) : d3.format('.1f')(v),
+    q: (v) => v < 0.001 ? d3.format('.1e')(v) : d3.format('.3f')(v) };
+  const css = (name) => getComputedStyle(document.querySelector('.dx')).getPropertyValue(name).trim();
+  const num = (rows, cols) => rows.map((r) => { const o = { ...r }; cols.forEach((c) => { o[c] = r[c] === '' || r[c] == null ? null : Number(r[c]); }); return o; });
+  const enc = (v) => encodeURIComponent(String(v));
+  const fail = (el, status) => { if (status === 'error' || status === 'missing' || status === 'declined') { el.replaceChildren(); const d = document.createElement('div'); d.className = 'dx-fail'; d.textContent = 'Failed to load'; el.appendChild(d); return true; } return false; };
+  const ready = (el, status) => { if (status === 'ok') { el.classList.remove('dash-skeleton'); return true; } if (!fail(el, status)) { el.replaceChildren(); el.classList.add('dash-skeleton'); } else el.classList.remove('dash-skeleton'); return false; };
+
+  function tooltip(box) {
+    let t = box.querySelector(':scope > .dx-tip');
+    if (!t) { t = document.createElement('div'); t.className = 'dx-tip'; box.appendChild(t); }
+    return {
+      show(event, title, lines) {
+        t.replaceChildren();
+        const h = document.createElement('div'); h.className = 't'; h.textContent = title; t.appendChild(h);
+        lines.forEach(([color, label, value]) => {
+          const row = document.createElement('div');
+          if (color) { const i = document.createElement('span'); i.style.cssText = `display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;background:${color}`; row.appendChild(i); }
+          row.appendChild(document.createTextNode(label + (value !== undefined ? ': ' + value : '')));
+          t.appendChild(row);
+        });
+        t.style.display = 'block';
+        const b = box.getBoundingClientRect();
+        let x = event.clientX - b.left + 12, y = event.clientY - b.top + 12;
+        const w = t.offsetWidth, h2 = t.offsetHeight;
+        if (x + w > box.clientWidth) x = Math.max(0, event.clientX - b.left - w - 12);
+        if (y + h2 > box.clientHeight) y = Math.max(0, event.clientY - b.top - h2 - 12);
+        t.style.left = x + 'px'; t.style.top = y + 'px';
+      },
+      hide() { t.style.display = 'none'; },
+    };
+  }
+
+  function textWidth(svg, texts, size) {
+    const g = svg.append('g').attr('visibility', 'hidden');
+    let w = 0;
+    texts.forEach((s) => { const n = g.append('text').attr('font-size', size).text(s).node(); w = Math.max(w, n.getComputedTextLength()); });
+    g.remove();
+    return w;
+  }
+  const resolve = (c) => { const e = document.createElement('span'); e.style.color = c; document.querySelector('.dx').appendChild(e); const v = getComputedStyle(e).color; e.remove(); return v; };
+  const clip = (s, n) => (s.length > n ? s.slice(0, n - 1) + '…' : s);
+
+  /* Dumbbell: one row per item, two dots (a = highlighted, b = comparison) on a 0–100% scale */
+  function dumbbell(box, rows, o) {
+    box.querySelectorAll('svg').forEach((n) => n.remove());
+    const W = Math.max(280, box.clientWidth), rowH = 26, top = 8, bottom = 28;
+    const H = top + bottom + rows.length * rowH;
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+    const maxLabel = W < 480 ? 26 : 44;
+    const labels = rows.map((r) => clip(o.label(r), maxLabel));
+    const lw = Math.min(W * 0.48, textWidth(svg, labels, 12) + 10);
+    const x = d3.scaleLinear([0, 1], [lw, W - 16]);
+    const y = (i) => top + i * rowH + rowH / 2;
+    const ticks = W < 420 ? [0, .5, 1] : [0, .25, .5, .75, 1];
+    svg.append('g').selectAll('line').data(ticks).join('line').attr('x1', x).attr('x2', x).attr('y1', top).attr('y2', H - bottom)
+      .style('stroke', css('--cds-chart-grid')).attr('stroke-width', 1);
+    svg.append('g').selectAll('text').data(ticks).join('text').attr('x', x).attr('y', H - bottom + 16).attr('text-anchor', 'middle')
+      .attr('font-size', 11).style('fill', css('--color-fg-muted')).text(fmt.pct);
+    const g = svg.append('g').selectAll('g').data(rows).join('g');
+    g.append('text').attr('x', lw - 8).attr('y', (d, i) => y(i)).attr('dy', '0.32em').attr('text-anchor', 'end').attr('font-size', 12)
+      .style('fill', css('--color-fg')).text((d, i) => labels[i]);
+    g.append('line').attr('x1', (d) => x(o.b(d) ?? o.a(d))).attr('x2', (d) => x(o.a(d))).attr('y1', (d, i) => y(i)).attr('y2', (d, i) => y(i))
+      .style('stroke', css('--cds-chart-muted')).attr('stroke-width', 2).attr('stroke-linecap', 'round');
+    g.filter((d) => o.b(d) != null).append('circle').attr('cx', (d) => x(o.b(d))).attr('cy', (d, i) => y(i)).attr('r', 5)
+      .style('fill', css('--cds-chart-muted')).style('stroke', css('--color-panel')).attr('stroke-width', 2);
+    g.append('circle').attr('cx', (d) => x(o.a(d))).attr('cy', (d, i) => y(i)).attr('r', 5.5)
+      .style('fill', (d) => (o.colorA ? o.colorA(d) : dash.colors[0])).style('stroke', css('--color-panel')).attr('stroke-width', 2);
+    const tip = tooltip(box);
+    g.append('rect').attr('x', 0).attr('width', W).attr('y', (d, i) => y(i) - rowH / 2).attr('height', rowH).style('fill', 'transparent')
+      .on('mousemove', (e, d) => tip.show(e, o.label(d), o.tip(d))).on('mouseleave', () => tip.hide());
+  }
+
+  /* Horizontal bars */
+  function hbars(box, rows, o) {
+    box.querySelectorAll('svg').forEach((n) => n.remove());
+    const W = Math.max(280, box.clientWidth), rowH = o.rowH || 26, top = 4, bottom = o.axis ? 24 : 4;
+    const H = top + bottom + rows.length * rowH;
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+    const labels = rows.map((r) => clip(o.label(r), W < 480 ? 24 : 40));
+    const lw = Math.min(W * 0.45, textWidth(svg, labels, 12) + 10);
+    const vals = rows.map((r) => o.fmt(o.value(r)));
+    const vw = textWidth(svg, vals, 12) + 8;
+    const x = d3.scaleLinear([0, o.max ?? d3.max(rows, o.value) ?? 1], [lw, W - vw]);
+    const g = svg.append('g').selectAll('g').data(rows).join('g').attr('transform', (d, i) => `translate(0,${top + i * rowH})`);
+    g.append('text').attr('x', lw - 8).attr('y', rowH / 2).attr('dy', '0.32em').attr('text-anchor', 'end').attr('font-size', 12)
+      .style('fill', css('--color-fg')).text((d, i) => labels[i]);
+    const bh = Math.min(16, rowH - 8);
+    g.append('rect').attr('x', lw).attr('y', (rowH - bh) / 2).attr('height', bh).attr('rx', 4)
+      .attr('width', (d) => Math.max(2, x(o.value(d)) - lw)).style('fill', (d, i) => (o.color ? o.color(d, i) : dash.colors[0]));
+    g.append('text').attr('x', (d) => x(o.value(d)) + 6).attr('y', rowH / 2).attr('dy', '0.32em').attr('font-size', 12)
+      .style('fill', css('--color-fg-muted')).text((d, i) => vals[i]);
+    const tip = tooltip(box);
+    g.append('rect').attr('x', 0).attr('width', W).attr('height', rowH).style('fill', 'transparent')
+      .on('mousemove', (e, d) => tip.show(e, o.label(d), o.tip(d))).on('mouseleave', () => tip.hide());
+  }
+
+  /* Sortable table body: writes text only (cells cite through the table's marks) */
+  function table(tbl, rows, cols, keyOf, opts = {}) {
+    const tb = tbl.querySelector('tbody');
+    tb.replaceChildren();
+    rows.forEach((r) => {
+      const tr = document.createElement('tr');
+      tr.dataset.key = keyOf(r);
+      if (opts.onClick) { tr.className = 'click'; tr.addEventListener('click', () => opts.onClick(r)); }
+      cols.forEach((c) => {
+        const td = document.createElement('td');
+        if (c.num) td.className = 'num';
+        const v = c.render ? c.render(r, td) : c.get(r);
+        if (v instanceof Node) td.appendChild(v); else if (v != null) td.textContent = v;
+        tr.appendChild(td);
+      });
+      tb.appendChild(tr);
+    });
+  }
+  function cellBar(value, max, color, label) {
+    const w = document.createElement('div'); w.className = 'dx-cellbar';
+    const b = document.createElement('span'); b.className = 'bar'; b.style.width = Math.max(2, 120 * (max ? value / max : 0)) + 'px'; b.style.background = color;
+    const t = document.createElement('span'); t.textContent = label;
+    w.append(b, t); return w;
+  }
+  function pill(text, cls) { const s = document.createElement('span'); s.className = 'dx-pill' + (cls ? ' ' + cls : ''); s.textContent = text; return s; }
+
+  return { resolve, fmt, css, num, enc, ready, fail, tooltip, dumbbell, hbars, table, cellBar, pill, clip, draw: {} };
+})();
+
+/* ---------- tabs ---------- */
+(() => {
+  const tabs = [...document.querySelectorAll('.dx-tab')];
+  const show = (id) => {
+    tabs.forEach((t) => t.setAttribute('aria-selected', String(t.dataset.page === id)));
+    document.querySelectorAll('.dx-page').forEach((p) => {
+      const on = p.id === id;
+      if (on && !p.dataset.built) { const tpl = p.querySelector('template'); if (tpl) p.appendChild(tpl.content.cloneNode(true)); p.dataset.built = '1'; if (DX.init[id]) DX.init[id](p); }
+      p.hidden = !on;
+    });
+    DX.current = id;
+    dash.setLink(id);
+    DX.redraw();
+  };
+  DX.init = {};
+  DX.current = 'overview';
+  DX.show = show;
+  tabs.forEach((t) => t.addEventListener('click', () => show(t.dataset.page)));
+  DX.redraw = () => { const p = document.getElementById(DX.current); if (p && !p.hidden && DX.draw[DX.current]) DX.draw[DX.current](p); };
+  setTimeout(() => { const id = location.hash.slice(1); if (['classes', 'drugs', 'conditions', 'trials'].includes(id)) show(id); }, 0);
+})();
+</script>
+
+<script>
+/* ---------- header + overview ---------- */
+(() => {
+  const { fmt, css, num, ready } = DX;
+  const kpiFmt = { nn_same_class_rate: fmt.pct1, random_same_class_rate: fmt.pct1, mapping_rate: fmt.pct1, fdr_alpha: (v) => String(v), min_odds_ratio: (v) => String(v) };
+  document.querySelectorAll('.sw-in').forEach((i) => (i.style.background = dash.colors[0]));
+  document.querySelectorAll('.sw-out').forEach((i) => (i.style.background = css('--cds-chart-muted')));
+
+  function header() {
+    const k = dash.data('kpis');
+    document.querySelectorAll('[data-source="kpis"]').forEach((el) => {
+      if (k.status !== 'ok') { el.textContent = '—'; return; }
+      const v = Number(k.data[0][el.dataset.field]);
+      el.textContent = (kpiFmt[el.dataset.field] || fmt.int)(v);
+    });
+  }
+
+  DX.draw.overview = () => {
+    const f = dash.data('funnel'), box1 = document.getElementById('chart-funnel');
+    if (ready(box1, f.status)) {
+      const rows = num(f.data, ['step', 'n']).sort((a, b) => a.step - b.step);
+      DX.hbars(box1, rows, { label: (r) => r.stage, value: (r) => r.n, fmt: fmt.int, rowH: 34,
+        color: (d, i) => (i === 0 ? css('--cds-chart-muted') : dash.colors[0]),
+        tip: (r) => [[null, 'Count', fmt.int(r.n)], [null, 'Share of SIDER compounds', fmt.pct(r.n / rows[0].n)]] });
+    }
+    const ke = dash.data('known_effects'), box2 = document.getElementById('chart-known');
+    if (ready(box2, ke.status)) {
+      const rows = num(ke.data, ['odds_ratio', 'q_value', 'pct_in_class', 'pct_outside_class']).filter((r) => r.pct_in_class != null)
+        .sort((a, b) => (b.pct_in_class - b.pct_outside_class) - (a.pct_in_class - a.pct_outside_class));
+      DX.dumbbell(box2, rows, { label: (r) => `${r.class_label} · ${r.side_effect_name}`, a: (r) => r.pct_in_class, b: (r) => r.pct_outside_class,
+        colorA: (r) => (r.status === 'recovered' ? dash.colors[0] : css('--cds-chart-status-critical')),
+        tip: (r) => [[dash.colors[0], 'In class', fmt.pct(r.pct_in_class)], [css('--cds-chart-muted'), 'Other drugs', fmt.pct(r.pct_outside_class)],
+          [null, 'Odds ratio', fmt.or(r.odds_ratio)], [null, 'q value', fmt.q(r.q_value)], [null, 'Result', r.status]] });
+    }
+    const bu = dash.data('burden'), box3 = document.getElementById('chart-burden');
+    if (ready(box3, bu.status)) {
+      const rows = num(bu.data, ['n_drugs', 'median_side_effects', 'avg_side_effects', 'median_serious', 'pct_with_any_serious'])
+        .sort((a, b) => b.median_side_effects - a.median_side_effects);
+      const cap = (s) => s.charAt(0) + s.slice(1).toLowerCase();
+      DX.hbars(box3, rows, { label: (r) => cap(r.l1_name), value: (r) => r.median_side_effects, fmt: d3.format(',.0f'),
+        tip: (r) => [[null, 'Drugs', fmt.int(r.n_drugs)], [null, 'Median side effects', d3.format(',.0f')(r.median_side_effects)],
+          [null, 'Median serious', d3.format(',.1f')(r.median_serious)], [null, 'With any serious', fmt.pct(r.pct_with_any_serious)]] });
+    }
+  };
+
+  dash.onData(() => { header(); DX.redraw(); });
+})();
+</script>
+
+<script>
+/* ---------- class signals ---------- */
+(() => {
+  const { fmt, css, num, ready } = DX;
+  let sortK = 'odds_ratio', sortDir = -1, cache = null;
+  const st = () => ({ level: String(dash.params().level ?? '4'), cls: dash.params().cls ?? 'C10AA' });
+
+  DX.init.classes = (p) => {
+    p.querySelector('.ctl-level').addEventListener('change', (e) => {
+      const lvl = e.target.value; const first = classesFor(lvl)[0];
+      dash.setParams({ level: lvl, cls: first ? first.code : null });
+    });
+    p.querySelector('.ctl-class').addEventListener('change', (e) => dash.setParams({ cls: e.target.value }));
+    p.querySelector('.ctl-se').addEventListener('input', () => DX.redraw());
+    p.querySelector('.ctl-serious').addEventListener('change', () => DX.redraw());
+    p.querySelectorAll('button.sort').forEach((b) => b.addEventListener('click', () => {
+      const k = b.dataset.k; sortDir = k === sortK ? -sortDir : (k === 'side_effect_name' || k === 'q_value' ? 1 : -1); sortK = k;
+      p.querySelectorAll('button.sort').forEach((x) => x.removeAttribute('aria-sort'));
+      b.setAttribute('aria-sort', sortDir > 0 ? 'ascending' : 'descending'); DX.redraw();
+    }));
+  };
+  function rows() {
+    const s = dash.data('signals');
+    if (s.status !== 'ok') return null;
+    if (!cache || cache.src !== s.data) cache = { src: s.data, rows: num(s.data, ['level', 'drugs_in_class', 'drugs_in_class_with_se', 'pct_in_class', 'pct_outside_class', 'odds_ratio', 'q_value']) };
+    return cache.rows;
+  }
+  function classesFor(lvl) {
+    const r = rows(); if (!r) return [];
+    return d3.rollups(r.filter((x) => String(x.level) === lvl), (v) => ({ code: v[0].atc_class, name: v[0].class_name, n: v.length }), (x) => x.atc_class)
+      .map((d) => d[1]).sort((a, b) => a.code.localeCompare(b.code));
+  }
+  DX.draw.classes = (p) => {
+    const s = dash.data('signals'), { level, cls } = st();
+    const box = p.querySelector('#chart-class'), sel = p.querySelector('.ctl-class');
+    p.querySelector('.ctl-level').value = level;
+    if (!ready(box, s.status)) { p.querySelector('#tbl-class tbody').replaceChildren(); return; }
+    const opts = classesFor(level);
+    sel.replaceChildren(...opts.map((c) => new Option(`${c.code} — ${c.name ?? 'unnamed'} (${c.n})`, c.code)));
+    sel.value = cls;
+    const q = p.querySelector('.ctl-se').value.trim().toLowerCase(), seriousOnly = p.querySelector('.ctl-serious').checked;
+    let r = rows().filter((x) => x.atc_class === cls && (!q || x.side_effect_name.toLowerCase().includes(q)) && (!seriousOnly || String(x.is_serious) === 'true'));
+    const meta = opts.find((c) => c.code === cls);
+    p.querySelector('.class-title').textContent = meta ? `Strongest signals — ${meta.code} ${meta.name ?? ''}` : 'Strongest signals in this class';
+    p.querySelector('.class-count').textContent = `${fmt.int(r.length)} signals shown${r[0] ? ` · ${fmt.int(r[0].drugs_in_class)} drugs in class` : ''}`;
+    const top = [...r].sort((a, b) => b.odds_ratio - a.odds_ratio).slice(0, 15);
+    if (top.length) DX.dumbbell(box, top, { label: (x) => x.side_effect_name, a: (x) => x.pct_in_class, b: (x) => x.pct_outside_class,
+      colorA: (x) => (String(x.is_serious) === 'true' ? css('--cds-chart-status-critical') : dash.colors[0]),
+      tip: (x) => [[dash.colors[0], 'In class', `${fmt.pct(x.pct_in_class)} (${x.drugs_in_class_with_se} of ${x.drugs_in_class})`],
+        [css('--cds-chart-muted'), 'Other drugs', fmt.pct1(x.pct_outside_class)], [null, 'Odds ratio', fmt.or(x.odds_ratio)], [null, 'q value', fmt.q(x.q_value)],
+        ...(String(x.is_serious) === 'true' ? [[null, 'Serious adverse event']] : [])] });
+    else box.querySelectorAll('svg').forEach((n) => n.remove());
+    r.sort((a, b) => (sortK === 'side_effect_name' ? a[sortK].localeCompare(b[sortK]) : a[sortK] - b[sortK]) * sortDir);
+    DX.table(p.querySelector('#tbl-class'), r, [
+      { render: (x) => { const f = document.createDocumentFragment(); f.append(x.side_effect_name); if (String(x.is_serious) === 'true') { f.append(' '); f.append(DX.pill('serious', 'bad')); } return f; } },
+      { num: 1, get: (x) => fmt.int(x.drugs_in_class_with_se) }, { num: 1, get: (x) => fmt.int(x.drugs_in_class) },
+      { num: 1, get: (x) => fmt.pct(x.pct_in_class) }, { num: 1, get: (x) => fmt.pct1(x.pct_outside_class) },
+      { num: 1, get: (x) => fmt.or(x.odds_ratio) }, { num: 1, get: (x) => fmt.q(x.q_value) },
+    ], (x) => x.signal_id);
+  };
+})();
+</script>
+
+<script>
+/* ---------- drug explorer ---------- */
+(() => {
+  const { fmt, css, num, ready, enc } = DX;
+  let byName = null, byId = null, seIdx = null, nnIdx = null, indIdx = null;
+  const cur = () => dash.params().drug ?? 'DB01076';
+  const group = (data, key) => d3.group(data, (r) => r[key]);
+
+  DX.init.drugs = (p) => {
+    const inp = p.querySelector('.ctl-drug');
+    const go = () => { const id = byName && byName.get(inp.value.trim().toLowerCase()); if (id) dash.setParams({ drug: id }); };
+    inp.addEventListener('change', go);
+    inp.addEventListener('input', () => { if (byName && byName.has(inp.value.trim().toLowerCase())) go(); });
+  };
+  DX.draw.drugs = (p) => {
+    const d = dash.data('drugs'), se = dash.data('drug_side_effects'), nn = dash.data('neighbours'), ind = dash.data('indications');
+    const id = cur(), inp = p.querySelector('.ctl-drug');
+    if (d.status === 'ok') {
+      if (!byId || byId.src !== d.data) {
+        byId = new Map(num(d.data, ['n_side_effects', 'n_serious_side_effects', 'n_indications']).map((r) => [r.drugbank_id, r])); byId.src = d.data;
+        byName = new Map(d.data.map((r) => [r.drug_name.toLowerCase(), r.drugbank_id]));
+        p.querySelector('#dx-druglist').replaceChildren(...d.data.map((r) => new Option(r.drug_name)));
+      }
+    }
+    const drug = byId && byId.get(id);
+    p.querySelectorAll('[data-source="drugs"]').forEach((el) => {
+      el.setAttribute('data-where', `drugbank_id=${enc(id)}`);
+      if (!drug) { el.textContent = '—'; return; }
+      const f = el.dataset.field, v = drug[f];
+      el.textContent = f === 'drug_name' ? v : f === 'atc_l4_codes' ? (v ? 'ATC ' + v.split('|').join(', ') : 'No WHO ATC class') : fmt.int(v);
+    });
+    if (drug && inp !== document.activeElement) inp.value = drug.drug_name;
+
+    const box = p.querySelector('#chart-drug');
+    if (ready(box, se.status)) {
+      if (!seIdx || seIdx.src !== se.data) { seIdx = group(num(se.data, ['is_serious', 'freq_drug', 'freq_placebo', 'postmarketing_only']), 'drugbank_id'); seIdx.src = se.data; }
+      const mine = seIdx.get(id) || [];
+      const top = mine.filter((r) => r.freq_drug != null).sort((a, b) => b.freq_drug - a.freq_drug).slice(0, 12);
+      if (top.length) DX.dumbbell(box, top, { label: (r) => r.side_effect_name, a: (r) => r.freq_drug, b: (r) => r.freq_placebo,
+        colorA: (r) => (r.is_serious ? css('--cds-chart-status-critical') : dash.colors[0]),
+        tip: (r) => [[dash.colors[0], 'Drug', fmt.pct1(r.freq_drug)], [css('--cds-chart-muted'), 'Placebo', r.freq_placebo == null ? 'not reported' : fmt.pct1(r.freq_placebo)],
+          ...(r.freq_placebo != null ? [[null, 'Excess over placebo', d3.format('+.1%')(r.freq_drug - r.freq_placebo)]] : [])] });
+      else { box.querySelectorAll('svg').forEach((n) => n.remove()); }
+      const serious = mine.filter((r) => r.is_serious).sort((a, b) => (b.freq_drug ?? -1) - (a.freq_drug ?? -1) || a.side_effect_name.localeCompare(b.side_effect_name));
+      DX.table(p.querySelector('#tbl-serious'), serious, [
+        { get: (r) => r.side_effect_name }, { num: 1, get: (r) => (r.freq_drug == null ? '—' : fmt.pct1(r.freq_drug)) },
+        { render: (r) => (r.postmarketing_only ? DX.pill('post-marketing only', 'bad') : DX.pill('label / trials')) },
+      ], (r) => `${enc(r.drugbank_id)},${enc(r.side_effect_id)}`);
+    } else p.querySelector('#tbl-serious tbody').replaceChildren();
+
+    if (nn.status === 'ok') {
+      if (!nnIdx || nnIdx.src !== nn.data) { nnIdx = group(num(nn.data, ['rank', 'jaccard']), 'drugbank_id'); nnIdx.src = nn.data; }
+      DX.table(p.querySelector('#tbl-similar'), (nnIdx.get(id) || []).sort((a, b) => a.rank - b.rank), [
+        { num: 1, get: (r) => r.rank }, { get: (r) => r.similar_drug_name }, { num: 1, get: (r) => fmt.pct(r.jaccard) },
+      ], (r) => `${enc(r.drugbank_id)},${enc(r.rank)}`, { onClick: (r) => dash.setParams({ drug: r.similar_drugbank_id }) });
+    } else p.querySelector('#tbl-similar tbody').replaceChildren();
+
+    const chips = p.querySelector('#chips-ind');
+    chips.replaceChildren();
+    if (ind.status === 'ok') {
+      if (!indIdx || indIdx.src !== ind.data) { indIdx = group(ind.data, 'drugbank_id'); indIdx.src = ind.data; }
+      const list = (indIdx.get(id) || []).map((r) => r.condition_name).sort();
+      list.forEach((c) => { const s = DX.pill(c); s.setAttribute('data-source', 'indications'); s.setAttribute('data-field', 'condition_name');
+        s.setAttribute('data-where', `drugbank_id=${enc(id)}&condition_name=${enc(c)}`); chips.appendChild(s); });
+      if (!list.length) { const n = document.createElement('p'); n.className = 'dx-note'; n.textContent = 'No indications extracted from this label.'; chips.appendChild(n); }
+    }
+  };
+})();
+</script>
+
+<script>
+/* ---------- conditions ---------- */
+(() => {
+  const { fmt, css, num, enc } = DX;
+  let cache = null;
+  const cur = () => dash.params().condition ?? 'Hypertension';
+  DX.init.conditions = (p) => p.querySelector('.ctl-cond').addEventListener('change', (e) => dash.setParams({ condition: e.target.value }));
+  DX.draw.conditions = (p) => {
+    const c = dash.data('condition_options'), sel = p.querySelector('.ctl-cond'), tb = p.querySelector('#tbl-cond');
+    if (c.status !== 'ok') { tb.querySelector('tbody').replaceChildren(); return; }
+    if (!cache || cache.src !== c.data) cache = { src: c.data, rows: num(c.data, ['n_side_effects', 'n_serious_side_effects', 'burden_rank', 'n_options']) };
+    const conds = d3.rollups(cache.rows, (v) => v.length, (r) => r.condition_name).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+    sel.replaceChildren(...conds.map(([n, k]) => new Option(`${n} (${k} drugs)`, n)));
+    const cond = cur(); sel.value = cond;
+    const r = cache.rows.filter((x) => x.condition_name === cond).sort((a, b) => a.burden_rank - b.burden_rank || a.drug_name.localeCompare(b.drug_name));
+    p.querySelector('.cond-title').textContent = `Treatment options for ${cond.toLowerCase()} — ${r.length} approved drugs`;
+    const maxS = d3.max(r, (x) => x.n_serious_side_effects) || 1, maxN = d3.max(r, (x) => x.n_side_effects) || 1;
+    DX.table(tb, r, [
+      { num: 1, get: (x) => x.burden_rank }, { get: (x) => x.drug_name },
+      { render: (x) => DX.cellBar(x.n_serious_side_effects, maxS, css('--cds-chart-status-critical'), fmt.int(x.n_serious_side_effects)) },
+      { render: (x) => DX.cellBar(x.n_side_effects, maxN, dash.colors[0], fmt.int(x.n_side_effects)) },
+    ], (x) => `${enc(x.condition_name)},${enc(x.drugbank_id)}`, { onClick: (x) => { dash.setParams({ drug: x.drugbank_id }); DX.show('drugs'); } });
+  };
+})();
+</script>
+
+<script>
+/* ---------- trials vs real world ---------- */
+(() => {
+  const { fmt, css, num, ready } = DX;
+  DX.draw.trials = (p) => {
+    const pm = dash.data('postmarketing_serious'), box = p.querySelector('#chart-pm');
+    if (ready(box, pm.status)) {
+      const rows = num(pm.data, ['n_drugs_postmarketing_only', 'n_drugs_total', 'share_postmarketing_only']).sort((a, b) => b.share_postmarketing_only - a.share_postmarketing_only);
+      DX.hbars(box, rows, { label: (r) => r.side_effect_name, value: (r) => r.share_postmarketing_only, fmt: fmt.pct, max: 1, rowH: 24,
+        color: () => css('--cds-chart-status-critical'),
+        tip: (r) => [[null, 'Post-marketing only', `${fmt.int(r.n_drugs_postmarketing_only)} of ${fmt.int(r.n_drugs_total)} labels`], [null, 'Share', fmt.pct1(r.share_postmarketing_only)]] });
+    }
+    const nc = dash.data('nocebo'), tbl = p.querySelector('#tbl-nocebo');
+    if (nc.status === 'ok') {
+      const rows = num(nc.data, ['n_drugs_with_both_arms', 'median_freq_drug', 'median_freq_placebo', 'median_excess']).sort((a, b) => a.median_excess - b.median_excess);
+      DX.table(tbl, rows, [{ get: (r) => r.side_effect_name }, { num: 1, get: (r) => fmt.int(r.n_drugs_with_both_arms) },
+        { num: 1, get: (r) => fmt.pct1(r.median_freq_drug) }, { num: 1, get: (r) => fmt.pct1(r.median_freq_placebo) },
+        { num: 1, get: (r) => d3.format('+.1%')(r.median_excess) }], (r) => r.side_effect_name);
+    } else tbl.querySelector('tbody').replaceChildren();
+
+    const hm = dash.data('heatmap'), hb = p.querySelector('#chart-heat');
+    if (ready(hb, hm.status)) {
+      hb.querySelectorAll('svg').forEach((n) => n.remove());
+      const rows = num(hm.data, ['pct_of_drugs']);
+      const ses = d3.rollups(rows, (v) => d3.mean(v, (r) => r.pct_of_drugs), (r) => r.side_effect_name).sort((a, b) => b[1] - a[1]).map((d) => d[0]);
+      const grps = d3.rollups(rows, (v) => v[0].l1_name, (r) => r.atc_l1).sort((a, b) => a[0].localeCompare(b[0]));
+      const W = Math.max(320, hb.clientWidth), narrow = W < 640;
+      const cap = (s) => s.charAt(0) + s.slice(1).toLowerCase();
+      const glabel = (g) => (narrow ? g[0] : `${g[0]} · ${DX.clip(cap(g[1]), 26)}`);
+      const svg = d3.select(hb).append('svg').attr('width', '100%');
+      const meas = (arr, size) => { const g = svg.append('g').attr('visibility', 'hidden'); let w = 0; arr.forEach((s) => { w = Math.max(w, g.append('text').attr('font-size', size).text(s).node().getComputedTextLength()); }); g.remove(); return w; };
+      const lw = meas(grps.map(glabel), 11) + 10, th = Math.min(150, meas(ses, 11) * 0.72 + 14);
+      const cw = Math.max(8, (W - lw - 8) / ses.length), ch = Math.max(16, Math.min(24, cw));
+      const H = th + grps.length * ch + 30;
+      svg.attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+      const lo = d3.color(DX.resolve('var(--color-panel)')) || d3.color('#fff'), hi = d3.color(DX.resolve(dash.colors[0])) || d3.color('#2a78d6');
+      const color = d3.scaleLinear([0, 1], [d3.interpolateRgb(lo, hi)(0.08), hi.formatHex()]);
+      const x = (i) => lw + i * cw, y = (j) => th + j * ch;
+      svg.append('g').selectAll('text').data(ses).join('text').attr('font-size', 11).style('fill', css('--color-fg-muted'))
+        .attr('transform', (d, i) => `translate(${x(i) + cw / 2 + 3},${th - 6}) rotate(-45)`).text((d) => d);
+      svg.append('g').selectAll('text').data(grps).join('text').attr('x', lw - 8).attr('y', (d, j) => y(j) + ch / 2).attr('dy', '0.32em')
+        .attr('text-anchor', 'end').attr('font-size', 11).style('fill', css('--color-fg')).text(glabel);
+      const idx = new Map(rows.map((r) => [r.atc_l1 + '|' + r.side_effect_name, r]));
+      const cells = []; grps.forEach((g, j) => ses.forEach((s, i) => { const r = idx.get(g[0] + '|' + s); if (r) cells.push({ r, i, j, g }); }));
+      const tip = DX.tooltip(hb);
+      svg.append('g').selectAll('rect').data(cells).join('rect').attr('x', (c) => x(c.i) + 1).attr('y', (c) => y(c.j) + 1)
+        .attr('width', cw - 2).attr('height', ch - 2).attr('rx', 2).style('fill', (c) => color(c.r.pct_of_drugs))
+        .on('mousemove', (e, c) => tip.show(e, `${cap(c.g[1])}`, [[null, c.r.side_effect_name, fmt.pct(c.r.pct_of_drugs) + ' of drugs']]))
+        .on('mouseleave', () => tip.hide());
+      const lg = svg.append('g').attr('transform', `translate(${lw},${H - 14})`);
+      [0, .25, .5, .75, 1].forEach((v, i) => { lg.append('rect').attr('x', i * 46).attr('y', -8).attr('width', 44).attr('height', 8).attr('rx', 2).style('fill', color(v));
+        lg.append('text').attr('x', i * 46).attr('y', 12).attr('font-size', 10).style('fill', css('--color-fg-muted')).text(fmt.pct(v)); });
+    }
+  };
+})();
+</script>

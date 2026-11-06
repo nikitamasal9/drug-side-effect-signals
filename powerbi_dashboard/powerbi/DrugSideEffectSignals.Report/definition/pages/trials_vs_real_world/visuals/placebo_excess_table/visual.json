@@ -1,0 +1,184 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "placebo_excess_table",
+  "position": {
+    "x": 856,
+    "y": 96,
+    "z": 4000,
+    "height": 300,
+    "width": 400,
+    "tabOrder": 4000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "an_q05_placebo_adjusted"
+                    }
+                  },
+                  "Property": "drug_name"
+                }
+              },
+              "queryRef": "an_q05_placebo_adjusted.drug_name",
+              "nativeQueryRef": "drug_name",
+              "displayName": "Drug"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "an_q05_placebo_adjusted"
+                    }
+                  },
+                  "Property": "side_effect_name"
+                }
+              },
+              "queryRef": "an_q05_placebo_adjusted.side_effect_name",
+              "nativeQueryRef": "side_effect_name",
+              "displayName": "Side effect"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "an_q05_placebo_adjusted"
+                    }
+                  },
+                  "Property": "freq_drug"
+                }
+              },
+              "queryRef": "an_q05_placebo_adjusted.freq_drug",
+              "nativeQueryRef": "freq_drug",
+              "displayName": "Drug arm"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "an_q05_placebo_adjusted"
+                    }
+                  },
+                  "Property": "freq_placebo"
+                }
+              },
+              "queryRef": "an_q05_placebo_adjusted.freq_placebo",
+              "nativeQueryRef": "freq_placebo",
+              "displayName": "Placebo"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "an_q05_placebo_adjusted"
+                    }
+                  },
+                  "Property": "excess_over_placebo"
+                }
+              },
+              "queryRef": "an_q05_placebo_adjusted.excess_over_placebo",
+              "nativeQueryRef": "excess_over_placebo",
+              "displayName": "Excess"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "an_q05_placebo_adjusted"
+                  }
+                },
+                "Property": "excess_over_placebo"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnHeaders": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "9D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "9D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Biggest excess over placebo'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#252423'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
