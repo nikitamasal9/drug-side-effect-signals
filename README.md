@@ -4,7 +4,9 @@
 This project links three public datasets (drug labels, a drug encyclopedia, and the WHO drug-class system) and tests every
 *drug class × side effect* pair. The output is a ranked list of side effects that are statistically over-represented in each class.
 
-**Stack:** Python (pandas, SciPy) · SQL (DuckDB) · star-schema data model · Tableau / Power BI · interactive web dashboard
+**Stack:** Python (pandas, SciPy) · SQL (DuckDB) · star-schema data model · Power BI (DAX)
+
+**Built by:** Nikita Masal · [Data dictionary](DATA_DICTIONARY.md) · [Power BI file](drug_side_effect_signals.pbix)
 
 ![Known class effects](outputs/figures/known_class_effects.png)
 
@@ -21,9 +23,23 @@ This project links three public datasets (drug labels, a drug encyclopedia, and 
 1. **The method finds known pharmacology without being told.** Statins → rhabdomyolysis (odds ratio 139), fluoroquinolones → tendon rupture (192), SSRIs → ejaculation disorder (282), ACE inhibitors → cough and angioedema, and sulfonylureas → hypoglycaemia all come out as strong signals.
 2. **It also surfaces less obvious class effects.** These include immune-mediated necrotising myopathy for statins, osteonecrosis of the jaw for bisphosphonates, coronary vasospasm for triptans, lactic acidosis for nucleoside reverse-transcriptase inhibitors, and pemphigus for ACE inhibitors.
 3. **Very common side effects cannot be class-specific.** Opioid constipation is the one known effect the method missed. Every opioid lists it, but so do 56% of all drugs, so the contrast is too weak. Nausea (86% of labels) and headache (81%) behave the same way.
-4. **Side-effect profiles carry pharmacological meaning.** A drug's most similar drug by side-effect profile shares its chemical subgroup **29.9%** of the time, versus **0.6%** for two random drugs.
+4. **Side-effect profiles carry pharmacological meaning.** A drug's most similar drug by side-effect profile shares its chemical subgroup **29.7%** of the time, versus **0.6%** for two random drugs.
 5. **Trials miss rare serious events.** For 56% of the labels listing rhabdomyolysis, and about half of those listing Stevens-Johnson syndrome, toxic epidermal necrolysis or torsade de pointes, the effect is listed only from post-marketing reports.
 6. **Placebo arms matter.** Hypersensitivity, migraine and atrial fibrillation are reported about as often on placebo as on the active drug, so a label mention is not evidence the drug causes them.
+
+## Power BI dashboard
+
+Open [`drug_side_effect_signals.pbix`](drug_side_effect_signals.pbix) in Power BI Desktop (free). It reads the CSVs in `outputs/bi_exports/`.
+
+| Page | What it answers |
+|---|---|
+| **Overview** | Headline numbers, how much data survived the merge, and whether the method recovers known pharmacology |
+| **Class signals** | Pick a drug class to see which side effects are over-represented in it |
+| **Drug explorer** | Pick a drug to see its side effects, drug-vs-placebo trial rates, serious effects and most similar drugs |
+
+![Overview page](images/overview.png)
+![Class signals page](images/class_signals.png)
+![Drug explorer page](images/drug_explorer.png)
 
 ## Data
 
@@ -91,22 +107,24 @@ This is the same idea pharmacovigilance teams use on adverse-event reports (the 
 
 ```bash
 pip install -r requirements.txt
-bash scripts/00_download.sh      # ~14 MB of public data into data/raw/
+python scripts/00_download.py    # ~14 MB of public data into data/raw/ (Windows, macOS, Linux)
 python src/run_pipeline.py       # builds the database, runs the analysis, writes all outputs (~10 s)
 ```
 
 ## Repository layout
 
 ```
-scripts/00_download.sh        fetch raw data
+scripts/00_download.py        fetch raw data (00_download.sh does the same with git + bash)
 sql/01_staging.sql            typed staging tables
 sql/02_crosswalk.sql          SIDER → PubChem → DrugBank key mapping
 sql/03_model.sql              star schema
 sql/04_analysis_queries.sql   nine business questions in SQL (window functions, CTEs, QUALIFY)
 src/build_database.py         runs the SQL + data-quality checks
 src/analysis.py               Fisher tests, FDR, validation, Jaccard similarity
-src/export.py                 Tableau/Power BI CSVs + dashboard data
+src/export.py                 CSVs for Power BI
 src/figures.py                README charts
-outputs/bi_exports/           every table and view as CSV, ready for Tableau / Power BI
+outputs/bi_exports/           every table and view as CSV, ready for Power BI
 outputs/key_numbers.json      headline numbers quoted above
+drug_side_effect_signals.pbix Power BI dashboard (3 pages)
+DATA_DICTIONARY.md            every table and column explained
 ```
